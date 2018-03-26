@@ -544,7 +544,7 @@ table {
 body {
 	margin: 10px auto;
 	width: 950px;
-	background: url('/images/main/titanium.jpg') repeat-x left top rgb(81, 86, 95);
+	background: url('/public/images/main/titanium.jpg') repeat-x left top rgb(81, 86, 95);
 }
 
 .container {
