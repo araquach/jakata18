@@ -26,7 +26,7 @@ class CreateProspectsTable extends Migration
             $table->boolean('regular');
             $table->string('texture');
             $table->string('condition');
-            $table->integer('cut_spend')->unsigned()
+            $table->integer('cut_spend')->unsigned();
             $table->integer('colour_spend')->unsigned();
             $table->boolean('opt_out')->nullable();
             $table->string('contact_status')->nullable();

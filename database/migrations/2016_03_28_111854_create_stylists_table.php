@@ -13,7 +13,7 @@ class CreateStylistsTable extends Migration
     public function up()
     {
         Schema::create('stylists', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+            $table->increments('id');
             $table->integer('salon_id')->unsigned();
 			$table->string('first_name');
 			$table->string('second_name');
@@ -42,11 +42,11 @@ class CreateStylistsTable extends Migration
 			$table->integer('colour_knowledge')->unsigned();
 			$table->integer('colour_skills')->unsigned();
 			$table->integer('men')->unsigned();
-			$table->integer('hair_up')unsigned();
-			$table->integer('extensions_weave')unsigned();
-			$table->integer('extensions_other')unsigned();
-			$table->integer('chem_straighten')unsigned();
-			$table->integer('braz_blow')unsigned();
+			$table->integer('hair_up')->unsigned();
+			$table->integer('extensions_weave')->unsigned();
+			$table->integer('extensions_other')->unsigned();
+			$table->integer('chem_straighten')->unsigned();
+			$table->integer('braz_blow')->unsigned();
 			$table->string('awards')->nullable();
 			$table->text('about_you');
 			$table->text('why_hairdressing');
