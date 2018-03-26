@@ -15,7 +15,7 @@ class CreateApprenticeNotesTable extends Migration
         Schema::create('apprentice_notes', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('apprentice_id')->unsigned();
-            $table->string('note');
+            $table->text('note');
             $table->timestamps();
         });
     }

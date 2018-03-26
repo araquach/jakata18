@@ -15,7 +15,7 @@ class CreateStylistNotesTable extends Migration
         Schema::create('stylist_notes', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('stylist_id')->unsigned();
-            $table->string('note');
+            $table->text('note');
             $table->timestamps();
         });
     }

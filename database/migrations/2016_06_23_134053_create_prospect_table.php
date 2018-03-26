@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProspectTable extends Migration
+class CreateProspectsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,11 @@ class CreateProspectTable extends Migration
      */
     public function up()
     {
-        Schema::create('prospect', function (Blueprint $table) {
+        Schema::create('prospects', function (Blueprint $table) {
             $table->increments('id');
             $table->string('first_name');
             $table->string('last_name');
+            $table->string('gender');
             $table->string('email');
             $table->string('mobile');
             $table->string('address1');
@@ -25,8 +26,13 @@ class CreateProspectTable extends Migration
             $table->boolean('regular');
             $table->string('texture');
             $table->string('condition');
-            $table->string('cut_spend');
-            $table->string('colour_spend');
+            $table->integer('cut_spend')->unsigned()
+            $table->integer('colour_spend')->unsigned();
+            $table->boolean('opt_out')->nullable();
+            $table->string('contact_status')->nullable();
+            $table->integer('prospect_type')->unsigned();
+            $table->dateTime('products_sent');
+            $table->dateTime('message_sent');
             $table->timestamps();
         });
     }
@@ -38,6 +44,6 @@ class CreateProspectTable extends Migration
      */
     public function down()
     {
-        Schema::drop('prospect');
+        Schema::drop('prospects');
     }
 }

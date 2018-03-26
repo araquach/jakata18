@@ -22,7 +22,7 @@
 	<div id="feedback-container">
 		<div id="feedback_feed">
 		  	<ul>
-		  	@if($reviews)
+		  	@if(!empty($reviews))
 			  	@foreach($reviews as $review)
 			  	    <li>&quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
 			  	@endforeach
@@ -40,7 +40,7 @@
 	</section> 
 
 	<div id="home_news">
-		@if($blogs)
+		@if(!empty($blogs))
 			@foreach($blogs	as $blog)
 				<a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
 					<aside class="home_news">

@@ -14,9 +14,12 @@ class CreatePotentialEmployeesTable extends Migration
     {
         Schema::create('potential_employees', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('salon')->unsigned();
             $table->string('full_name');
             $table->string('position');
             $table->string('mobile');
+            $table->string('status')->nullable();
+            $table->text('comment')->nullable();
             $table->timestamps();
         });
     }

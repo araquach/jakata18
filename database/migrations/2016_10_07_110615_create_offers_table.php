@@ -23,6 +23,7 @@ class CreateOffersTable extends Migration
             $table->string('gender');
             $table->string('stylist_level');
             $table->boolean('opt_out');
+            $table->boolean('redeemed')->after("opt_out")->default(0);
             $table->timestamps();
         });
     }
