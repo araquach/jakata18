@@ -22,9 +22,11 @@
 	<div id="feedback-container">
 		<div id="feedback_feed">
 		  	<ul>
-		  	@foreach($reviews as $review)
-		  	    <li>&quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
-		  	@endforeach
+		  	@if($reviews)
+			  	@foreach($reviews as $review)
+			  	    <li>&quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
+			  	@endforeach
+			@endif
 		  	</ul>
 		  	
 		  	<p><a href="{{ URL::to('reviews') }}">More reviews here</a></p>
@@ -38,17 +40,19 @@
 	</section> 
 
 	<div id="home_news">
-		@foreach($blogs	as $blog)
-			<a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
-				<aside class="home_news">
-					<div class="home_news_pic" style="background: url('{{ $blog->paras()->first()->para_pic }}') no-repeat top left rgba(249, 249, 250, 0.8); background-size: cover;"></div>
-					<div class="home_news_copy">
-						<h3 class="newsheader">{{ $blog->title }}</h3>
-						<p class="newspara">{{ limit_news_words($blog->paras()->first()->para) }}&hellip;</p>
-					</div>
-				</aside>
-			</a>
-		@endforeach
+		@if($blogs)
+			@foreach($blogs	as $blog)
+				<a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
+					<aside class="home_news">
+						<div class="home_news_pic" style="background: url('{{ $blog->paras()->first()->para_pic }}') no-repeat top left rgba(249, 249, 250, 0.8); background-size: cover;"></div>
+						<div class="home_news_copy">
+							<h3 class="newsheader">{{ $blog->title }}</h3>
+							<p class="newspara">{{ limit_news_words($blog->paras()->first()->para) }}&hellip;</p>
+						</div>
+					</aside>
+				</a>
+			@endforeach
+		@endif
 	</div>
 
 </div>
