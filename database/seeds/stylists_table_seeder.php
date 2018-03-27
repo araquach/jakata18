@@ -14,6 +14,7 @@ class StylistsTableSeeder extends Seeder
     public function run()
     {
         DB::table('stylists')->insert([
+            'salon_id' => '1',
             'first_name' => 'Harriet',
             'second_name' => 'Hankey',
             'address1' => 'Archers Lane',
@@ -41,6 +42,7 @@ class StylistsTableSeeder extends Seeder
             'colour_knowledge' => '4',
             'colour_skills' => '4',
             'men' => '4',
+            'hair_up' => '2',
             'extensions_weave' => '5',
             'extensions_other' => '5',
             'chem_straighten' => '3',
@@ -49,13 +51,13 @@ class StylistsTableSeeder extends Seeder
             'about_you' => 'I love hairdressing. I\'m a very bubbly individual',
             'why_hairdressing' => 'Hairdressing is well suited to me',
             'why_us' => 'us is undoubtably the best salon in Warrington',
-            'salon_id' => '1',
             'quality' => '0',
             'contact_status' => '0',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         
         DB::table('stylists')->insert([
+            'salon_id' => '2',
             'first_name' => 'Janet',
             'second_name' => 'Jones',
             'address1' => '2 Green Road',
@@ -83,6 +85,7 @@ class StylistsTableSeeder extends Seeder
             'colour_knowledge' => '3',
             'colour_skills' => '4',
             'men' => '2',
+            'hair_up' => '4',
             'extensions_weave' => '2',
             'extensions_other' => '2',
             'chem_straighten' => '3',
@@ -91,7 +94,6 @@ class StylistsTableSeeder extends Seeder
             'about_you' => 'I\'m pretty dull to be honest with you',
             'why_hairdressing' => 'I chose hairdressing as a carreer because it makes me happy inside',
             'why_us' => 'Jakata never ceases to amaze me with it\'s innovatiove approach to everything!',
-            'salon_id' => '2',
             'quality' => '0',
             'contact_status' => '0',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),

@@ -36,6 +36,8 @@ class PagesController extends Controller {
 		
 		$blogs = Blog::take(3)->where('publish', 1)->orWhere('publish', 3)
 			->with('paras')->orderBy('created_at', 'desc')->get();
+
+			dd('blogs');
 	
 		return view('pages.home', compact('reviews', 'blogs'));
 	}
