@@ -12,7 +12,7 @@
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/fbmeta/main.jpg' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 
-	{{-- Google Analytics --}}
+	{{-- Google Analytics 
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,6 +22,7 @@
   		ga('create', 'UA-2487518-2', 'auto');
   		ga('send', 'pageview');
 	</script>
+  --}}
 
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/mob.css') }}" />
