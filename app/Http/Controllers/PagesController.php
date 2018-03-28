@@ -34,10 +34,8 @@ class PagesController extends Controller {
 	{
 		$reviews = Review::where('salon', '1')->orderByRaw("RAND()")->get();
 		
-		$blogs = Blog::take(3)->where('publish', 1)->orWhere('publish', 3)
+		$blogs = Blog::take(1)->where('publish', 1)->orWhere('publish', 3)
 			->with('paras')->orderBy('created_at', 'desc')->get();
-
-			dd('blogs');
 	
 		return view('pages.home', compact('reviews', 'blogs'));
 	}
