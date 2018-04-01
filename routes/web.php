@@ -13,6 +13,8 @@
 
 Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/', 'PagesController@index');
 Route::get('/details', 'PagesController@details');
 Route::get('/news', 'PagesController@news');
