@@ -31,7 +31,7 @@
 	<div id="team_members">
 		<a href="{{ URL::to('jimmy') }}" >
 			<section class="team_member" id="jimmy">
-				<h2>Jimmy Sharpe - Director</h2>
+				<h2>Jimmy Sharpe - Director 1</h2>
 			</section> <!--team member jimmy-->
 		</a>
 		
