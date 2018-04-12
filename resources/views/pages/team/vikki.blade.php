@@ -44,7 +44,7 @@
 		<p>Her time with the Hair Cuttery gave her a strong customer service focus. She's an expert in cutting &amp; colouring and loves vintage up-do's</p>
 		<p>Vikki's unique personal style definitely reflects in her innovative creations in the salon. </p>
 		<p><strong>Favourite Style: </strong> Anything Vintage</p>
-		<p><strong>Favourite Product: </strong>Catwalk Weightless Shine Spray</p>
+		<p><strong>Favourite Product: </strong>Kevin Murphy Shimmer.Shine</p>
 		<p class="price">Average Cut &amp; Colour <br>with Vikki: &pound;103</p>
 		
 		<a href="{{ URL::to('team') }}#vikki" >Back to the full team</a>

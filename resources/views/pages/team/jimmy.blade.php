@@ -46,7 +46,7 @@
 	    <p>His passion for hairdressing is infectious. His experimental approach ensures he's always pushing the boundaries in cutting, colouring &amp; styling hair.</p>
 	    <p>Jimmy was member of the Schwarzkopf L.E.A.P Team</p>
 	    <p><strong>Favourite Style: </strong>Short hair cuts</p>
-	    <p><strong>Favourite Product: </strong>Schwarzkopf Flex Wax</p>
+	    <p><strong>Favourite Product: </strong>Schwarzkopf Session Label Powder Cloud</p>
 	    <p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;139</p>
 	    
 	    <a href="{{ URL::to('team') }}#jimmy" >Back to the full team</a>

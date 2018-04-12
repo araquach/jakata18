@@ -40,11 +40,11 @@
 	<section class="team_member_copy">
 		<h2>Laura Hall - Senior Stylist</h2>
 		
-		<p><strong>Laura has been hairdressing for 8 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
+		<p><strong>Laura has been a member of the team for 13 years. That makes her the longest serving team member (apart from Adam).</strong></p>
 		<p>Laura loves classic styling plus technical services like Opti-Smooth and Kebelo.</p>
 		<p>Laura strongly believes using the right products is the key to maintaining a new hairstyle.</p>
 		<p><strong>Favourite Style: </strong>Any kind of hair-up</p>
-		<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
+		<p><strong>Favourite Product: </strong>Kevin Murphy Knight Rider</p>
 		<p class="price">Average Cut &amp; Colour with Laura: &pound;112</p>
 		
 		<a href="{{ URL::to('team') }}#laura" >Back to the full team</a>
