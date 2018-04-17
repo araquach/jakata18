@@ -42,12 +42,12 @@
 				                             document.getElementById('logout-form').submit();">
 				                {{ __('Logout') }}
 				            </a>
-				        </li>
-				        @endif
-
-            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                @csrf
-            </form></li>
+				        
+				            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+				                @csrf
+				            </form>
+			        	</li>
+            			@endif
 					</ul>
 				</nav>
 				
