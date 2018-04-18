@@ -284,6 +284,7 @@ li.active a {
 
 #feedback_feed {
 	width: auto;
+	background-color: unset;
 	text-align: left;
 	position: relative;
 	float: left;
