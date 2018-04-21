@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Meet the Team - $team_member->name',
-	'keywords' => $team_member->name ', hairdressing team, hairdressers, stylists, Jakata team, Jakata stylists, Jakata hairdressers',
+	'description' => 'Meet the Team - ' . $team_member->name,
+	'keywords' => $team_member->name . ', hairdressing team, hairdressers, stylists, Jakata team, Jakata stylists, Jakata hairdressers',
 	'ogtitle' => $team_member->name,
-	'ogdescription' => $team_member->para1 $team_member->para2,
-	'ogimage' => url('/') . '/images/team/' $team_member->class.jpg,
-	'title' => 'Jakata Salon - ' $team_member->name ' - Hairdressers in Warrington'
+	'ogdescription' => $team_member->para1 . $team_member->para2,
+	'ogimage' => url('/') . '/images/team/' . $team_member->class . '.jpg',
+	'title' => 'Jakata Salon - ' . $team_member->name . ' - Hairdressers in Warrington',
 	])
 	
 @stop

@@ -80,13 +80,13 @@ class PagesController extends Controller {
 
 	public function teamInd($team)
 	{
-		$team_member = TeamMember::where('class', $team )->get();
+		$team_member = TeamMember::where('class', $team )->first();
 
 		$reviews = Review::where('staff', '=', 'Staff: Jimmy Sharpe' )->orderByRaw("RAND()")->get();
 		
 		return view('pages.team_ind', compact('team_member', 'reviews'));
 
-		// dd($team_member, $reviews);
+		// dd($team_member->name);
 	}
 	
 	public function trainee()
