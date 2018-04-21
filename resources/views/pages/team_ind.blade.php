@@ -42,8 +42,8 @@
 		<p><strong>{{ $team_member->para1 }}</strong></p>
 		<p>{{ $team_member->para2 }}</p>
 		<p>{{ $team_member->para3 }}</p>
-		<p><strong>Favourite Style: </strong>{{ $team_member->fave_style }}</p>
-		<p><strong>Favourite Product: </strong>{{ $team_member->fave_prod }}</p>
+		<p><strong>Favourite Style: </strong>{{ $team_member->fav_style }}</p>
+		<p><strong>Favourite Product: </strong>{{ $team_member->fav_prod }}</p>
 		<p class="price">Average Cut &amp; Colour with {{ $team_member->class }}: &pound;{{ $team_member->price }}</p>
 		
 		<a href="{{ URL::to('team') }}#{{ $team_member->class }}" >Back to the full team</a>
