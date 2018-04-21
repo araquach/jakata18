@@ -27,41 +27,16 @@
 	<!--team_overview-->
 
 	<div id="team_members">
-		<a href="{{ URL::to('jimmy') }}" >
-			<section class="team_member" id="jimmy">
-				<h2>Jimmy Sharpe - Director</h2>
-			</section> <!--team member jimmy-->
-		</a>
-		
-		<a href="{{ URL::to('lauraC') }}" >
-			<section class="team_member" id="laura">
-				<h2>Laura Hall - Senior Stylist</h2>
-			</section><!--team member laura-->
-		</a>
-		
-		<a href="{{ URL::to('natalie') }}" >
-			<section class="team_member" id="nat">
-				<h2>Natalie Doxey - Senior Stylist</h2>
-			</section> <!--team member nat-->
-		</a>
-		
-		<a href="{{ URL::to('vikki') }}" >
-			<section class="team_member" id="vikki">
-				<h2>Vickki Rowland - Stlyist</h2>
-			</section> <!--team member vicky-->
-		</a>
-		
-		<a href="{{ URL::to('matt') }}" >
-			<section class="team_member" id="matt">
-				<h2>Matt Lane - Stylist</h2>
-			</section> <!--team member vicky-->
-		</a>
-		
-		<a href="{{ URL::to('layla') }}" >
-			<section class="team_member" id="layla">
-				<h2>Layla Relf - Graduate Stylist</h2>
-			</section> <!--team member layla -->
-		</a>
+		@foreach($team_members as $team_member)
+
+			<a href="{{ $team_member->link }}" >
+				<section class="team_member" id="{{ $team_member->name }}">
+					<h2>{{ $team_member->name }} - {{ $team_member->level }}</h2>
+				</section>
+			</a>
+
+		@endforeach
+
 	</div>
 	<!--team_members-->
 </section>

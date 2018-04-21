@@ -3,6 +3,7 @@ use App\Review;
 use App\FeedbackClient;
 use App\Blog;
 use App\BlogPara;
+use App\TeamMember;
 
 class PagesController extends Controller {
 
@@ -72,7 +73,9 @@ class PagesController extends Controller {
 	
 	public function team()
 	{
-		return view('pages.team');
+		$team_members = TeamMember::get();
+
+		return view('pages.team', compact('team_members'));
 	}
 	
 	public function trainee()
