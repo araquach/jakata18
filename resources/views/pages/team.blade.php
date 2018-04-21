@@ -30,7 +30,7 @@
 		@foreach($team_members as $team_member)
 
 			<a href="{{ $team_member->link }}" >
-				<section class="team_member" id="{{ $team_member->name }}">
+				<section class="team_member" id="{{ $team_member->class }}">
 					<h2>{{ $team_member->name }} - {{ $team_member->level }}</h2>
 				</section>
 			</a>

@@ -22,7 +22,8 @@ class TeamMembersTableSeeder extends Seeder
             'fav_style' => 'Bowl cut',
             'fav_prod' => 'Asda price Gel',
             'price' => '10',
-            'review_link' => 'adam link'
+            'review_link' => 'adam link',
+            'class' => 'adam'
         ]);
         
         DB::table('team_members')->insert([
@@ -35,7 +36,8 @@ class TeamMembersTableSeeder extends Seeder
             'fav_style' => 'Short hair cuts',
             'fav_prod' => 'Schwarzkopf Session Label Powder Cloud',
             'price' => '139',
-            'review_link' => 'jimmy link'
+            'review_link' => 'jimmy link',
+            'class' => 'jimmy'
         ]);
 
         DB::table('team_members')->insert([
@@ -48,7 +50,8 @@ class TeamMembersTableSeeder extends Seeder
             'fav_style' => 'Any kind of hair-up',
             'fav_prod' => 'Kevin Murphy Knight Rider',
             'price' => '112',
-            'review_link' => 'laura link'
+            'review_link' => 'laura link',
+            'class' => 'laura'
         ]);
 
         DB::table('team_members')->insert([
@@ -61,7 +64,8 @@ class TeamMembersTableSeeder extends Seeder
             'fav_style' => 'Creative colour and wavy, textured looks',
             'fav_prod' => 'Kevin Murphy Doo.Over',
             'price' => '103',
-            'review_link' => 'matt link'
+            'review_link' => 'matt link',
+            'class' => 'matt'
         ]);
     }
 }

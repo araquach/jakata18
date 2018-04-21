@@ -24,6 +24,7 @@ class CreateTeamMembersTable extends Migration
             $table->string('fav_prod');
             $table->string('price');
             $table->string('review_link');
+            $table->string('class');
             $table->timestamps();
         });
     }

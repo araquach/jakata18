@@ -77,6 +77,17 @@ class PagesController extends Controller {
 
 		return view('pages.team', compact('team_members'));
 	}
+
+	public function teamInd($team)
+	{
+		$team_member = TeamMember::where('class', $team )->get();
+
+		$reviews = Review::where('staff', '=', 'Staff: Jimmy Sharpe' )->orderByRaw("RAND()")->get();
+		
+		return view('pages.team_ind', compact('team_member', 'reviews'));
+
+		// dd($team_member, $reviews);
+	}
 	
 	public function trainee()
 	{
@@ -109,49 +120,6 @@ class PagesController extends Controller {
 		
 		return view('pages.reviews', compact('reviews'));
 	}
-	
-	public function jimmy()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Jimmy Sharpe')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.jimmy', compact('reviews'));
-	}
-	
-	public function natalie()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Natalie Doxey')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.natalie', compact('reviews'));
-	}
-	
-	public function vikki()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Vikki Rowland')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.vikki', compact('reviews'));
-	}
-	
-	public function matt()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Matthew Lane')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.matt', compact('reviews'));
-	}
-	
-	public function lauraC()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Laura Hall')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.lauraC', compact('reviews'));
-	}
-	
-	public function layla()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Layla Relf')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.layla', compact('reviews'));
-	}
-	
 	
 	public function kebelo()
 	{
