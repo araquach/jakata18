@@ -23,7 +23,7 @@
 	
 	<ul class="stylist-filter">
 		<a href="{{ URL::to('reviews/jimmy') }}"><li class="review-jimmy">Jimmy</li></a>
-		<a href="{{ URL::to('reviews/hall') }}"><li class="review-laurah">Laura H</li></a>
+		<a href="{{ URL::to('reviews/hall') }}"><li class="review-laura">Laura H</li></a>
 		<a href="{{ URL::to('reviews/natalie') }}"><li class="review-natalie">Natalie</li></a>
 		<a href="{{ URL::to('reviews/vikki') }}"><li class="review-vikki">Vikki</li></a>
 		<a href="{{ URL::to('reviews/matt') }}"><li class="review-matt">Matt</li></a>
