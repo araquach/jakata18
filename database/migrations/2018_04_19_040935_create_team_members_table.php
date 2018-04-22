@@ -16,6 +16,7 @@ class CreateTeamMembersTable extends Migration
         Schema::create('team_members', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->integer('salon')->unsigned();
             $table->string('level');
             $table->string('para1');
             $table->string('para2');
