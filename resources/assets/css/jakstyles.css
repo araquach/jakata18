@@ -539,8 +539,8 @@ nav li a:hover {
 	
 }
 
-#nat {
-	background: #FFF url('/images/team/nat.jpg') no-repeat left top;
+#natalie {
+	background: #FFF url('/images/team/natalie.jpg') no-repeat left top;
 	transform:rotate(3deg);
 	-ms-transform:rotate(3deg); /* IE 9 */
 	-moz-transform:rotate(3deg); /* Firefox */
@@ -3168,7 +3168,7 @@ ul.stylist-filter li.review-laurah {
 }
 
 ul.stylist-filter li.review-natalie {
-	background: #424259 url('/images/reviews/nat.jpg') no-repeat center top;
+	background: #424259 url('/images/reviews/natalie.jpg') no-repeat center top;
 	background-size: contain;
 }
 
