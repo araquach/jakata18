@@ -32,7 +32,7 @@
 		  	    	<li>&quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
 		  		@endforeach
 		  	</ul>
-		  	<a href="{{ URL::to('reviews/' . $team_member->class ) }}">More of {{ $team_member->class }}'s reviews here</a>
+		  	<a href="{{ URL::to('reviews/' . $team_member->class ) }}">More of {{ $team_member->review_link }}'s reviews here</a>
 		</div> <!--#feedback_feed-->
 	</div> <!--#feedback_container-->
 	
@@ -44,7 +44,7 @@
 		<p>{{ $team_member->para3 }}</p>
 		<p><strong>Favourite Style: </strong>{{ $team_member->fav_style }}</p>
 		<p><strong>Favourite Product: </strong>{{ $team_member->fav_prod }}</p>
-		<p class="price">Average Cut &amp; Colour with {{ $team_member->class }}: &pound;{{ $team_member->price }}</p>
+		<p class="price">Average Cut &amp; Colour with {{ $team_member->review_link }}: &pound;{{ $team_member->price }}</p>
 		
 		<a href="{{ URL::to('team') }}#{{ $team_member->class }}" >Back to the full team</a>
 		
