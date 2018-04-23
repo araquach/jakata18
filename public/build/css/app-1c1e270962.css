@@ -958,8 +958,8 @@ nav li a:hover {
 	background: url('/images/team/vicky.jpg') no-repeat top left #f5f5f5;
 }
 
-.matt {
-	background: url('/images/team/matt.jpg') no-repeat top left #f5f5f5;
+.matthew {
+	background: url('/images/team/matthew.jpg') no-repeat top left #f5f5f5;
 }
 
 .layla {
@@ -1077,8 +1077,8 @@ nav li a:hover {
 	
 }
 
-#matt {
-	background: #FFF url('/images/team/matt.jpg') no-repeat left top;
+#matthew {
+	background: #FFF url('/images/team/matthew.jpg') no-repeat left top;
 	transform:rotate(-3deg);
 	-ms-transform:rotate(-3deg); /* IE 9 */
 	-moz-transform:rotate(-3deg); /* Firefox */
@@ -3689,8 +3689,8 @@ ul.stylist-filter li.review-natalie {
 }
 
 
-ul.stylist-filter li.review-matt {
-	background: #424259 url('/images/reviews/matt.jpg') no-repeat center top;
+ul.stylist-filter li.review-matthew {
+	background: #424259 url('/images/reviews/matthew.jpg') no-repeat center top;
 	background-size: contain;
 }
 
