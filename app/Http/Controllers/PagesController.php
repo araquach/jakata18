@@ -73,7 +73,7 @@ class PagesController extends Controller {
 	
 	public function team()
 	{
-		$team_members = TeamMember::get();
+		$team_members = TeamMember::where('salon', 1)->orderBy('position', 'asc')->get();
 
 		return view('pages.team', compact('team_members'));
 	}

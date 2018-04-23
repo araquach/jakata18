@@ -14,20 +14,23 @@ class TeamMembersTableSeeder extends Seeder
     {
         DB::table('team_members')->insert([
             'id' => '1',
-            'name' => 'Adam Carter',
-            'level' => 'Director',
-            'para1' => 'Adam has been hairdressing a ridiculous amount of time',
-            'para2' => 'He\'s probably worth avoiding as he\'s a bit of a dinosaur',
-            'para3' => 'If you want a dated look that is the talk of the town then come see him',
+            'salon' => '1',
+            'name' => 'Natalie Doxey',
+            'level' => 'Senior Stylist',
+            'para1' => 'Natalie is a senior stylist',
+            'para2' => 'She\'s a great hairdresser.',
+            'para3' => 'If you want a smashing look that is the talk of the town then come see her',
             'fav_style' => 'Bowl cut',
             'fav_prod' => 'Asda price Gel',
             'price' => '10',
-            'review_link' => 'adam link',
-            'class' => 'adam'
+            'review_link' => 'Natalie',
+            'class' => 'natalie',
+            'position' => '3'
         ]);
         
         DB::table('team_members')->insert([
             'id' => '2',
+            'salon' => '1',
             'name' => 'Jimmy Sharpe',
             'level' => 'Director',
             'para1' => 'Salon manager Jimmy joined Jakata in October 2007 as an apprentice and quickly worked his way up through the ranks to Style Director',
@@ -36,12 +39,14 @@ class TeamMembersTableSeeder extends Seeder
             'fav_style' => 'Short hair cuts',
             'fav_prod' => 'Schwarzkopf Session Label Powder Cloud',
             'price' => '139',
-            'review_link' => 'jimmy link',
-            'class' => 'jimmy'
+            'review_link' => 'Jimmy',
+            'class' => 'jimmy',
+            'position' => '1'
         ]);
 
         DB::table('team_members')->insert([
             'id' => '3',
+            'salon' => '1',
             'name' => 'Laura Hall',
             'level' => 'Senior Stylist',
             'para1' => 'Laura has been a member of the team for 13 years. That makes her the longest serving team member (apart from Adam).',
@@ -50,13 +55,15 @@ class TeamMembersTableSeeder extends Seeder
             'fav_style' => 'Any kind of hair-up',
             'fav_prod' => 'Kevin Murphy Knight Rider',
             'price' => '112',
-            'review_link' => 'laura link',
-            'class' => 'laura'
+            'review_link' => 'Laura',
+            'class' => 'laura',
+            'position' => '2'
         ]);
 
         DB::table('team_members')->insert([
             'id' => '4',
-            'name' => 'Matt Lane',
+            'salon' => '1',
+            'name' => 'Matthew Lane',
             'level' => 'Stylist',
             'para1' => 'Matt is a super-talented stylist that has built up a strong following over the years he\'s been with us.',
             'para2' => 'He loves getting stuck into creative fashion colouring, he\'s not afraid to push the boundaries.',
@@ -64,8 +71,9 @@ class TeamMembersTableSeeder extends Seeder
             'fav_style' => 'Creative colour and wavy, textured looks',
             'fav_prod' => 'Kevin Murphy Doo.Over',
             'price' => '103',
-            'review_link' => 'matt link',
-            'class' => 'matt'
+            'review_link' => 'Matthew',
+            'class' => 'matthew',
+            'position' => '4'
         ]);
     }
 }
