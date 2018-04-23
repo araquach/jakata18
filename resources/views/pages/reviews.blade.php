@@ -20,14 +20,11 @@
 	<h1>Some of our recent client reviews</h1>
 	
 	<h3>Filter by stylist</h3>
-	
+
 	<ul class="stylist-filter">
-		<a href="{{ URL::to('reviews/jimmy') }}"><li class="review-jimmy">Jimmy</li></a>
-		<a href="{{ URL::to('reviews/hall') }}"><li class="review-laura">Laura H</li></a>
-		<a href="{{ URL::to('reviews/natalie') }}"><li class="review-natalie">Natalie</li></a>
-		<a href="{{ URL::to('reviews/vikki') }}"><li class="review-vikki">Vikki</li></a>
-		<a href="{{ URL::to('reviews/matthew') }}"><li class="review-matthew">Matt</li></a>
-		<a href="{{ URL::to('reviews/layla') }}"><li class="review-layla">Layla</li></a>
+		@foreach($team_members as $team_member)
+			<a href="{{ URL::to('reviews/' . $team_member->class) }}"><li class="review-{{ $team_member->class }}">{{$team_member->review_link }}</li></a>
+		@endforeach
 	</ul>
 	
 	@foreach($reviews as $review)

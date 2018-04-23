@@ -16,7 +16,7 @@ class ReviewsTableSeeder extends Seeder
             'id' => '1',
             'review' => 'Good service as always. Thanks Adam.',
             'client' => 'Client: Anna Alexander',
-            'staff' => 'Staff: Adam Carter',
+            'staff' => 'Staff: Jimmy Sharpe',
             'salon' => '1'
         ]);
         
@@ -24,7 +24,7 @@ class ReviewsTableSeeder extends Seeder
             'id' => '2',
             'review' => 'Good service as always. Thanks Jimmy.',
             'client' => 'Client: Cruella Peterson',
-            'staff' => 'Staff: Adam Carter',
+            'staff' => 'Staff: Laura Hall',
             'salon' => '1'
         ]);
     }
