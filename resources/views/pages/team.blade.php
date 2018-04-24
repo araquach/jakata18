@@ -28,7 +28,7 @@
 
 	<div id="team_members">
 		@foreach($team_members as $team_member)
-			<a href="{{ URL::to($team_member->class) }}" >
+			<a href="{{ URL::to('team/' . $team_member->class) }}" >
 				<section class="team_member" id="{{ $team_member->class }}">
 					<h2>{{ $team_member->name }} - {{ $team_member->level }}</h2>
 				</section>
