@@ -26,6 +26,8 @@
 			<a href="{{ URL::to('reviews/' . $team_member->class) }}"><li class="review-{{ $team_member->class }}">{{$team_member->review_link }}</li></a>
 		@endforeach
 	</ul>
+
+	<h3>{{ $team_member->review_link }}'s reviews</h3>
 	
 	@foreach($reviews as $review)
 		<div class="review">
