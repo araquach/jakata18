@@ -138,11 +138,16 @@
 
 		</footer>
 		<div id="facebook">
-			<a href="http://www.facebook.com/JakataSalon"><img src={{ asset( 'images/home/facebook_logo.png') }} alt="Facebook"></a>
+			<a href="http://www.facebook.com/JakataSalon"><img src={{ asset( 'images/footer/social/fb.png') }} alt="Facebook"></a>
 		</div>
-
 		<div id="twitter">
-			<a href="https://twitter.com/JakataSalon"><img src={{ asset( 'images/home/twitter_logo.png') }} alt="Twitter"></a>
+			<a href="https://twitter.com/JakataSalon"><img src={{ asset( 'images/footer/social/twitter.png') }} alt="Twitter"></a>
+		</div>
+		<div id="instagram">
+			<a href="https://www.instagram.com/jakatasalon1/"><img src={{ asset( 'images/footer/social/insta.png') }} alt="Instagram"></a>
+		</div>
+		<div id="google-plus">
+			<a href="https://plus.google.com/+JakataWarrington"><img src={{ asset( 'images/footer/social/g_plus.png') }} alt="Instagram"></a>
 		</div>
 	</div>
 
