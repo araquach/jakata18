@@ -3099,7 +3099,7 @@ ul.tinytext {
 
 #google {
 	position: absolute;
-	right: 170px;
+	right: 160px;
 	bottom: 34px;
 	opacity: .7;
 }
@@ -3108,6 +3108,16 @@ ul.tinytext {
 	opacity: 1;
 }
 
+#instagram {
+	position: absolute;
+	right: 220px;
+	bottom: 34px;
+	opacity: .7;
+}
+
+#instagram:hover {
+	opacity: 1;
+}
 
 /* @end */
 

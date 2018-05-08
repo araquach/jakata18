@@ -143,11 +143,11 @@
 		<div id="twitter">
 			<a href="https://twitter.com/JakataSalon"><img src={{ asset( 'images/footer/social/twitter.png') }} alt="Twitter"></a>
 		</div>
+		<div id="google">
+			<a href="https://plus.google.com/+JakataWarrington"><img src={{ asset( 'images/footer/social/gplus.png') }} alt="Google Plus"></a>
+		</div>
 		<div id="instagram">
 			<a href="https://www.instagram.com/jakatasalon1/"><img src={{ asset( 'images/footer/social/insta.png') }} alt="Instagram"></a>
-		</div>
-		<div id="google-plus">
-			<a href="https://plus.google.com/+JakataWarrington"><img src={{ asset( 'images/footer/social/g_plus.png') }} alt="Instagram"></a>
 		</div>
 	</div>
 
