@@ -2578,7 +2578,21 @@ ul.tinytext {
 
 #twitter {
 	position: absolute;
+	left: 105px;
+	bottom: 3px;
+	opacity: 1;
+}
+
+#google {
+	position: absolute;
 	left: 30px;
+	bottom: 3px;
+	opacity: 1;
+}
+
+#instagram {
+	position: absolute;
+	right: 105px;
 	bottom: 3px;
 	opacity: 1;
 }
