@@ -446,6 +446,11 @@ nav li a:hover {
 	background: url('/images/team/matthew.jpg') no-repeat top left #f5f5f5;
 }
 
+
+.georgia {
+	background: url('/images/team/georgia.jpg') no-repeat top left #f5f5f5;
+}
+
 .layla {
 	background: url('/images/team/layla.jpg') no-repeat top left #f5f5f5;
 }
@@ -524,7 +529,6 @@ nav li a:hover {
 	-webkit-transform:rotate(2deg); /* Safari and Chrome */
 	-o-transform:rotate(2deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
-
 }
 
 #vikki {
@@ -535,8 +539,6 @@ nav li a:hover {
 	-webkit-transform:rotate(-4deg); /* Safari and Chrome */
 	-o-transform:rotate(-4deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
-	
-	
 }
 
 #natalie {
@@ -547,7 +549,6 @@ nav li a:hover {
 	-webkit-transform:rotate(3deg); /* Safari and Chrome */
 	-o-transform:rotate(3deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
-	
 }
 
 #laura {
@@ -558,7 +559,6 @@ nav li a:hover {
 	-webkit-transform:rotate(-2deg); /* Safari and Chrome */
 	-o-transform:rotate(-2deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
-	
 }
 
 #matthew {
@@ -568,6 +568,16 @@ nav li a:hover {
 	-moz-transform:rotate(-3deg); /* Firefox */
 	-webkit-transform:rotate(-3deg); /* Safari and Chrome */
 	-o-transform:rotate(-3deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+}
+
+#georgia {
+	background: #FFF url('/images/team/georgia.jpg') no-repeat left top;
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-moz-transform:rotate(2deg); /* Firefox */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+	-o-transform:rotate(2deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
 	
 }
@@ -580,7 +590,6 @@ nav li a:hover {
 	-webkit-transform:rotate(-2deg); /* Safari and Chrome */
 	-o-transform:rotate(-2deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
-	
 }
 
 
