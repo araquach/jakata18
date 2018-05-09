@@ -3202,6 +3202,11 @@ ul.stylist-filter li.review-vikki {
 	background-size: contain;
 }
 
+ul.stylist-filter li.review-georgia {
+	background: #424259 url('/images/reviews/georgia.jpg') no-repeat center top;
+	background-size: contain;
+}
+
 ul.stylist-filter li.review-layla {
 	background: #424259 url('/images/reviews/layla.jpg') no-repeat center top;
 	background-size: contain;
