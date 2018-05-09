@@ -106,7 +106,7 @@ class PagesController extends Controller {
 	
 	public function reviews($stylist = 'all')
 	{
-		$team_members = TeamMember::where('salon', 1)->get();
+		$team_members = TeamMember::where('salon', 1)->orderBy('position', 'asc')->get();
 
 		if($stylist == 'all')
 		{
