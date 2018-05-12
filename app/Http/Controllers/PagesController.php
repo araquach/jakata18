@@ -78,6 +78,11 @@ class PagesController extends Controller {
 		return view('pages.team', compact('team_members'));
 	}
 
+	public function salon()
+	{
+		return view('pages.salon');
+	}
+
 	public function teamInd($team)
 	{
 		$team_member = TeamMember::where('class', $team )->first();

@@ -1,6 +1,16 @@
 {
+<<<<<<< Updated upstream
   "css/app.css": "css/app-6449fa1754.css",
   "css/mob.css": "css/mob-57a87e0c37.css",
+=======
+<<<<<<< HEAD
+  "css/app.css": "css/app-bc2f0c4cb3.css",
+  "css/mob.css": "css/mob-0726f9e896.css",
+=======
+  "css/app.css": "css/app-6449fa1754.css",
+  "css/mob.css": "css/mob-57a87e0c37.css",
+>>>>>>> origin/dev
+>>>>>>> Stashed changes
   "css/prosmob.css": "css/prosmob-0813586342.css",
   "css/prospect.css": "css/prospect-92d0126688.css"
 }
