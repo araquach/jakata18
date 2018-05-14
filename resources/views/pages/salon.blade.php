@@ -7,7 +7,7 @@
 	'keywords' => 'hairdressing premises, hairdressers, salon, Jakata salon, Jakata hairdressers',
 	'ogtitle' => 'The Salon',
 	'ogdescription' => 'After fourteen years in our Bridge street premises, we finally made the move to our brand new salon on Rylands street at the end of last year. An ultra modern, bright and spacious salon with fourteen styling stations situated over two floors. Both the team and our clients now feel completely at home in the premises plus we\'ve got loads of room to take on new stylists.',
-	'ogimage' => url('/') . '/images/salon/salon-meta.jpg',
+	'ogimage' => url('/') . '/images/salon/salon-meta2.jpg',
 	'title' => 'Jakata Salon - The Salon - Hairdressers in Warrington'
 	])
 	
