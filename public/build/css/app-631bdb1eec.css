@@ -831,46 +831,77 @@ nav li a:hover {
 
 #salon {
 	width: 950px;
-	height: 100%;
-	background: #f5f5f5 url('/images/salon/jakata_internal.jpg') no-repeat left top;
-	padding-top: 300px;
+	background-color: #f5f5f5;
+	padding-top: 200px;
 	padding-bottom: 200px;
+	float: left;
 }
 
-#salon_copy {
-	width: 430px;
-	height: 600px;
-	margin-left: 20px;
-	padding: 40px;
-	padding-top: 20px;
-	border-radius: 5px;
-	border: 1px solid #999;
-	background-color: rgba(255, 255, 255, 0.8);
+#salon h1 {
+	margin: 40px 40px;
 }
 
-#salon_images {
-	background-color: rgba(255, 255, 255, 0.8);
-	padding: 20px;
-	width: 300px;
-	position: absolute;
-	top: 30px;
-	right: 20px;
-	border-radius: 5px;
-	border: 1px solid #999;
+#salon-big-image {
+	width: 950px;
+	height: 400px;
+	background: url('/images/salon/exterior_corner.jpg') no-repeat left top #f5f5f5;
+	margin-bottom: 40px;
 }
 
-#salon_images h1 {
-	margin-top: 0;
+#salon-copy {
+	width: 400px;
+	height: 320px;
+	padding-left: 50px;
+	float: left;
 }
 
+#outdoor-image {
+	width: 400px;
+	height: 320px;
+	margin-right: 50px;
+	background: url('/images/salon/exterior_front.jpg') no-repeat left top #f5f5f5;
+	float: right;
+}
 
-#salon_images img {
-	margin-bottom: 20px;
+#salon-pics {
+	margin-left: 40px;
+}
+
+#salon-image1 {
+	width: 400px;
+	height: 320px;
+	background: url('/images/salon/internal1.jpg') no-repeat left top #f5f5f5;
+	float: left;
+	margin: 20px;
+}
+
+#salon-image2 {
+	width: 400px;
+	height: 320px;
+	background: url('/images/salon/internal2.jpg') no-repeat left top #f5f5f5;
+	float: left;
+	margin: 20px;
+}
+
+#salon-image3 {
+	width: 400px;
+	height: 320px;
+	background: url('/images/salon/internal3.jpg') no-repeat left top #f5f5f5;
+	float: left;
+	margin: 20px;
+}
+
+#salon-image4 {
+	width: 400px;
+	height: 320px;
+	background: url('/images/salon/internal4.jpg') no-repeat left top #f5f5f5;
+	float: left;
+	margin: 20px;
 }
 
 /* @end */
 
-/* @group Team */
+/* @group Team */	
 
 #team {
 	width: 950px;

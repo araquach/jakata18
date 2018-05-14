@@ -2035,6 +2035,88 @@ span.kebelo_italic {
 
 /* @end */
 
+#salon {
+	width: auto;
+	padding: 0;
+	float: none;
+	padding-top: 30px;
+}
+
+#salon h1 {
+	margin: 0 0 30px 30px;
+}
+
+#salon-big-image {
+	width: auto;
+	height: 10em;
+	background: url('/images/salon/exterior_corner.jpg') no-repeat left top #f5f5f5;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+#salon-copy {
+	width: auto;
+	height: auto;
+	padding: 20px;
+	float: none;
+}
+
+#outdoor-image {
+	width: auto;
+	height: 220px;
+	margin: 0;
+	margin-bottom: 20px: 
+	background: url('/images/salon/exterior_front.jpg') no-repeat center top #f5f5f5;
+	background-size: cover;
+	float: none;
+}
+
+#salon-pics {
+	margin-left: 0;
+	width: auto;
+	padding: 10px;
+}
+
+#salon-image1 {
+	width: auto;
+	height: 320px;
+	background: url('/images/salon/internal1.jpg') no-repeat center top #f5f5f5;
+	background-size: cover;
+	float: none;
+	margin: 0;
+	margin-bottom: 20px; 
+}
+
+#salon-image2 {
+	width: auto;
+	height: 320px;
+	background: url('/images/salon/internal2.jpg') no-repeat center top #f5f5f5;
+	background-size: cover;
+	float: none;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#salon-image3 {
+	width: auto;
+	height: 320px;
+	background: url('/images/salon/internal3.jpg') no-repeat center top #f5f5f5;
+	background-size: cover;
+	float: none;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#salon-image4 {
+	width: auto;
+	height: 320px;
+	background: url('/images/salon/internal4.jpg') no-repeat center top #f5f5f5;
+	background-size: cover;
+	float: none;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
 /* @group Competition */
 
 #competition {

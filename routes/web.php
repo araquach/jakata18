@@ -25,6 +25,8 @@ Route::get('/prices', 'PagesController@prices');
 Route::get('/booking', 'PagesController@booking');
 Route::get('/team', 'PagesController@team');
 Route::get('/team/{team?}', 'PagesController@teamInd');
+Route::get('/salon', 'PagesController@salon');
+
 Route::get('/trainee', 'PagesController@trainee');
 Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
