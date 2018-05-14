@@ -26,10 +26,12 @@
 		<p><strong>Feel free to come and see us. Have a chat with one of our highly skilled stylists to discuss a new look whilst you check out our amazing salon.</strong></p>
 	</div>
 	<div id="outdoor-image"></div>
-	<div id="salon-image1"></div>
-	<div id="salon-image2"></div>
-	<div id="salon-image3"></div>
-	<div id="salon-image4"></div>
+	<div id="salon-pics">
+		<div id="salon-image1"></div>
+		<div id="salon-image2"></div>
+		<div id="salon-image3"></div>
+		<div id="salon-image4"></div>
+	</div>
 
 
 </section>
