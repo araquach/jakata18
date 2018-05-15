@@ -32,9 +32,9 @@
 		<div id="salon-image2"></div>
 		<div id="salon-image3"></div>
 		<div id="salon-image4"></div>
-		<div id="fb-like">
-			<div class="fb-like" data-href="http://www.jakatasalon.co.uk/salon" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
-			</div>
+	</div>
+	<div id="fb-like">
+		<div class="fb-like" data-href="http://www.jakatasalon.co.uk/salon" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
 		</div>
 	</div>
 </section>
