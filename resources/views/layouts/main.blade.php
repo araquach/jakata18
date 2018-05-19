@@ -38,7 +38,7 @@
 						<li>{!! link_to('/apprentice', 'Apprentices') !!}</li>
 						<li>{!! link_to('/superstylist/admin', 'SS Admin') !!}</li>
 						<li><a href="{{ route('logout') }}"
-				               onclick="event.preventDefault();
+				               onclick="event.preventDeault();
 				                             document.getElementById('logout-form').submit();">
 				                {{ __('Logout') }}
 				            </a>
