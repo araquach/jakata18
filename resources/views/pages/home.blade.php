@@ -16,7 +16,7 @@
 	
 	<div class="proportional aspect1">
 		<div id="home_image"></div>
-		<h4 class="slogan">Fashion forward, award winning hairdressing</h4>
+		<h4 class="slogan">Fashion Forward Hairdressing</h4>
 	</div>
 
 	<div id="feedback-container">

@@ -215,10 +215,11 @@ li.active a {
 #home h4.slogan {
 	display: block;
 	position: absolute;
-	top: 120px;
+	top: 140px;
 	left: 20px;
 	width: 30%;
-	font-size: 1.2em;
+	font-size: 1.6em;
+	line-height: 1.4em;
 }
 
 #home_news {
@@ -232,7 +233,7 @@ li.active a {
 	width: auto;
 	margin: auto;
 	max-width: 320px;
-	height: 480px;
+	height: 520px;
 	background-color: rgba(248, 247, 247);
 	margin-bottom: 20px;
 	border: 1px solid #999;
@@ -243,7 +244,7 @@ li.active a {
 
 .home_news_pic {
 	width: auto;
-	height: 260px;
+	height: 300px;
 	float: none;
 	position: relative;
 }
@@ -256,7 +257,6 @@ li.active a {
 }
 
 .home_news h3.newsheader {
-	font-family: NotethisRegular;
 	font-size: 1.4em;
 	color: #2f2f69;
 	margin: 0;
