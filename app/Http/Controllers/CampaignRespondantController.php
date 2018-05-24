@@ -23,6 +23,11 @@ class CampaignRespondantController extends Controller
 		$this->respondant = $respondant;
 	}
 
+	public function hairdo()
+	{
+		return view('campaign.respondant.hairdo');
+	}
+
 	/** 
 	 * Display a listing of the resource.
 	 *
