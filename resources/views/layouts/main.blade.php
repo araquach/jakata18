@@ -22,7 +22,16 @@
 				<ul>
 					<li>{!! link_to('prospect/taster', 'Taster Package applicants') !!}</li>
 					<li>{!! link_to('prospect/freeproducts', 'Free Product applicants') !!}</li>
-					<li>{!! link_to('/logout', 'Logout') !!}</li>
+					<li><a href="{{ route('logout') }}"
+				               onclick="event.preventDeault();
+				                             document.getElementById('logout-form').submit();">
+				                {{ __('Logout') }}
+				            </a>
+				        
+				            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+				                @csrf
+				            </form>
+			        	</li>
 				</ul>
 			</nav>
 			

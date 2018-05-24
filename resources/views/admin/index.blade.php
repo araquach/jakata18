@@ -22,6 +22,18 @@
 			<li>{!! link_to('apprentice', 'Apprentice Applicants', ['class' => 'link-button']) !!}</li>
 			<li>{!! link_to('superstylist/admin', 'Super Stylist Admin', ['class' => 'link-button']) !!}</li>
 			<li>{!! link_to('potential', 'Potential Employees', ['class' => 'link-button']) !!}</li>
+			<li>{!! link_to('campaigns', 'Campaigns', ['class' => 'link-button']) !!}</li>
+			<li>
+				<a href="{{ route('logout') }}"
+					onclick="event.preventDeault();
+				    document.getElementById('logout-form').submit();">
+				    {{ __('Logout') }}
+				</a>
+				        
+				<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+					csrf
+				</form>
+			 </li>
 		@endif
 		<li>{!! link_to('superstylist', 'Super Stylist Vote', ['class' => 'link-button']) !!}</li>
 	</ul>

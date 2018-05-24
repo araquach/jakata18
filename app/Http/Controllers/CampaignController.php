@@ -7,13 +7,14 @@ use App\Campaign;
 use App\CampaignRespondant;
 use App\Http\Requests\CampaignFormRequest;
 use Carbon\Carbon;
+use Auth;
 use Mail;
 
 class CampaignController extends Controller
 {
 	public function __construct(CampaignRespondant $respondant, Campaign $campaign)
 	{
-		$this->middleware('auth');
+		$this->middleware('guest');
 		
 		$this->campaign = $campaign;
 		

@@ -40,6 +40,14 @@ Route::get('/prospect/emailfemale2', 'ProspectController@emailFemale2');
 Route::get('/prospect/emailfemale3', 'ProspectController@emailFemale3');
 Route::get('/prospect/test', 'ProspectController@test');
 
+Route::get('/campaign', 'CampaignController@index');
+Route::get('/campaign/create', 'CampaignController@create');
+Route::post('/campaign/store', 'CampaignController@store');
+
+Route::get('/respondants', 'CampaignRespondantController@index');
+Route::get('/respondant/create', 'CampaignRespondantController@create');
+Route::post('/respondant/store', 'CampaignRespondantController@store');
+
 
 Route::get('/admin', 'AdminController@index');
 
