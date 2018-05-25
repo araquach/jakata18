@@ -62,7 +62,7 @@ class CampaignRespondantController extends Controller
 
 		CampaignRespondant::create($input);
 
-		return redirect()->back()->with('message', 'Thanks for entering');
+		return redirect()->to(app('url')->previous(). '#success')->with('message', 'Thanks for entering');
 	}
 
 	/**
