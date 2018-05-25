@@ -23,8 +23,8 @@
   		ga('send', 'pageview');
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="{{ elixir('css/prospect.css') }}" />
-	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/prosmob.css') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ elixir('css/hairdo.css') }}" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/hairdomob.css') }}" />
 	<link rel="stylesheet" href="https://use.typekit.net/wun6xai.css">
 
 	<script type="text/javascript" src="{{ URL::asset('scripts/modernizr.js') }}"></script>

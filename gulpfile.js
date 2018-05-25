@@ -40,6 +40,18 @@ elixir(function(mix) {
      mix.styles([
         'prosmob.css'
      ], 'public/css/prosmob.css');
+
+     mix.styles([
+        'bootstrap.min.css',
+        'fonts/fonts.css',
+        'normalize.css',
+        'hairdo.css',
+        'form.css'
+     ], 'public/css/hairdo.css');
+     
+     mix.styles([
+        'hairdomob.css'
+     ], 'public/css/hairdomob.css');
      
      mix.scripts([
         'jquery.js',
@@ -62,6 +74,8 @@ elixir(function(mix) {
         'public/css/app.css',
         'public/css/mob.css',
         'public/css/prospect.css',
-        'public/css/prosmob.css'
+        'public/css/prosmob.css',
+        'public/css/hairdo.css',
+        'public.css/hairdomob.css'
     ]);
 });

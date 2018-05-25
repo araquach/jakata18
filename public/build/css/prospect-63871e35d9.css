@@ -607,7 +607,7 @@ header h1 {
 
 header h2 {
 	margin-left: 40px;
-	font-size: 2em;
+	
 	margin-top: 0;
 }
 
@@ -670,47 +670,6 @@ header h2 {
 }
 
 #prospect-entry h2 {
-	font: 3.3em Georgia, "Times New Roman", Times, serif;
-	margin: 40px 0;
-}
-
-/*  Hairdo styling */
-
-#hairdo-image {
-	width: 380px;
-	height: 300px;
-	background: #f5f5f5 url('/images/hairdo/hairdo_main.jpg') no-repeat left top;
-}
-
-#hairdo-info {
-	float: left;
-	clear: left;
-	width: 450px;
-	height: 100%;
-	padding: 40px;
-	margin-top: 0;
-}
-
-#hairdo-entry {
-	float: right;
-	clear: right;
-	position: relative;
-	width: 450px;
-	padding: 40px;
-	padding-bottom: 80px;
-	border-left: 3px solid #555;
-	min-height: 900px;
-	margin-top: -200px;
-}
-
-#hairdo-other-image {
-	width: 380px;
-	height: 200px;
-	background: #f5f5f5 url('/images/hairdo/other_images.jpg') no-repeat left top;
-	margin-bottom: 40px;
-}
-
-#hairdo-entry h2 {
 	font: 3.3em Georgia, "Times New Roman", Times, serif;
 	margin: 40px 0;
 }

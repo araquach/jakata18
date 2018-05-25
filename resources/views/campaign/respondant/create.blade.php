@@ -2,7 +2,7 @@
 
 @section('head')
 
-@include('layouts.partials.pros_head', [
+@include('layouts.partials.hairdo_head', [
 	'title' => 'Jakata Salon'
 	])
 	
@@ -16,7 +16,9 @@
 
 <section id="hairdo-entry">
 	
-<h2>Some stuff here</h2>
+<h2 class="pink">Want to be a part of this years Big Hair Do?</h2>
+<p>Just fill in your details below for your chance of getting a <span class="pink">VIP ticket</span>.</p>
+<p><strong>We have only a limited number available so don't leave it too late!</strong></p>
 	
 @if(Session::has('message'))
 	<div id="success" class="ProspectSuccess">
