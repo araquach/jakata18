@@ -725,8 +725,9 @@ input#regular {
 	margin-right: 30px;
 }
 
-.HairdoSuccess {
-	font-size: 1.4em;
+#success p {
+	font-size: 1.8em;
+	color: #c04a95;
 }
 
 /* @end */

@@ -20,6 +20,7 @@ class CreateCampaignRespondantsTable extends Migration
             $table->string('last_name');
             $table->string('mobile');
             $table->string('email');
+            $table->boolean('regular')->nullable();
             $table->timestamps();
         });
     }

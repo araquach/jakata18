@@ -21,7 +21,7 @@
 <p><strong>We have only a limited number available so don't leave it too late!</strong></p>
 	
 @if(Session::has('message'))
-	<div id="success" class="ProspectSuccess">
+	<div id="success">
 	<p>{{{ Session::get('message') }}}</p>
 	{!! link_to('/', 'Visit our website to keep up to date with Jakata!') !!}
 	</div>

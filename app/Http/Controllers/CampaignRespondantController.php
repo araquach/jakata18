@@ -7,7 +7,6 @@ use App\Campaign;
 use App\CampaignRespondant;
 use App\Http\Requests\CampaignRespondantFormRequest;
 use Carbon\Carbon;
-use Auth;
 use Mail;
 
 class CampaignRespondantController extends Controller
