@@ -3,6 +3,10 @@
 @section('head')
 
 @include('layouts.partials.hairdo_head', [
+	'description' => '',
+	'ogtitle' => 'The Big Hair Do',
+	'ogdescription' => '',
+	'ogimage' => url('/') . '/images/hairdo/hairdo-meta.jpg',
 	'title' => 'Big Hair do'
 	])
 	
