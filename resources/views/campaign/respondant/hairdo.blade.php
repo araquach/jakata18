@@ -5,7 +5,7 @@
 @include('layouts.partials.hairdo_head', [
 	'description' => 'Want to be a part of this years Big Hair Do? ',
 	'ogtitle' => 'Want to be a part of this years Big Hair Do?',
-	'ogdescription' => ' Jakata has partnered with Schwarzkopf and Creative Head to be one of 100 salons taking part in the UK\'s biggest hair party - and we\'d love you to be a part of it!</p>',
+	'ogdescription' => ' Jakata has partnered with Schwarzkopf and Creative Head to be one of 100 salons taking part in the UK\'s biggest hair party - and we\'d love you to be a part of it!',
 	'ogimage' => url('/') . '/images/hairdo/hairdo_meta.jpg',
 	'title' => 'Big Hair do'
 	])
