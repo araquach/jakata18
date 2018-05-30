@@ -33,7 +33,7 @@
 
 	@include('campaign.respondant._form')
 
-	<p><strong>Your information is collected and used purely for the purpose of this specific promotion</strong></p>
+	<p><strong>Privacy note:</strong> Your information is collected and used purely for the purpose of this specific promotion</p>
 	
 @endif
 
