@@ -6,7 +6,7 @@
 	'description' => '',
 	'ogtitle' => 'The Big Hair Do',
 	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/hairdo/hairdo-meta.jpg',
+	'ogimage' => url('/') . '/images/hairdo/hairdo_meta.jpg',
 	'title' => 'Big Hair do'
 	])
 	
