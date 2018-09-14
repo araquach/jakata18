@@ -21,7 +21,7 @@ class PotentialEmployeeController extends Controller
     
     public function index()
     {
-        $potentials = PotentialEmployee::where('salon', 1)->orderBy('id', 'desc')->get();
+        $potentials = PotentialEmployee::orderBy('id', 'desc')->get();
         
         return view('potential_employee.index', compact('potentials'));
     }
