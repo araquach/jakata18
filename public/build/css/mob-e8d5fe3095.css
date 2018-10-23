@@ -2618,7 +2618,7 @@ p.exit-offer {
 footer {
 	position: relative;
 	background-color: #424259;
-	height: 50px;
+	height: 60px;
 	width: auto;
 	float: none;
 	margin: 0;
@@ -2660,32 +2660,12 @@ ul.tinytext {
 	display: none;
 }
 
-#facebook {
-	position: absolute;
-	right: 30px;
-	bottom: 3px;
-	opacity: 1;
-}
-
-#twitter {
-	position: absolute;
-	left: 105px;
-	bottom: 3px;
-	opacity: 1;
-}
-
-#google {
-	position: absolute;
-	left: 30px;
-	bottom: 3px;
-	opacity: 1;
-}
-
-#instagram {
-	position: absolute;
-	right: 105px;
-	bottom: 3px;
-	opacity: 1;
+#social {
+	position: relative;
+	margin-left: 40px;
+	margin-top: 15px;
+  	right: 0;
+  	bottom: 0;
 }
 
 /* @end */

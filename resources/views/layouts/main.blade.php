@@ -145,19 +145,15 @@
 				</ul>
 			</section>
 
+			<div id="social">
+				<a href="http://www.facebook.com/JakataSalon" target="_blank"><div class="social_logo facebook"></div></a>
+				<a href="https://twitter.com/JakataSalon" target="_blank"><div class="social_logo twitter"></div></a>
+				<a href="https://plus.google.com/+JakataWarrington" target="_blank"><div class="social_logo google"></div></a>
+				<a href="https://www.instagram.com/jakatasalon1/" target="_blank"><div class="social_logo instagram"></div></a>
+				<a href="https://www.pinterest.co.uk/jakatasalon/" target="_blank"><div class="social_logo pinterest"></div></a>
+			</div>
 		</footer>
-		<div id="facebook">
-			<a href="http://www.facebook.com/JakataSalon"><img src={{ asset( 'images/footer/social/fb.png') }} alt="Facebook"></a>
-		</div>
-		<div id="twitter">
-			<a href="https://twitter.com/JakataSalon"><img src={{ asset( 'images/footer/social/twitter.png') }} alt="Twitter"></a>
-		</div>
-		<div id="google">
-			<a href="https://plus.google.com/+JakataWarrington"><img src={{ asset( 'images/footer/social/gplus.png') }} alt="Google Plus"></a>
-		</div>
-		<div id="instagram">
-			<a href="https://www.instagram.com/jakatasalon1/"><img src={{ asset( 'images/footer/social/insta.png') }} alt="Instagram"></a>
-		</div>
+			
 	</div>
 
 </body>
