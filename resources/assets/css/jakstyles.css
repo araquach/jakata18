@@ -1658,6 +1658,47 @@ span.big {
 /* @end */
 
 
+#ind-offer {
+	width: 950px;
+	height: 100%;
+	background-color: #f5f5f5;
+	padding-top: 250px;
+	padding-bottom: 240px;
+}
+
+.ind-offer-copy {
+	
+}
+
+#ind-offer-img-abbi {
+	background: url('/images/offer/individual/abbi_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
+
+#ind-offer-img-layla {
+	background: url('/images/offer/individual/layla_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
+
+#ind-offer-img-lauren {
+	background: url('/images/offer/individual/lauren_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
+
+#ind-offer-img-lucy {
+	background: url('/images/offer/individual/lucy_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
+
+
 /* @group bookings */
 
 #bookings {
