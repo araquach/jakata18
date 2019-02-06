@@ -27,7 +27,7 @@
 	<div class="ind-offer-copy">
 		<p><strong>Come in for a FREE consultation and if you like the ideas Abbi comes up with then book in to get 20% off your visit!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
-		<p class="link"><a href="https://paulkemphairdressing.com/team/abbi" target="_blank">Click here to find out more about her &gt;</a></p>
+		<p class="link"><a href="{{ URL::to('team/abbi') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
 
 	<div id="fb-like">
