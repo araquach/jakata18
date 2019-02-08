@@ -142,6 +142,26 @@ class PagesController extends Controller {
 	{
 		return view('pages.mattsback');
 	}
+
+	public function offerAbbi()
+	{
+		return view('pages.offers.abbi');
+	}
+
+	public function offerLayla()
+	{
+		return view('pages.offers.layla');
+	}
+
+	public function offerLauren()
+	{
+		return view('pages.offers.lauren');
+	}
+
+	public function offerLucy()
+	{
+		return view('pages.offers.lucy');
+	}
 	
 	public function test()
 	{

@@ -490,6 +490,10 @@ nav li a:hover {
 	background: url('/images/team/abbi.jpg') no-repeat top left #f5f5f5;
 }
 
+.lucy {
+	background: url('/images/team/lucy.jpg') no-repeat top left #f5f5f5;
+}
+
 .team_member {
 	width: 300px;
 	height: 310px;
@@ -634,6 +638,16 @@ nav li a:hover {
 	-moz-transform:rotate(-2deg); /* Firefox */
 	-webkit-transform:rotate(-2deg); /* Safari and Chrome */
 	-o-transform:rotate(-2deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+}
+
+#lucy {
+	background: #FFF url('/images/team/lucy.jpg') no-repeat left top;
+	transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-moz-transform:rotate(3deg); /* Firefox */
+	-webkit-transform:rotate(3deg); /* Safari and Chrome */
+	-o-transform:rotate(3deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
 }
 
@@ -1642,6 +1656,49 @@ span.big {
 }
 
 /* @end */
+
+
+#ind-offer {
+	width: 850px;
+	padding: 50px;
+	height: 100%;
+	background-color: #f5f5f5;
+	padding-top: 250px;
+	padding-bottom: 240px;
+}
+
+.ind-offer-copy {
+	width: 550px;
+	font-size: 1.2em;
+}
+
+#ind-offer-img-abbi {
+	background: url('/images/offer/individual/abbi_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
+
+#ind-offer-img-layla {
+	background: url('/images/offer/individual/layla_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
+
+#ind-offer-img-lauren {
+	background: url('/images/offer/individual/lauren_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
+
+#ind-offer-img-lucy {
+	background: url('/images/offer/individual/lucy_montage_wide.png') no-repeat left top #f5f5f5;
+	width: 850px;
+	height: 740px;
+	background-size: contain;
+}
 
 
 /* @group bookings */
@@ -3276,6 +3333,11 @@ ul.stylist-filter li.review-layla {
 
 ul.stylist-filter li.review-abbi {
 	background: #424259 url('/images/reviews/abbi.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-lucy {
+	background: #424259 url('/images/reviews/lucy.jpg') no-repeat center top;
 	background-size: contain;
 }
 
