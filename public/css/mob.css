@@ -485,6 +485,48 @@ p#book_button {
 
 /* @end */
 
+#ind-offer {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0;
+	padding-bottom: 50px;
+}
+
+.ind-offer-copy {
+	width: auto;
+	padding: 30px;
+}
+
+#ind-offer-img-abbi {
+	background: url('/images/offers/individual/abbi_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 900px;
+	background-size: cover;
+}
+
+#ind-offer-img-layla {
+	background: url('/images/offers/individual/layla_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 900px;
+	background-size: cover;
+}
+
+#ind-offer-img-lauren {
+	background: url('/images/offers/individual/lauren_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 900px;
+	background-size: cover;
+}
+
+#ind-offer-img-lucy {
+	background: url('/images/offers/individual/lucy_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 900px;
+	background-size: cover;
+}
+
 /* bookings */
 
 #bookings {
