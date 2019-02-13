@@ -7,9 +7,9 @@
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => 'Special offer with our ultra talented stylist Layla',
 	'ogdescription' => 'If you\'re looking for a change of style then book in with Layla who will come up with some great new hair ideas for you!',
-	'ogimage' => url('/') . '/images/offers/individual/layla_montage_meta.jpg',
-	'ogimagewidth' => '1400',
-	'ogimageheight' => '1200',
+	'ogimage' => url('/') . '/images/offers/individual/layla_montage_fb.jpg',
+	'ogimagewidth' => '1200',
+	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Layla Offer - Hairdressers in Warrington'
 	])
 	

@@ -7,9 +7,9 @@
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => 'Special introductory offer with our new Graduate Stylist Lauren',
 	'ogdescription' => 'Lauren is our latest addition to the team and is already producing some outstanding, fashion forward styles!',
-	'ogimage' => url('/') . '/images/offers/individual/lauren_montage_meta.jpg',
-	'ogimagewidth' => '1400',
-	'ogimageheight' => '1200',
+	'ogimage' => url('/') . '/images/offers/individual/lauren_montage_fb.jpg',
+	'ogimagewidth' => '1200',
+	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Lauren Offer - Hairdressers in Warrington'
 	])
 	
