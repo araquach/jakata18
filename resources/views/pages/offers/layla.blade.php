@@ -8,6 +8,8 @@
 	'ogtitle' => 'Special offer with our ultra talented stylist Layla',
 	'ogdescription' => 'If you\'re looking for a change of style then book in with Layla who will come up with some great new hair ideas for you!',
 	'ogimage' => url('/') . '/images/offer/individual/layla_montage_meta.jpg',
+	'ogimagewidth' => '1400px',
+	'ogimageheight' => '1200px',
 	'title' => 'Jakata Salon - Layla Offer - Hairdressers in Warrington'
 	])
 	

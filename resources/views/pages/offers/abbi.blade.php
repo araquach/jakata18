@@ -8,6 +8,8 @@
 	'ogtitle' => 'Special introductory offer with our recently promoted stylist Abbi',
 	'ogdescription' => 'Abbi is flying up the ranks and the quality of her work is second to none! Take advantage of 20% off with her this month',
 	'ogimage' => url('/') . '/images/offer/individual/abbi_montage_meta.jpg',
+	'ogimagewidth' => '1400px',
+	'ogimageheight' => '1200px',
 	'title' => 'Jakata Salon - Abbi Offer - Hairdressers in Warrington'
 	])
 	

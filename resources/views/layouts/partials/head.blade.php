@@ -10,6 +10,8 @@
   <meta property="og:title" content="{{ $ogtitle or 'Jakata Salon' }}">
   <meta property="og:description" content="{{ $ogdescription or 'Jakata is a fashion forward, award winning salon in Warrington' }}">
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/fbmeta/main.jpg' }}">
+  <meta property="og:image:width" content="{{ $ogimagewidth or '1025px' }}">
+  <meta property="og:image:height" content="{{ $ogimageheight or '1025px' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 
   <meta name="p:domain_verify" content="251064bc74a96117720a74689c79c2e5"/>
