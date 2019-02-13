@@ -26,7 +26,7 @@
 	<div id="ind-offer-img-georgia"></div>
 
 	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Georgia comes up with then book in to get 20% off your visit!</strong></p>
+		<p><strong>Come in for a FREE consultation and if you like the ideas Georgia comes up with then book in to get 20% off your first visit with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 
 		<p>Just mention the offer at the time of your visit</p>

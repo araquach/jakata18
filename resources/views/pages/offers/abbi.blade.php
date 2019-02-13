@@ -3,7 +3,7 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
+	'description' => 'Abbi is flying up the ranks and the quality of her work is second to none! Take advantage of 20% off with her this month',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => 'Special introductory offer with our recently promoted stylist Abbi',
 	'ogdescription' => 'Abbi is flying up the ranks and the quality of her work is second to none! Take advantage of 20% off with her this month',
@@ -26,7 +26,7 @@
 	<div id="ind-offer-img-abbi"></div>
 
 	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Abbi comes up with then book in to get 20% off your visit!</strong></p>
+		<p><strong>Come in for a FREE consultation and if you like the ideas Abbi comes up with then book in to get 20% off your visit with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 
 		<p>Just mention the offer at the time of your visit</p>

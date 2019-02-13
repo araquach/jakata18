@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
+	'description' => 'Special offer with our ultra talented stylist Layla',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
-	'ogtitle' => '',
-	'ogdescription' => '',
+	'ogtitle' => 'Special offer with our ultra talented stylist Layla',
+	'ogdescription' => 'If you\'re looking for a change of style then book in with Layla who will come up with some great new hair ideas for you!',
 	'ogimage' => url('/') . '/images/offer/individual/layla_montage_meta.jpg',
 	'title' => 'Jakata Salon - Layla Offer - Hairdressers in Warrington'
 	])
@@ -18,15 +18,15 @@
 <section id="ind-offer">
 
 	<div class="ind-offer-copy">
-		<h1>Special introductory offer with our recently promoted stylist Layla</h1>
-		<p>Layla is flying up the ranks and the quality of her work is second to none! Check out some of her recent looks in the pics!</p>
-		<p><strong>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</strong></p>
+		<h1>Special offer with our ultra talented stylist Layla</h1>
+		<p>If you're looking for a change of style then book in with Layla who will come up with some great new hair ideas for you!</p>
+		<p><strong>She's a long standing team member and recently had a promotion. Take advantage of this great offer with her&hellip;</strong></p>
 	</div>
 
 	<div id="ind-offer-img-layla"></div>
 
 	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Layla comes up with then book in to get 20% off your visit!</strong></p>
+		<p><strong>Come in for a FREE consultation and if you like the ideas Layla comes up with then book in to get 20% off your first visit with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 
 		<p>Just mention the offer at the time of your visit</p>
