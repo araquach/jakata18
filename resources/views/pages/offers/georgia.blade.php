@@ -7,7 +7,7 @@
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => 'Take advantage of this amazing offer with Georgia',
 	'ogdescription' => 'Georgia is an incredibly talented stylist who joined the team last year. Her cutting, colouring & styling skills are second to none! Take advantage of 20% off with her this month',
-	'ogimage' => url('/') . '/images/offer/individual/georgia_montage_meta.jpg',
+	'ogimage' => url('/') . '/images/offers/individual/georgia_montage_meta.jpg',
 	'ogimagewidth' => '1400',
 	'ogimageheight' => '1200',
 	'title' => 'Jakata Salon - Georgia Offer - Hairdressers in Warrington'
