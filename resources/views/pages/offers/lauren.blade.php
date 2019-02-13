@@ -8,8 +8,8 @@
 	'ogtitle' => 'Special introductory offer with our new Graduate Stylist Lauren',
 	'ogdescription' => 'Lauren is our latest addition to the team and is already producing some outstanding, fashion forward styles!',
 	'ogimage' => url('/') . '/images/offer/individual/lauren_montage_meta.jpg',
-	'ogimagewidth' => '1400px',
-	'ogimageheight' => '1200px',
+	'ogimagewidth' => '1400',
+	'ogimageheight' => '1200',
 	'title' => 'Jakata Salon - Lauren Offer - Hairdressers in Warrington'
 	])
 	
