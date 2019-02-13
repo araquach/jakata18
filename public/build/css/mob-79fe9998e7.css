@@ -534,6 +534,10 @@ p#book_button {
 	background-size: contain;
 }
 
+#ind-offer .fb_iframe_widget {
+	margin-left: 30px;
+}
+
 /* bookings */
 
 #bookings {

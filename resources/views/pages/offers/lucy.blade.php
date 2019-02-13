@@ -15,6 +15,8 @@
 
 @section('content')
 
+@include('layouts.partials.fb_like')
+
 <section id="ind-offer">
 
 	<div class="ind-offer-copy">
