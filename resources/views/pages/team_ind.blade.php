@@ -49,7 +49,7 @@
 		<a href="{{ URL::to('team') }}#{{ $team_member->class }}" >Back to the full team</a>
 		
 		<div id="fb-like">
-			<div class="fb-like" data-href="http://www.jakatasalon.co.uk/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+			<div class="fb-like" data-href="http://www.jakatasalon.co.uk/team/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 		</div>
 		
 	</section><!--team_member_copy -->
