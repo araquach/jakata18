@@ -490,6 +490,10 @@ nav li a:hover {
 	background: url('/images/team/abbi.jpg') no-repeat top left #f5f5f5;
 }
 
+.lauren {
+	background: url('/images/team/lauren.jpg') no-repeat top left #f5f5f5;
+}
+
 .lucy {
 	background: url('/images/team/lucy.jpg') no-repeat top left #f5f5f5;
 }
@@ -633,6 +637,16 @@ nav li a:hover {
 
 #abbi {
 	background: #FFF url('/images/team/abbi.jpg') no-repeat left top;
+	transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg); /* IE 9 */
+	-moz-transform:rotate(-2deg); /* Firefox */
+	-webkit-transform:rotate(-2deg); /* Safari and Chrome */
+	-o-transform:rotate(-2deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+}
+
+#lauren {
+	background: #FFF url('/images/team/lauren.jpg') no-repeat left top;
 	transform:rotate(-2deg);
 	-ms-transform:rotate(-2deg); /* IE 9 */
 	-moz-transform:rotate(-2deg); /* Firefox */
@@ -3340,6 +3354,11 @@ ul.stylist-filter li.review-layla {
 
 ul.stylist-filter li.review-abbi {
 	background: #424259 url('/images/reviews/abbi.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-lauren {
+	background: #424259 url('/images/reviews/lauren.jpg') no-repeat center top;
 	background-size: contain;
 }
 

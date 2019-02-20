@@ -11,5 +11,22 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.styles([
+    'resources/assets/css/fonts/fonts.css',
+    'resources/assets/css/normalize.css',
+    'resources/assets/css/jakstyles.css',
+    'resources/assets/css/form.css'
+], 'public/css/app.css');
+
+mix.styles([
+    'resources/assets/css/mobile.css'
+], 'public/css/mob.css');
+
+mix.scripts([
+    'resources/assets/js/jquery.js',
+    'resources/assets/js/feedback-feed.js',
+    'resources/assets/js/feedback-feed-ind.js',
+    'resources/assets/js/mobile-nav.js'
+], 'public/scripts/jquery.js');
+
+

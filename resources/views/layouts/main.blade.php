@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+q<!DOCTYPE HTML>
 <html class="no-js">
 	
 @section('head')
