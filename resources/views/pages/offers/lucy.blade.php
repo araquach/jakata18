@@ -23,7 +23,7 @@
 
 	<div class="ind-offer-copy">
 		<h1>Apprentice Lucy is Taking on More clients</h1>
-		<h2>A Colour &amp; Cut for just &pound;20!</h2>
+		<h2>A Colour &amp; Cut from just &pound;20!</h2>
 		<p>At Jakata we train and develop our stylists to the highest standards. Lucy has reached the point in her apprenticeship where she needs loads of clients!</p>
 		<p><strong>She's progressing at an amazing rate and is now looking to get as much experience as possible.</strong></p>
 	</div>
