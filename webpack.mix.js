@@ -29,4 +29,9 @@ mix.scripts([
     'resources/assets/js/mobile-nav.js'
 ], 'public/scripts/jquery.js');
 
+mix.scripts([
+    'resources/assets/js/mootools-core.js',
+    'resources/assets/js/mootools-more.js'
+], 'public/scripts/mootools.js');
+
 
