@@ -8,6 +8,8 @@
 	'ogtitle' => $blog->title,
 	'ogdescription' => $blog->paras->first()->para,
 	'ogimage' => $blog->meta_image,
+    'ogimagewidth' => '1600',
+    'ogimageheight' => '800',
 	'title' => 'Jakata Salon - ' . $blog->title . '- Hairdressers in Warrington'
 	])
 @stop
