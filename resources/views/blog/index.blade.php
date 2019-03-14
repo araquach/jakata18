@@ -24,7 +24,7 @@
                 <img src="{{ $blog->paras()->first()->para_pic }}" alt="{{ $blog->paras()->first()->para_pic_alt }}" style="height: 70%; width: 70%;">
             </div>
             
-                <p>{{ $blog->paras()->first()->para }}</p>
+                <p>{!! addTag $blog->paras()->first()->para !!}</p>
                 <p><a href="{{ URL::to('blog') }}/{{ $blog->slug }}" class="back-and-to">Read more &gt;</a></p>
                 <p class="author">Published by {{ $blog->author }}</p>
                 <time datetime="{{-- $blog->created_at --}}">{{ $blog->created_at->format('d F Y') }}</time>
