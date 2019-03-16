@@ -10,9 +10,9 @@
 		<div class="main container">
 			<header>
 				<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-					<div class="navbar-brand">
+					<div class="navbar-brand is-hidden-desktop">
 						<a href="{{ URL::to('/') }}" class="navbar-item">
-							<img src="{{ asset('images/logos/jakata_logo.png') }}">
+							<img src="{{ asset('images/main/jakata_logo.png') }}">
 						</a>
 						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 							<span aria-hidden="true"></span>
