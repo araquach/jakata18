@@ -28,7 +28,29 @@
 						{!! link_to('prices', 'Prices', ['class' => 'navbar-item']) !!}
 						{!! link_to('blog', 'Blog', ['class' => 'navbar-item']) !!}
 						{!! link_to('details', 'Contact', ['class' => 'navbar-item']) !!}
+
+						<div class="navbar-item has-dropdown is-hoverable">
+							<a class="navbar-link">
+								More
+							</a>
+							<div class="navbar-dropdown">
+								{!! link_to('reviews', 'Reviews', ['class' => 'navbar-item']) !!}
+								{!! link_to('prices', 'Prices', ['class' => 'navbar-item']) !!}
+							</div>
+						</div>
 					</div>
+					<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="buttons">
+							<a href="{!! URL::to('details') !!}" class="button is-primary">
+								Contact
+							</a>
+							<a class="button is-light" href="{!! URL::to('booking') !!}">
+								Book Now
+							</a>
+						</div>
+					</div>
+				</div>
 				</div>
 			</nav>
 		</div>
