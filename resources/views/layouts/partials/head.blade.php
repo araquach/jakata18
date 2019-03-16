@@ -32,7 +32,6 @@
 	</script>
   
   <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}" />
-	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ mix('css/mob.css') }}" />
   <link rel="stylesheet" href="https://use.typekit.net/wun6xai.css">
 	
 	{{-- Phorest online booking styling --}}
