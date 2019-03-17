@@ -21,7 +21,7 @@
 						</a>
 					</div>
 
-					<div class="navbar-menu">
+					<div id="navbarBasicExample" class="navbar-menu">
 						<div class="navbar-start">
 							{!! link_to('/', 'Home', ['class' => 'navbar-item']) !!}
 							{!! link_to('recruitment', 'Recruitment', ['class' => 'navbar-item']) !!}
