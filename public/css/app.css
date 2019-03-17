@@ -12390,7 +12390,15 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+body {
+  background: url("/images/main/titanium.jpg") repeat-x left top #51565f;
+}
+
+.main {
+  background-color: #FFF;
+}
+
 nav {
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 
