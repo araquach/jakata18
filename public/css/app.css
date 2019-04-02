@@ -1072,8 +1072,9 @@ nav li a:hover {
 	font-size: 1.4em;
 	color: black;
 	position: absolute;
-	bottom: -70px;
+	bottom: -80px;
 	left: 10px;
+	line-height: 1em;
 }
 
 #jimmy {
