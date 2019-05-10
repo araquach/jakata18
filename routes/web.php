@@ -23,6 +23,7 @@ Route::get('/recruitment', 'PagesController@recruitment');
 Route::get('/offers', 'PagesController@offers');
 // Route::get('/prices', 'PagesController@prices');
 Route::get('/booking', 'PagesController@booking');
+Route::get('/reviews', 'PagesController@reviews');
 Route::get('/team', 'PagesController@team');
 Route::get('/team/{team?}', 'PagesController@teamInd');
 Route::get('/salon', 'PagesController@salon');
