@@ -21,7 +21,7 @@ Route::get('/news', 'PagesController@news');
 Route::get('/oldnews', 'PagesController@oldnews');
 Route::get('/recruitment', 'PagesController@recruitment');
 Route::get('/offers', 'PagesController@offers');
-Route::get('/prices', 'PagesController@prices');
+// Route::get('/prices', 'PagesController@prices');
 Route::get('/booking', 'PagesController@booking');
 Route::get('/team', 'PagesController@team');
 Route::get('/team/{team?}', 'PagesController@teamInd');

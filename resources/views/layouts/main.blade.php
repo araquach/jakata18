@@ -67,7 +67,7 @@
 						<!--<li>{!! link_to('offers', 'Offers') !!}</li>-->
 						<li>{!! link_to('recruitment', 'Recruitment') !!}</li>
 						<li>{!! link_to('team', 'Team') !!}</li>
-						<li>{!! link_to('prices', 'Prices') !!}</li>
+						<!-- <li>{!! link_to('prices', 'Prices') !!}</li> -->
 						<li>{!! link_to('blog', 'Blog') !!}</li>
 						<li>{!! link_to('details', 'Contact') !!}</li>
 					</ul>
