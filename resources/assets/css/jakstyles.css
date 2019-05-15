@@ -1532,25 +1532,21 @@ div.row textarea {
 	margin-top: 60px;
 }
 
-#offer_copy {
-	width: 550px;
-	margin-left: 70px;
+#offer-copy {
+	width: 700px;
+	margin-left: 80px;
 }
 
 #offer1, #offer2, #offer3, #offer4 {
-	width: 590px;
-	height: 220px;
-	margin-left: 75px;
+	width: 700px;
+	height: 250px;
+	margin-left: 100px;
 	margin-top: 20px;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 10px;
 	-moz-box-shadow: 2px 2px 6px #050505;
 	-webkit-box-shadow: 2px 2px 6px #050505;
 	box-shadow: 2px 2px 6px #050505;
-}
-
-#offers h1 {
-	margin-left: 80px;
 }
 
 #offers h2 {
@@ -1576,20 +1572,20 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(/images/offers/white_angles.jpg) no-repeat #fefefe;
+	background: url(/images/offers/individual/lauren_montage.png) no-repeat #fefefe;
 	margin-bottom: 30px;
 	background-size: contain;
 }
 
 #offer2 {
-	background: url(/images/offers/men.jpg) no-repeat #fefefe;
+	background: url(/images/offers/individual/abbi_montage.png) no-repeat #fefefe;
 	margin-bottom: 30px;
 	background-size: contain;
 	
 }
 
 #offer3 {
-	background: url(/images/offers/kebelo.jpg) no-repeat #fefefe;
+	background: url(/images/offers/individual/layla_montage.png) no-repeat #fefefe;
 	margin-bottom: 30px;
 	background-size: contain;
 }
@@ -1602,7 +1598,7 @@ div.row textarea {
 
 #offer1 h2, #offer2 h2, #offer3 h2, #offer4 h2 {
 	text-align: left;
-	margin-left: 280px;
+	margin-left: 350px;
 	margin-bottom: .5em;
 	padding: 0;
 	font-size: 1.5em;
@@ -1616,14 +1612,14 @@ span.big {
 #offer1 p, #offer2 p, #offer3 p, #offer4 p {
 	padding: 0;
 	margin: 0;
-	margin-left: 280px;
+	margin-left: 350px;
 	font-size: 1em;
 	margin-bottom: .5em;
 	width: 300px;
 }
 
 #offer1 small, #offer2 small, #offer3 small, #offer4 small {
-	margin-left: 280px;
+	margin-left: 350px;
 	font-size: .6em;
 	width: 250px;
 	display: block;
@@ -1631,7 +1627,7 @@ span.big {
 
 
 .book_button {
-	margin-left: 80px;
+	margin-left: 120px;
 	width: 200px;
 	height: 130px;
 	text-align: center;
