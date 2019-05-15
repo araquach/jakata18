@@ -143,6 +143,11 @@ class PagesController extends Controller {
 		return view('pages.mattsback');
 	}
 
+	public function offerAll()
+	{
+		return view('pages.offers.all');
+	}
+
 	public function offerGeorgia()
 	{
 		return view('pages.offers.georgia');
