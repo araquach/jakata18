@@ -16,11 +16,11 @@ mix.styles([
     'resources/assets/css/normalize.css',
     'resources/assets/css/jakstyles.css',
     'resources/assets/css/form.css'
-], 'public/css/app.css');
+], 'public/css/app.css').version();
 
 mix.styles([
     'resources/assets/css/mobile.css'
-], 'public/css/mob.css');
+], 'public/css/mob.css').version();
 
 mix.scripts([
     'resources/assets/js/jquery.js',
