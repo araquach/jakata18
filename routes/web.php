@@ -27,6 +27,7 @@ Route::get('/team', 'PagesController@team');
 Route::get('/team/{team?}', 'PagesController@teamInd');
 Route::get('/salon', 'PagesController@salon');
 
+Route::get('/offer/all', 'PagesController@offerAll');
 Route::get('/offer/georgia', 'PagesController@offerGeorgia');
 Route::get('/offer/abbi', 'PagesController@offerAbbi');
 Route::get('/offer/layla', 'PagesController@offerLayla');
