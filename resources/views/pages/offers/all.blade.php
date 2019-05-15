@@ -7,7 +7,7 @@
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => '20% off with certain stylists',
 	'ogdescription' => 'A few of our stylists are still looking to build their client bases. Both Layla and Abbi have been working their way up the ranks with recent promotions and Lauren only joined us at the start of the year and is creating some amazing styles!',
-	'ogimage' => url('/') . '/images/offers/individual/offer_all.jpg',
+	'ogimage' => url('/') . '/images/offers/individual/offers_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Special Offers - Hairdressers in Warrington'
