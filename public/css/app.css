@@ -2088,20 +2088,20 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(/images/offers/individual/lauren_montage.png) no-repeat #fefefe;
+	background: url(/images/offers/individual/lauren.jpg) no-repeat #fefefe;
 	margin-bottom: 30px;
 	background-size: contain;
 }
 
 #offer2 {
-	background: url(/images/offers/individual/abbi_montage.png) no-repeat #fefefe;
+	background: url(/images/offers/individual/abbi.jpg) no-repeat #fefefe;
 	margin-bottom: 30px;
 	background-size: contain;
 	
 }
 
 #offer3 {
-	background: url(/images/offers/individual/layla_montage.png) no-repeat #fefefe;
+	background: url(/images/offers/individual/layla.jpg) no-repeat #fefefe;
 	margin-bottom: 30px;
 	background-size: contain;
 }
@@ -2114,7 +2114,7 @@ div.row textarea {
 
 #offer1 h2, #offer2 h2, #offer3 h2, #offer4 h2 {
 	text-align: left;
-	margin-left: 350px;
+	margin-left: 300px;
 	margin-bottom: .5em;
 	padding: 0;
 	font-size: 1.5em;
@@ -2128,14 +2128,14 @@ span.big {
 #offer1 p, #offer2 p, #offer3 p, #offer4 p {
 	padding: 0;
 	margin: 0;
-	margin-left: 350px;
+	margin-left: 300px;
 	font-size: 1em;
 	margin-bottom: .5em;
 	width: 300px;
 }
 
 #offer1 small, #offer2 small, #offer3 small, #offer4 small {
-	margin-left: 350px;
+	margin-left: 300px;
 	font-size: .6em;
 	width: 250px;
 	display: block;

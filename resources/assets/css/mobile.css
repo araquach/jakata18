@@ -328,6 +328,12 @@ li.active a {
 	padding-bottom: 50px;
 }
 
+#offer-copy {
+	width: auto;
+	margin: auto;
+	padding: 20px
+}
+
 #offers #offer1 p.large {
 	font-size: 1.2em;
 	font-weight: bold;
@@ -362,8 +368,8 @@ li.active a {
 #offer1, #offer2, #offer3, #offer4 {
 	width: auto;
 	margin: auto;
-	max-width: 250px;
-	height: 520px;
+	max-width: 350px;
+	height: 780px;
 	margin-top: 20px;
 	border-radius: 20px;
 	-moz-box-shadow: 2px 2px 6px #050505;
@@ -372,10 +378,6 @@ li.active a {
 	position: relative;
 	padding: 20px;
 	
-}
-
-#offers h1 {
-	margin-left: 20px;
 }
 
 #offers h2 {
@@ -403,7 +405,7 @@ li.active a {
 
 #offer1 h2, #offer2 h2, #offer3 h2, #offer4 h2 {
 	text-align: left;
-	margin-top: 290px;
+	margin-top: 500px;
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: .5em;
