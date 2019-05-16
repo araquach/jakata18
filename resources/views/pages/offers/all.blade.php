@@ -59,7 +59,7 @@
 		</section>
 	</a>
 	
-	{!! link_to('contact', "Book now", array('class'=>'book_button')) !!}
+	{!! link_to('booking', "Book now", array('class'=>'book_button')) !!}
 	
 </section> <!--end #offers-->
 
