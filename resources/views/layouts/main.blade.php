@@ -9,11 +9,9 @@
 	<div id="main">
 		<div class="main container">
 			<header class="columns">
-				<div class="column is-two-thirds-desktop">
-					<div class="desktop-logo is-hidden-mobile">
-						<figure class="image">
-							<img src="/images/main/jakata_logo.png" alt="">
-						</figure>
+				<div class="column is-7">
+					<div class="desktop-logo is-hidden-">
+						<img src="/images/main/jakata_logo.png" alt="">
 					</div>
 					<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
 						<div class="navbar-brand is-hidden-desktop">
@@ -58,7 +56,7 @@
 			
 			<footer class="footer">
 				
-				<div class="columns is-mobile">
+				<!-- <div class="columns is-mobile">
 					<div class="column">
 						<a href="http://www.schwarzkopf-professional.com/" target="_blank">
 							<figure class="image is-110x80">
@@ -101,7 +99,7 @@
 							</figure>
 						</a>
 					</div>
-				</div>
+				</div> -->
 			
 				<div class="social columns is-mobile">
 					<div class="column">
@@ -114,7 +112,7 @@
 							<img src="{{ asset('images/footer/social/instagram.png') }}">
 						</a>
 					</div>
-					<div class="column">
+					<div class="column" target="_blank">
 						<a href="">
 							<img src="{{ asset('images/footer/social/twitter.png') }}">
 						</a>
