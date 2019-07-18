@@ -105,7 +105,7 @@ header {
 	position: absolute;
 	top: 20px;
 	z-index: 3;
-	
+
 }
 
 header h1, header h2 {
@@ -293,7 +293,7 @@ nav li a:hover {
 	padding-right: 15px;
 	font-size: .9em;
 	list-style-type: none;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-style: italic;
 }
 
@@ -385,7 +385,7 @@ nav li a:hover {
 
 /* @end */
 
-/* @group Team */	
+/* @group Team */
 
 #team {
 	width: 950px;
@@ -444,7 +444,7 @@ nav li a:hover {
 	padding-right: 15px;
 	font-size: 1em;
 	list-style-type: none;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-style: italic;
 }
 
@@ -566,7 +566,7 @@ nav li a:hover {
 	top: 280px;
 	right: 50px;
 	background: url('/images/team/jimmy.jpg') no-repeat left top #FFF;
-	
+
 	transform:rotate(-2deg);
 	-ms-transform:rotate(-2deg); /* IE 9 */
 	-moz-transform:rotate(-2deg); /* Firefox */
@@ -623,7 +623,7 @@ nav li a:hover {
 	-webkit-transform:rotate(2deg); /* Safari and Chrome */
 	-o-transform:rotate(2deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
-	
+
 }
 
 #layla {
@@ -870,7 +870,7 @@ time {
 #accordion {
 	width: 90%;
 	margin-left: 40px;
-	
+
 }
 
 #accordion article.article:first-of-type {
@@ -890,7 +890,7 @@ time {
 	min-height: 200px;
 }
 
-a.anchor { 
+a.anchor {
 	position: absolute;
 	top: -150px;
 }
@@ -996,7 +996,7 @@ a.anchor {
 	margin: 10px 0 20px 0px;
 	border: 1px solid #333;
 	padding: 5px;
-	
+
 }
 
 
@@ -1034,7 +1034,7 @@ p.reveal {
 
 
 .reveal:hover {
-	
+
 	cursor: pointer;
 	opacity: 1;
 }
@@ -1205,7 +1205,7 @@ p.reveal {
 	padding-bottom: 200px;
 }
 
-#recruitAdmin h1, 
+#recruitAdmin h1,
 #recruitAdmin p,
 #recruitAdmin a.search-button  {
 	margin: 10px 40px;
@@ -1274,13 +1274,13 @@ section#recruitment h1 {
 	text-decoration: none;
 	border-radius: 10px;
 	-webkit-transition: all .3s ease-in-out 0s;
-	-moz-transition: all .3s ease-in-out 0s;	
+	-moz-transition: all .3s ease-in-out 0s;
 	transition: all .3s ease-in-out;
-	
+
 }
 
 #recruitment a:hover {
-	color: black;	
+	color: black;
 	background-color: #d7d8e1;
 }
 
@@ -1391,7 +1391,7 @@ div.row textarea {
 	width: 150px;
 	margin-right: 25px;
 	margin-bottom: 15px;
-	
+
 }
 
 #adex label {
@@ -1581,7 +1581,7 @@ div.row textarea {
 	background: url(/images/offers/individual/abbi.jpg) no-repeat #fefefe;
 	margin-bottom: 30px;
 	background-size: contain;
-	
+
 }
 
 #offer3 {
@@ -1905,7 +1905,7 @@ a.book-now:hover {
 	margin-bottom: .6em;
 	margin-top: .6em;
 	font-weight: bold;
-	
+
 }
 
 #special_offer_copy p.small {
@@ -1937,8 +1937,8 @@ a.book-now:hover {
   margin-left: 0;
 }
 
-#special_offer_copy .form input, 
-#special_offer_copy .form textarea, 
+#special_offer_copy .form input,
+#special_offer_copy .form textarea,
 #special_offer_copy .form select {
   margin: 0.2em 0 1em 0;
   padding: 5px;
@@ -2023,8 +2023,8 @@ div.form .errorSummary ul li {
 #catwalk p.link {
 	font-size: 1em;
 	margin-top: 20px;
-	
-	
+
+
 }
 
 #catwalk img {
@@ -2071,10 +2071,10 @@ div.form .errorSummary ul li {
 	margin-bottom: 40px;
 }
 
-#galleria { 
-	width: 500px; 
+#galleria {
+	width: 500px;
 	height: 700px;
-	margin-left: 50px; 
+	margin-left: 50px;
 	margin-bottom: 30px;
 	background-color: #FFF;
 	border: 1px solid #FFF;
@@ -2428,7 +2428,7 @@ span.kebelo_italic {
 	-moz-transition: all .2s ease-in-out 0s;;
 	-webkit-transition: all .2s ease-in-out 0s;
 	transition: all .2s ease-in-out 0s;
-	
+
 }
 
 #advantage_link p:hover,
@@ -3182,7 +3182,7 @@ footer {
 #prodcomps li {
 	display: inline;
 	margin: 30px;
-	
+
 }
 
 #prodcomps li a img {
@@ -3380,7 +3380,7 @@ ul.stylist-filter li.review-lucy {
 }
 
 #potential {
-	background: #f5f5f5 url('/images/potential/schwarzkopf.jpg') no-repeat 590px 270px; 
+	background: #f5f5f5 url('/images/potential/schwarzkopf.jpg') no-repeat 590px 270px;
 	background-size: 31.5%;
 	width: 950px;
 	background-color: #f5f5f5;
@@ -3425,7 +3425,7 @@ ul.stylist-filter li.review-lucy {
 }
 
 .photographic-copy-img-1,
-.photographic-copy-img-2, 
+.photographic-copy-img-2,
 .photographic-copy-img-3 {
 	width: 155px;
 	height: 155px;
@@ -3559,10 +3559,15 @@ ul.stylist-filter li.review-lucy {
 	float: left;
 }
 
-#relocation_map {
+#relocation_image {
+	background: url('/images/relocate/base_relocate.jpg') no-repeat center top;
+	background-size: cover;
 	float: right;
-	margin-top: 40px;
-	margin-right: 40px;
+	width: 350px;
+	height: 800px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: red;
 }
 
 /* mattsback */
