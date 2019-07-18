@@ -38,7 +38,7 @@ Route::get('/offer/lucy', 'PagesController@offerLucy');
 Route::get('/trainee', 'PagesController@trainee');
 Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
-Route::get('/relocation', 'PagesController@relocation');
+Route::get('/base', 'PagesController@relocation');
 Route::get('/mattsback', 'PagesController@mattsback');
 
 Route::get('/prospect/emailmale', 'ProspectController@emailMale');
@@ -60,11 +60,11 @@ Route::get('/bighairdo', 'CampaignRespondantController@hairdo');
 
 Route::get('/admin', 'AdminController@index');
 
-Route::get('contact', 
+Route::get('contact',
   ['as' => 'contact', 'uses' => 'ContactController@create']);
-Route::post('sendEmail', 
+Route::post('sendEmail',
   ['as' => 'sendEmail', 'uses' => 'ContactController@sendEmail']);
-  
+
 Route::resource('apprentice', 'ApprenticeController');
 Route::resource('stylist', 'StylistController');
 
@@ -93,12 +93,12 @@ Route::get('feedback/{client}',
   ['as' => 'feedbackCreate', 'uses' => 'FeedbackController@create']);
 Route::post('feedback/store',
   ['uses' => 'FeedbackController@store']);
-  
+
 Route::get('stylist/{stylist}/note',
   ['as' => 'stylistNoteCreate', 'uses' => 'StylistController@createNote']);
 Route::post('stylist/note',
   ['uses' => 'StylistController@storeNote']);
-  
+
 Route::get('apprentice/{apprentice}/note',
   ['as' => 'apprenticeNoteCreate', 'uses' => 'ApprenticeController@createNote']);
 Route::post('apprentice/note',
@@ -110,7 +110,7 @@ Route::get('offer2/{client}',
   ['uses' => 'OfferController@show2']);
 Route::patch('offer/{client}',
   ['as' => 'offerUpdate', 'uses' => 'OfferController@update']);
-  
+
 Route::get('/potential', 'PotentialEmployeeController@index');
 Route::get('/potential/{potential}', 'PotentialEmployeeController@edit');
 Route::patch('potential/{potential}', 'PotentialEmployeeController@update');
