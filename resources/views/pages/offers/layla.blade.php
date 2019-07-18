@@ -1,4 +1,4 @@
-@extends('layouts.main') 
+@extends('layouts.main')
 
 @section('head')
 
@@ -12,7 +12,7 @@
 	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Layla Offer - Hairdressers in Warrington'
 	])
-	
+
 @stop
 
 @section('content')
@@ -34,7 +34,7 @@
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 
 		<p>Just mention the offer at the time of your visit</p>
-		<p class="small">(Offer ends 30/06/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+		<p class="small">(Offer ends 30/08/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 
 		<p class="link"><a href="{{ URL::to('team/layla') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
