@@ -4076,6 +4076,8 @@ ul.stylist-filter li.review-lucy {
 }
 
 #relocation_image {
+	background: url('/images/relocate/base_relocate.jpg') no-repeat center top;
+	background-size: cover;
 	float: right;
 	width: 350px;
 	height: 800px;
