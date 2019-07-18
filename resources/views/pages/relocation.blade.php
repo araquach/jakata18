@@ -32,9 +32,7 @@
 
 	</div>
 
-	<div id="relocation_map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.509883674731!2d-2.59685734846206!3d53.387818379206735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b023ee604efc1%3A0xbbe14f8bab54d21d!2s27+Rylands+St%2C+Warrington!5e0!3m2!1sen!2suk!4v1510859975204" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
+	<div id="relocation_image"></div>
 
 </section>
 <!--team-->
