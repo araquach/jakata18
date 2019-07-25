@@ -2794,6 +2794,10 @@ ul.stylist-filter {
 	padding: 20px;
 }
 
+#potential-copy p {
+	font-size: 1.2em;
+}
+
 #interior {
 	float: left;
 	clear: left;
