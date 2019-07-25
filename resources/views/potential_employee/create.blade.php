@@ -62,7 +62,7 @@
 			</div>
 		</div>
 		<div class="excitement">
-			<p>We're looking for new stylists and apprentices to join our team - if you're a stylist at any level or looking for an apprentiship then Jakata could be the salon for you!</p>
+			<p>We're looking for new stylists and apprentices to join our team - if you're a stylist at any level or looking for an apprenticeship then Jakata could be the salon for you!</p>
 			<p><strong>If you're interested in joining us - leave your details here and we'll be in touch soon!</strong></p>
 		</div>
 	</div>
