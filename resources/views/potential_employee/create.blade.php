@@ -29,9 +29,9 @@
 		<h1>We're looking for talented, dynamic hairdressers and apprentices to join our team!</h1>
 		<p><strong>Jakata is a fashion forward hair salon based in Warrington town centre.</strong></p>
 		<p>In the 15 years we've been around we've built up a strong reputation, winning numerous awards and creating some incredible, cutting edge styles.
-		<em>We also pride ourselves in giving the best customer experience. We have over 200 5 star Google reviews!<a href="{{ URL::to('reviews') }}"> (just check out our reviews here if you don't believe us!)</a></em></p>
+		<em>We also pride ourselves in giving the best customer experience. We have over 200 5 star Google reviews!<a href="{{ URL::to('reviews') }}" target="_blank">(just check out our reviews here if you don't believe us!)</a></em></p>
 		<p>We've built up our team gradually over the years, with ongoing training and development. Regular external and internal training and access to the best products on the market.</p>
-		<p>We've entered numerous hairdressing competitions and we're massively into producing ultra edgy hairstyles and creative colours. <a href="https://www.instagram.com/jakatasalon1/"></a>Check out our Instagram to see our latest work</p>
+		<p>We've entered numerous hairdressing competitions and we're massively into producing ultra edgy hairstyles and creative colours. <a href="https://www.instagram.com/jakatasalon1/" target="_blank">Check out our Instagram to see our latest work</a></p>
 
 		<div class="interior-copy-img-1"></div>
 		<div class="interior-copy-img-2"></div>
