@@ -3410,7 +3410,7 @@ ul.stylist-filter li.review-lucy {
 	padding-left: 60px;
 }
 
-#photographic {
+#interior {
 	float: left;
 	clear: both;
 	width: 830px;
@@ -3447,6 +3447,7 @@ ul.stylist-filter li.review-lucy {
 	background: url('/images/potential/internal_2.jpg') no-repeat center top;
 	background-size: cover;
 }
+
 
 .interior-copy img {
 	margin-top: 30px;
@@ -3567,7 +3568,6 @@ ul.stylist-filter li.review-lucy {
 	height: 800px;
 	margin-top: 20px;
 	margin-right: 20px;
-	background-color: red;
 }
 
 /* mattsback */

@@ -28,7 +28,12 @@
 		<p>I hope you're as excited as us about the move, we're confident the transition will be smooth and you'll love the new salon! (Though there might be a couple of teething problems along the way! Hopefully not too many!)</p>
 		<p><em>If you have any questions regarding the changes, don't hesitate to get in touch by calling Jakata on 01925 242960</em></p>
 		<p>Our new phone number for Base Hairdressing is 01925 444449 and will be in use from the date we open</p>
+
+		<a href="{{ URL::to('blog/major-revamp') }}">Read our Blog post about the revamp of the old Jakata premises</a>
+
 		<p><strong>We look forward to seeing you in Base!</strong></p>
+
+
 
 	</div>
 
