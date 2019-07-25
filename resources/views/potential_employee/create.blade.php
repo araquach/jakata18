@@ -32,15 +32,13 @@
 		<em>We also pride ourselves in giving the best customer experience. We have over 200 5 star Google reviews!<a href="{{ URL::to('reviews') }}"> (just check out our reviews here if you don't believe us!)</a></em></p>
 		<p>We've built up our team gradually over the years, with ongoing training and development. Regular external and internal training and access to the best products on the market.</p>
 		<p>We've entered numerous hairdressing competitions and we're massively into producing ultra edgy hairstyles and creative colours. <a href="https://www.instagram.com/jakatasalon1/"></a>Check out our Instagram to see our latest work</p>
-			<div id="interior">
-				<div class="interior-copy">
-					<p></p>
-					<div class="interior-copy-img-1"></div>
-					<div class="interior-copy-img-2"></div>
-					<div class="interior-copy-img-3"></div>
-				</div>
-				<div class="interior-image"></div>
-			</div>
+
+		<div class="interior-copy-img-1"></div>
+		<div class="interior-copy-img-2"></div>
+		<div class="interior-copy-img-3"></div>
+
+		<div class="interior-image"></div>
+
 		<div id="testimonials">
 			<h2>See what some of our current team members have to say&hellip;</h2>
 			<div class="testimonial">
