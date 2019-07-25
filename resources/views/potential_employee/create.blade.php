@@ -5,7 +5,7 @@
 @include('layouts.partials.head', [
 	'description' => 'Are you looking to join a dynamic hairdressing team?',
 	'keywords' => 'hair recruitment warrington, hairdressing jobs warrington, stylist jobs warrington',
-	'ogtitle' => 'We\'re looking for talented, dynamic hairdressers to join our team',
+	'ogtitle' => 'We\'re looking for talented, dynamic hairdressers and apprentices to join our team',
 	'ogdescription' => 'In the 15 years we\'ve been around we\'ve built up a strong reputation, winning numerous awards and creating some incredible, cutting edge styles.
 	We also pride ourselves in giving the best customer experience. We\'ve built up our team gradually over the years, with ongoing training and development. Regular external and internal training and access to the best products on the market.',
 	'ogimage' => url('/') . '/images/potential/join_fb.jpg',
