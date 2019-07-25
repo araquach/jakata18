@@ -3416,7 +3416,7 @@ ul.stylist-filter li.review-lucy {
 	width: 830px;
 }
 
-.photographic-copy {
+.interior-copy {
 	width: 500px;
 	float: left;
 	clear: left;
@@ -3424,35 +3424,35 @@ ul.stylist-filter li.review-lucy {
 	margin-bottom: 40px;
 }
 
-.photographic-copy-img-1,
-.photographic-copy-img-2,
-.photographic-copy-img-3 {
+.interior-copy-img-1,
+.interior-copy-img-2,
+.interior-copy-img-3 {
 	width: 155px;
 	height: 155px;
 	float: left;
 	margin-right: 10px;
 }
 
-.photographic-copy-img-1 {
+.interior-copy-img-1 {
 	background: url('/images/potential/yellow_hair.jpg') no-repeat center top;
 	background-size: cover;
 }
 
-.photographic-copy-img-2 {
+.interior-copy-img-2 {
 	background: url('/images/potential/colours.jpg') no-repeat center top;
 	background-size: cover;
 }
 
-.photographic-copy-img-3 {
+.interior-copy-img-3 {
 	background: url('/images/potential/internal_2.jpg') no-repeat center top;
 	background-size: cover;
 }
 
-.photographic-copy img {
+.interior-copy img {
 	margin-top: 30px;
 }
 
-.photographic-image {
+.interior-image {
 	float: right;
 	width: 300px;
 	height: 320px;
@@ -3460,7 +3460,7 @@ ul.stylist-filter li.review-lucy {
 	background-size: cover;
 }
 
-.photographic-image p {
+.interior-image p {
 	font-size: .7em;
 	text-align: center;
 	margin-top: 350px;
@@ -3492,17 +3492,17 @@ ul.stylist-filter li.review-lucy {
 }
 
 .testimonial-img-1 {
-	background: url('/images/potential/laura.jpg') no-repeat center top;
+	background: url('/images/potential/georgia.jpg') no-repeat center top;
 	background-size: cover;
 }
 
 .testimonial-img-2 {
-	background: url('/images/potential/jimmy.jpg') no-repeat center top;
+	background: url('/images/potential/lauren.jpg') no-repeat center top;
 	background-size: cover;
 }
 
 .testimonial-img-3 {
-	background: url('/images/potential/layla.jpg') no-repeat center top;
+	background: url('/images/potential/lucy.jpg') no-repeat center top;
 	background-size: cover;
 }
 
