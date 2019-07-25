@@ -43,26 +43,26 @@
 				<div class="testimonial-img-1"></div>
 				<div class="testimonial-copy">
 					<h3>Georgia Lutton (Stylist)</h3>
-					<p>&quot;I joined the Jakata team ?? years ago and haven't looked back! I love as a team how we bounce ideas off each other, giving the inspiration to produce the latest on trend colours and styles. The ongoing training and creative workshops keep us up to date with the latest styles.&quot;</p>
+					<p>&quot;I joined the Jakata team nearly 2 years ago and haven't looked back! I love as a team how we bounce ideas off each other, giving the inspiration to produce the latest on trend colours and styles. The ongoing training and creative workshops keep us up to date with the latest styles.&quot;</p>
 				</div>
 				</div>
 			<div class="testimonial">
 				<div class="testimonial-img-2"></div>
 				<div class="testimonial-copy">
 					<h3>Lauren Thompson (Graduate Stylist)</h3>
-					<p>&quot;I started at Jakata earlier this year and was made to feel instantly welcome. I feel like I'm progressing fast and close to being promoted to the next level. I love the warm, welcoming vibe of the salon which makes our clients feel relaxed&quot;</p>
+					<p>&quot;I started at Jakata earlier this year and was made to feel instantly welcome. I feel like I'm progressing fast and close to being promoted to the next level. I love the warm, welcoming vibe of the salon which makes our clients feel really relaxed&quot;</p>
 				</div>
 			</div>
 			<div class="testimonial">
 				<div class="testimonial-img-3"></div>
 				<div class="testimonial-copy">
 					<h3>Lucy Watson (Junior Stylist)</h3>
-					<p>&quot;I transferred my apprenticeship to Jakata and never looked back! I'm close to qualifying and already building up a client base. I love working in such a vibrant salon with great one on one training.&quot;</p>
+					<p>&quot;I transferred my apprenticeship to Jakata and absolutely love it! I'm close to qualifying and already building up my client base. I love working in such a vibrant salon with great one on one training from such talented stylists&quot;</p>
 				</div>
 			</div>
 		</div>
 		<div class="excitement">
-			<p>We're looking for new talent to join our team - if you're a stylist at any level or looking for an apprentiship then Jakata could be the salon for you!</p>
+			<p>We're looking for new stylists and apprentices to join our team - if you're a stylist at any level or looking for an apprentiship then Jakata could be the salon for you!</p>
 			<p><strong>If you're interested in joining us - leave your details here and we'll be in touch soon!</strong></p>
 		</div>
 	</div>
