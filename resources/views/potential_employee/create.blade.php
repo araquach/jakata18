@@ -37,8 +37,6 @@
 		<div class="interior-copy-img-2"></div>
 		<div class="interior-copy-img-3"></div>
 
-		<div class="interior-image"></div>
-
 		<div id="testimonials">
 			<h2>See what some of our current team members have to say&hellip;</h2>
 			<div class="testimonial">
