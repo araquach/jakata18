@@ -1,4 +1,4 @@
-@extends('layouts.main') 
+@extends('layouts.main')
 
 @section('head')
 
@@ -12,7 +12,7 @@
 	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Lucy Apprentice - Hairdressers in Warrington'
 	])
-	
+
 @stop
 
 @section('content')
@@ -22,21 +22,20 @@
 <section id="ind-offer">
 
 	<div class="ind-offer-copy">
-		<h1>Apprentice Lucy is Taking on More clients</h1>
-		<h2>A Colour &amp; Cut from just &pound;20!</h2>
-		<p>At Jakata we train and develop our stylists to the highest standards. Lucy has reached the point in her apprenticeship where she needs loads of clients!</p>
-		<p><strong>She's progressing at an amazing rate and is now looking to get as much experience as possible.</strong></p>
+		<h1>Special Offer with Lucy</h1>
+		<h2>A Colour &amp; Cut for just &pound;40!</h2>
+		<p>Lucy is producing some incredible work! Take advantage of this special price with her for a limited time</p>
+		<p><strong>She's progressing at an amazing rate so it won't be long until she's promoted and her prices go up!</strong></p>
 	</div>
 
 	<div id="ind-offer-img-lucy"></div>
 
 	<div class="ind-offer-copy">
-		<p>A junior stylist like Lucy produces high quality work at a fraction of the price of a fully qualified stylist. All work is fully supervised and checked by a senior stylist.</p>
 
 		<p><strong>Come in for a FREE consultation and if you like the ideas Lucy comes up with get booked in with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 		<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>
-
+		<p class="small">(Offer ends 27/09/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 		<p class="link"><a href="{{ URL::to('team/lucy') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
 
