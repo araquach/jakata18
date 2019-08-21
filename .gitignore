@@ -13,3 +13,7 @@ yarn-error.log
 .env
 resources/views/layouts/jakata.sublime-project
 resources/views/layouts/jakata.sublime-workspace
+.DS_Store
+.DS_Store
+public/.DS_Store
+public/images/.DS_Store
