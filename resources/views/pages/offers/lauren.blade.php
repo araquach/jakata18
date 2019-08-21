@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Special introductory offer with our new Graduate Stylist Lauren',
+	'description' => 'Special offer with our Graduate Stylist Lauren',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
-	'ogtitle' => 'Special introductory offer with our new Graduate Stylist Lauren',
-	'ogdescription' => 'Lauren is our latest addition to the team and is already producing some outstanding, fashion forward styles!',
+	'ogtitle' => 'Special offer with our talented Graduate Stylist Lauren',
+	'ogdescription' => 'Lauren is producing some outstanding, fashion forward styles!',
 	'ogimage' => url('/') . '/images/offers/individual/lauren_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -22,9 +22,9 @@
 <section id="ind-offer">
 
 	<div class="ind-offer-copy">
-		<h1>Special introductory offer with our latest Graduate Stylist Lauren</h1>
-		<p>Lauren is our latest addition to the team and is already producing some outstanding, fashion forward styles!</p>
-		<p><strong>She's eager to build her client base so has this amazing offer for a limited time&hellip;</strong></p>
+		<h1>Special offer with our Graduate Stylist Lauren</h1>
+		<p>Lauren is producing some outstanding, fashion forward styles!</p>
+		<p><strong>She's eager to build her client base further so has this amazing offer for a limited time&hellip;</strong></p>
 	</div>
 
 	<div id="ind-offer-img-lauren"></div>

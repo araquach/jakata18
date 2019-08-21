@@ -22,7 +22,7 @@
 <section id="ind-offer">
 
 	<div class="ind-offer-copy">
-		<h1>Special offer with Abbi</h1>
+		<h1>Special introductory offer with Abbi</h1>
 		<p>Abbi is flying up the ranks and the quality of her work is second to none! Check out some of her recent looks in the pics!</p>
 		<p><strong>If you're considering a new stylist then take advantage of this great offer with her&hellip;</strong></p>
 	</div>

@@ -3,14 +3,14 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'At Jakata we train and develop stylists and expect the highest standards of work. Lucy has reached the point in her apprenticeship where she needs loads of clients!',
+	'description' => 'Lucy is producing some incredible work! Take advantage of this special price with her for a limited time',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
-	'ogtitle' => 'Apprentice Lucy is Taking on More clients',
-	'ogdescription' => 'At Jakata we train and develop stylists and expect the highest standards of work. Lucy has reached the point in her apprenticeship where she needs loads of clients!',
+	'ogtitle' => 'Lucy is Taking on More clients',
+	'ogdescription' => 'Lucy is producing some incredible work! Take advantage of this special price with her for a limited time',
 	'ogimage' => url('/') . '/images/offers/individual/lucy_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
-	'title' => 'Jakata Salon - Lucy Apprentice - Hairdressers in Warrington'
+	'title' => 'Jakata Salon - Lucy Offer - Hairdressers in Warrington'
 	])
 
 @stop
