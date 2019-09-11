@@ -2965,3 +2965,18 @@ ul.stylist-filter {
 	padding: 20px;
 	padding-top: 0;
 }
+
+/* mattsback */
+
+#base {
+	width: auto;
+	padding-top: 40px;
+	padding-bottom: 200px;
+	float: left;
+}
+
+#base-copy {
+	width: auto;
+	margin-left: 0;
+	padding: 20px;
+}
