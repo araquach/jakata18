@@ -2966,17 +2966,74 @@ ul.stylist-filter {
 	padding-top: 0;
 }
 
-/* mattsback */
+/* base */
 
 #base {
 	width: auto;
+	padding: 0;
 	padding-top: 40px;
-	padding-bottom: 200px;
+	padding-bottom: 0;
 	float: left;
+	margin: 0;
 }
 
 #base-copy {
 	width: auto;
-	margin-left: 0;
+	margin: 0;
 	padding: 20px;
+}
+
+.base-team-ind {
+	float: left;
+	clear: left;
+	width: auto;
+	margin-bottom: 2em;
+}
+
+.base-team-ind-pic {
+	float: left;
+	clear: left;
+	width: auto;
+}
+
+.base-team-ind-pic img {
+	margin-top: 0;
+}
+
+.base-team-ind-copy {
+	float: left;
+	clear: left;
+	width: auto;
+}
+
+#base-copy table {
+	width: auto;
+	margin-bottom: 2em;
+	display: none;
+}
+
+#base-copy td {
+	line-height: 2em;
+	text-align: center;
+}
+
+#base-copy th {
+	line-height: 1.5em;
+	font-size: .6em;
+	text-align: left;
+}
+
+#follow-us {
+	width: auto;
+	background-color: #424259;
+	margin-bottom: 2em;
+	padding: 0;
+}
+
+.base-book {
+	font-size: 1.4em;
+}
+
+#follow-us h2 {
+	color: #FFF;
 }
