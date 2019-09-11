@@ -3581,7 +3581,6 @@ ul.stylist-filter li.review-lucy {
 
 #base {
 	width: 950px;
-	height: 900px;
 	background-color: #f5f5f5;
 	padding-top: 270px;
 	padding-bottom: 200px;
@@ -3592,4 +3591,28 @@ ul.stylist-filter li.review-lucy {
 	width: 500px;
 	margin-left: 50px;
 	float: left;
+}
+
+.base-team-ind {
+	float: left;
+	width: auto;
+	margin-bottom: 2em;
+}
+
+.base-team-ind-pic {
+	float: left;
+	width: 30%;
+}
+
+.base-team-ind-copy {
+	float: left;
+	width: 70%;
+}
+
+#base-copy table {
+	width: 100%;
+}
+
+#base-copy td {
+	line-height: 2em;
 }

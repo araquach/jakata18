@@ -18,7 +18,6 @@
 @include('layouts.partials.fb_like')
 
 <div id="base">
-
 	<div id="base-copy">
 		<h1>Introducing Base - Our New Training Academy</h1>
 
@@ -35,20 +34,58 @@
 		<div class="team-pic">
 
 		</div>
-		<div class="base-team-ind abi">
-			<h3>Abi</h3>
-			<p>Abi is an extremely progressive hairdresser and has recently been promoted to a Stylist. She produces some beautiful cuts, colours and styles</p>
+		<div class="base-team-ind">
+			<div class="base-team-ind-pic">
+				<img src="" alt="Abi">
+			</div>
+			<div class="base-team-ind-copy">
+				<h3>Abi</h3>
+				<p>Abi is an extremely progressive hairdresser and has recently been promoted to a Stylist. She produces some beautiful cuts, colours and styles</p>
+				<p>Her friendly, approachable personality ensures she always gets 5 star feedback from her clients</p>
+			</div>
 		</div>
-		<div class="base-team-ind lauren">
-		<h3>Lauren T</h3>
+		<div class="base-team-ind">
+			<div class="base-team-ind-pic">
+				<img src="" alt="Lauren T">
+			</div>
+			<div class="base-team-ind-copy">
+				<h3>Lauren T</h3>
+				<p>Lauren is a Graduate Stylist with loads of flair and a huge passion for the industry. She loves creating bold, statement looks, particularly short cuts and funky styles.</p>
+				<p>She loves clients that are looking for something a bit different and open to ideas - if you're wanting a new look then book in for a consultation with her!</p>
+			</div>
 		</div>
-
-		<h3>David</h3>
-
-		<h3>Lauren W</h3>
-		<p>Lauren is working her way to become a graduate stylist after completing 1 year of her apprenticeship with us. Her skills are building fast and she's not afraid to try out something new.</p>
-
-		<h3>Lucy</h3>
+		<div class="base-team-ind">
+			<div class="base-team-ind-pic">
+				<img src="" alt="David">
+			</div>
+			<div class="base-team-ind-copy">
+				<h3>David</h3>
+				<p>David is our latest recruit. He completed his training at Andrew Collinge Graduates in Liverpool and is now looking to work his way to stylist level.</p>
+				<p>He produces beautiful colour and cutting work and his blow-dry's are stunning!</p>
+			</div>
+		</div>
+		<div class="base-team-ind">
+			<div class="base-team-ind-pic">
+				<img src="" alt="Lauren W">
+			</div>
+			<div class="base-team-ind-copy">
+				<h3>Lauren W</h3>
+				<p>Lauren is working her way to become a graduate stylist after completing 1 year of her apprenticeship with us. Her skills are building fast and she's not afraid to try out something new.</p>
+				<p>All her work is fully supervised by a qualified stylist. She has limited spaces available - please book in advance
+				</p>
+			</div>
+		</div>
+		<div class="base-team-ind">
+			<div class="base-team-ind-pic">
+				<img src="" alt="Lucy">
+			</div>
+			<div class="base-team-ind-copy">
+				<h3>Lucy</h3>
+				<p>Lucy is in the second year of her apprenticeship and is already producing some amazing work.</p>
+				<p>She has recently opened her column up and is looking to gain experience in all aspects of hairdressing.</p>
+				<p>All her work is fully supervised by a qualified stylist. She has limited spaces available - please book in advance</p>
+			</div>
+		</div>
 
 		<h2>Prices</h2>
 
