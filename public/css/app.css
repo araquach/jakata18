@@ -4127,10 +4127,32 @@ ul.stylist-filter li.review-lucy {
 
 #base-copy table {
 	width: 100%;
+	margin-bottom: 2em;
 }
 
 #base-copy td {
 	line-height: 2em;
+	text-align: center;
+}
+
+#base-copy th {
+	line-height: 1.5em;
+	text-align: left;
+}
+
+#follow-us {
+	width: 10rem;
+	background-color: #424259;
+	margin-bottom: 2em;
+	padding: .3em 1em 1em 1em;
+}
+
+.base-book {
+	font-size: 1.4em;
+}
+
+#follow-us h2 {
+	color: #FFF;
 }
 
 /**

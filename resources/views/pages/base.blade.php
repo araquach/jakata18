@@ -22,14 +22,14 @@
 		<h1>Introducing Base - Our New Training Academy</h1>
 
 		<p><strong>Training and developing our team to the highest possible standard has always been a major priority for us here at Jakata. Along with our sister salon Paul Kemp Hairdressing we've produced some incredible talent from scratch and helped existing stylists polish their skills to the next level.</strong></p>
-		<p>We decided to centralise our training and put all of our apprentices and graduate stylists under one roof in our brand new Base Hair Academy!</p>
+		<p>We decided to centralise our training and put all of our apprentices and graduate stylists under one roof in our brand new <strong>Base Hair Academy!</strong></p>
 		<p>We gave our old Jakata premises a major facelift and created an amazing training environment and working space that both our staff and clients can appreciate</p>
 		<div class="base-pics">
 				<img src="" alt="Base Hairdressing">
 		</div>
-		<p>All of our apprentices and graduate stylists are now located at Base where we can offer our full selection of hair services at a fraction of the cost. All services are fully supervised by Senior Stylists and all the usual high quality products are used.</p>
+		<p>All of our <strong>apprentices</strong> and <strong>graduate stylists</strong> are now located at Base where we can offer our full selection of hair services at a fraction of the cost. All services are fully supervised by Senior Stylists and all our usual high quality products are used.</p>
 
-		<h2>The Team</h2>
+		<h2>The Base Team</h2>
 
 		<div class="team-pic">
 
@@ -42,6 +42,7 @@
 				<h3>Abi</h3>
 				<p>Abi is an extremely progressive hairdresser and has recently been promoted to a Stylist. She produces some beautiful cuts, colours and styles</p>
 				<p>Her friendly, approachable personality ensures she always gets 5 star feedback from her clients</p>
+				<p>Abi temporarily joins us from PK to help get Base up and running.</p>
 			</div>
 		</div>
 		<div class="base-team-ind">
@@ -71,8 +72,7 @@
 			<div class="base-team-ind-copy">
 				<h3>Lauren W</h3>
 				<p>Lauren is working her way to become a graduate stylist after completing 1 year of her apprenticeship with us. Her skills are building fast and she's not afraid to try out something new.</p>
-				<p>All her work is fully supervised by a qualified stylist. She has limited spaces available - please book in advance
-				</p>
+				<p>She loves all aspects of hairdressing and is eager to take on clients.</p>
 			</div>
 		</div>
 		<div class="base-team-ind">
@@ -83,7 +83,7 @@
 				<h3>Lucy</h3>
 				<p>Lucy is in the second year of her apprenticeship and is already producing some amazing work.</p>
 				<p>She has recently opened her column up and is looking to gain experience in all aspects of hairdressing.</p>
-				<p>All her work is fully supervised by a qualified stylist. She has limited spaces available - please book in advance</p>
+				<p>Get booked in with Lucy to see what she can do for you!</p>
 			</div>
 		</div>
 
@@ -91,32 +91,32 @@
 
 		<table>
 			<tr>
-				<th>Service</th>
+				<th></th>
 				<th>Advanced<br>Graduate</th>
 				<th>Graduate</th>
 				<th>Junior Stylist</th>
 				<th>Junior</th>
 			</tr>
 			<tr>
-				<td>Cut, Dry & Style</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
+				<th>Cut, Dry & Style</th>
+				<td>&pound;30</td>
+				<td>&pound;25</td>
+				<td>&pound;15</td>
+				<td>&pound;10</td>
 			</tr>
 			<tr>
-				<td>Colour</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
+				<th>Colour</th>
+				<td>&pound;40</td>
+				<td>&pound;35</td>
+				<td>&pound;15</td>
+				<td>&pound;10</td>
 			</tr>
 			<tr>
-				<td>Blow Dry</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
-				<td>&pound;</td>
+				<th>Blow Dry</th>
+				<td>&pound;15</td>
+				<td>&pound;15</td>
+				<td>&pound;10</td>
+				<td>&pound;5</td>
 			</tr>
 		</table>
 		<p>All prices are a guide. A specific price will be quoted on consultation. Please note a skin test is required 24 hours before any colour service for new clients</p>
@@ -125,7 +125,13 @@
 
 		<p>We have model training days where we require volunteers to have hair done for training purposes, usually on Tuesday/Wednesday day time. These session are practically free (a nominal charge to cover colour product costs sometimes applies). Please add your name to our model database here if you are usually available on these days << link >> and we'll contact you when we have a session that fits your needs.</p>
 
-		<p>To book an appointment with on of our talented stylists at Base Hairdressing call 01925 444449</p>
+		<p class="base-book">To book an appointment with on of our talented stylists at Base Hairdressing call <strong>01925 444449</strong></p>
+
+		<div id="follow-us">
+			<h2>Follow Base</h2>
+			<a href="https://www.instagram.com/basehairdressing/"><img src="/images/footer/social/instagram.png" alt="Instagram"></a><img src="" alt="">
+			<a href="https://www.facebook.com/basehairdressing/"><img src="/images/footer/social/facebook.png" alt="Facebook"></a>
+		</div>
 
 		<div id="fb-like">
 			<div class="fb-like" data-href="http://www.jakatasalon.co.uk/salon" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
