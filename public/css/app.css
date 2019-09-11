@@ -4104,7 +4104,7 @@ ul.stylist-filter li.review-lucy {
 }
 
 #base-copy {
-	width: 500px;
+	width: 600px;
 	margin-left: 50px;
 	float: left;
 }
@@ -4117,12 +4117,12 @@ ul.stylist-filter li.review-lucy {
 
 .base-team-ind-pic {
 	float: left;
-	width: 30%;
+	width: 20%;
 }
 
 .base-team-ind-copy {
-	float: left;
-	width: 70%;
+	float: right;
+	width: 50%;
 }
 
 #base-copy table {

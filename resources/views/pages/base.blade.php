@@ -25,7 +25,7 @@
 		<p>We decided to centralise our training and put all of our apprentices and graduate stylists under one roof in our brand new <strong>Base Hair Academy!</strong></p>
 		<p>We gave our old Jakata premises a major facelift and created an amazing training environment and working space that both our staff and clients can appreciate</p>
 		<div class="base-pics">
-				<img src="" alt="Base Hairdressing">
+				<img src="http://via.placeholder.com/500x200" alt="Base Hairdressing">
 		</div>
 		<p>All of our <strong>apprentices</strong> and <strong>graduate stylists</strong> are now located at Base where we can offer our full selection of hair services at a fraction of the cost. All services are fully supervised by Senior Stylists and all our usual high quality products are used.</p>
 
@@ -36,7 +36,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="" alt="Abi">
+				<img src="http://via.placeholder.com/200x220" alt="Abi">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>Abi</h3>
@@ -47,7 +47,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="" alt="Lauren T">
+				<img src="http://via.placeholder.com/200x220" alt="Lauren T">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>Lauren T</h3>
@@ -57,7 +57,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="" alt="David">
+				<img src="http://via.placeholder.com/200x220" alt="David">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>David</h3>
@@ -67,7 +67,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="" alt="Lauren W">
+				<img src="http://via.placeholder.com/200x220" alt="Lauren W">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>Lauren W</h3>
@@ -77,7 +77,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="" alt="Lucy">
+				<img src="http://via.placeholder.com/200x220" alt="Lucy">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>Lucy</h3>
