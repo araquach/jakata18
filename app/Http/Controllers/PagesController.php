@@ -34,43 +34,43 @@ class PagesController extends Controller {
 	public function index()
 	{
 		$reviews = Review::where('salon', '1')->orderByRaw("RAND()")->get();
-		
+
 		$blogs = Blog::take(3)->where('publish', 1)->orWhere('publish', 3)
 			->with('paras')->orderBy('created_at', 'desc')->get();
-	
+
 		return view('pages.home', compact('reviews', 'blogs'));
 	}
-	
+
 	public function details()
 	{
 		return view('pages.details');
 	}
-	
+
 	public function news()
 	{
 		return view('pages.news');
 	}
-	
+
 	public function oldnews()
 	{
 		return view('pages.oldnews');
 	}
-	
+
 	public function offers()
 	{
 		return view('pages.offers');
 	}
-	
+
 	public function prices()
 	{
 		return view('pages.prices');
 	}
-	
+
 	public function recruitment()
 	{
 		return view('pages.recruitment');
 	}
-	
+
 	public function team()
 	{
 		$team_members = TeamMember::where('salon', 1)->orderBy('position', 'asc')->get();
@@ -88,27 +88,27 @@ class PagesController extends Controller {
 		$team_member = TeamMember::where('salon', 1)->where('class', $team )->first();
 
 		$reviews = Review::where('salon', 1)->where('staff', 'LIKE', '%' . $team . '%')->orderByRaw("RAND()")->get();
-		
+
 		return view('pages.team_ind', compact('team_member', 'reviews'));
 
 		// dd($team_member->name);
 	}
-	
+
 	public function trainee()
 	{
 		return view('pages.trainee');
 	}
-	
+
 	public function booking()
 	{
 		return view('pages.booking');
 	}
-	
+
 	public function leaver()
 	{
 		return view('pages.leaver');
 	}
-	
+
 	public function reviews($stylist = 'all')
 	{
 		$team_members = TeamMember::where('salon', 1)->orderBy('position', 'asc')->get();
@@ -124,20 +124,20 @@ class PagesController extends Controller {
 			->where('staff', 'LIKE', '%'.$stylist.'%')
 			->orderByRaw("RAND()")->limit(9)->get();
 		}
-		
+
 		return view('pages.reviews', compact('reviews', 'team_members'));
 	}
-	
+
 	public function kebelo()
 	{
 		return view('pages.kebelo');
 	}
-	
+
 	public function relocation()
 	{
 		return view('pages.relocation');
 	}
-	
+
 	public function mattsback()
 	{
 		return view('pages.mattsback');
@@ -172,7 +172,12 @@ class PagesController extends Controller {
 	{
 		return view('pages.offers.lucy');
 	}
-	
+
+	public function base()
+	{
+		return view('pages.base');
+	}
+
 	public function test()
 	{
 		return view('pages.test');
