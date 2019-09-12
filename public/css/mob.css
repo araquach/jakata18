@@ -3027,7 +3027,7 @@ ul.stylist-filter {
 	width: auto;
 	background-color: #424259;
 	margin-bottom: 2em;
-	padding: 0;
+	padding: 0px 10px 10px 10px;
 }
 
 .base-book {
