@@ -25,9 +25,10 @@
 		<p>We decided to centralise our training and put all of our apprentices and graduate stylists under one roof in our brand new <strong>Base Hair Academy!</strong></p>
 		<p>We gave our old Jakata premises a major facelift and created an amazing training environment and working space that both our staff and clients can appreciate</p>
 		<div class="base-pics">
-				<img src="http://via.placeholder.com/170x170" alt="Base Hairdressing">
-				<img src="http://via.placeholder.com/170x170" alt="Base Hairdressing">
-				<img src="http://via.placeholder.com/170x170" alt="Base Hairdressing">
+				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
+				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
+				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
+				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
 		</div>
 		<p>All of our <strong>apprentices</strong> and <strong>graduate stylists</strong> are now located at Base where we can offer our full selection of hair services at a fraction of the cost. All services are fully supervised by Senior Stylists and all our usual high quality products are used.</p>
 
@@ -128,8 +129,8 @@
 
 		<div id="follow-us">
 			<h2>Follow Base</h2>
-			<a href="https://www.instagram.com/basehairdressing/"><img src="/images/footer/social/instagram.png" alt="Instagram"></a><img src="" alt="">
-			<a href="https://www.facebook.com/basehairdressing/"><img src="/images/footer/social/facebook.png" alt="Facebook"></a>
+			<a href="https://www.instagram.com/basehairdressing/" target="_blank"><img src="/images/footer/social/instagram.png" alt="Instagram"></a><img src="" alt="">
+			<a href="https://www.facebook.com/basehairdressing/" target="_blank"><img src="/images/footer/social/facebook.png" alt="Facebook"></a>
 		</div>
 
 		<div id="fb-like">
