@@ -137,7 +137,6 @@
 				<td>&pound;10</td>
 				<td>&pound;5</td>
 			</tr>
-
 		</table>
 		<p>All prices are a guide. A specific price will be quoted on consultation. A skin test is required 48 hours before any colour service for new clients</p>
 
@@ -145,7 +144,7 @@
 
 		<p>We have model training days where we require volunteers to have hair done for training purposes, usually on Tuesday/Wednesday day time. These session are practically free (a nominal charge to cover colour product costs sometimes applies). Please add your name to our model database here if you are usually available on these days << link >> and we'll contact you when we have a session that fits your needs.</p>
 
-		<p class="base-book">To book an appointment with on of our talented stylists at Base Hairdressing call <strong>01925 444449</strong></p>
+		<p class="base-book">To book an appointment with one of our talented stylists at Base Hairdressing call <strong>01925 444449</strong></p>
 
 		<div id="follow-us">
 			<h2>Follow Base</h2>
