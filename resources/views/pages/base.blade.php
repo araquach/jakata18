@@ -25,10 +25,10 @@
 		<p>We decided to centralise our training and put all of our apprentices and graduate stylists under one roof in our brand new <strong>Base Hair Academy!</strong></p>
 		<p>We gave our old Jakata premises a major facelift and created an amazing training environment and working space that both our staff and clients can appreciate</p>
 		<div class="base-pics">
-				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
-				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
-				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
-				<img src="http://via.placeholder.com/250x250" alt="Base Hairdressing">
+				<img src="/images/base/base-1.jpg" alt="Base Hairdressing">
+				<img src="/images/base/base-2.jpg" alt="Base Hairdressing">
+				<img src="/images/base/base-3.jpg" alt="Base Hairdressing">
+				<img src="/images/base/base-4.jpg" alt="Base Hairdressing">
 		</div>
 		<p>All of our <strong>apprentices</strong> and <strong>graduate stylists</strong> are now located at Base where we can offer our full selection of hair services at a fraction of the cost. All services are fully supervised by Senior Stylists and all our usual high quality products are used.</p>
 
@@ -36,7 +36,7 @@
 
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="http://via.placeholder.com/200x220" alt="Abi">
+				<img src="/images/base/abi.jpg" alt="Abi">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>Abi</h3>
@@ -47,7 +47,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="http://via.placeholder.com/200x220" alt="Lauren T">
+				<img src="/images/base/lauren_t.jpg" alt="Lauren T">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>Lauren T</h3>
@@ -57,7 +57,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="http://via.placeholder.com/200x220" alt="David">
+				<img src="/images/base/david.jpg" alt="David">
 			</div>
 			<div class="base-team-ind-copy">
 				<h3>David</h3>
@@ -138,6 +138,6 @@
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
 @stop
