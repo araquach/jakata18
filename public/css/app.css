@@ -4129,6 +4129,14 @@ ul.stylist-filter li.review-lucy {
 	width: 50%;
 }
 
+.base-team-ind-copy h2 {
+	margin-bottom: 0;
+}
+
+.base-team-ind-copy h3 {
+	margin-top: 0;
+}
+
 #base-copy table {
 	width: 100%;
 	margin-bottom: 2em;

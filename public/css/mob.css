@@ -3007,7 +3007,7 @@ ul.stylist-filter {
 }
 
 #base-copy table {
-	width: auto;
+	width: 100%;
 	margin-bottom: 2em;
 }
 
@@ -3018,7 +3018,7 @@ ul.stylist-filter {
 
 #base-copy th {
 	line-height: 1.5em;
-	font-size: .6em;
+	font-size: .8em;
 	text-align: left;
 }
 
