@@ -57,6 +57,7 @@ Route::get('/respondant/create', 'CampaignRespondantController@create');
 Route::post('/respondant/store', 'CampaignRespondantController@store');
 Route::get('/bighairdo', 'CampaignRespondantController@hairdo');
 Route::get('/base', 'PagesController@base');
+Route::get('/base-offer', 'PagesController@baseOffer');
 
 
 Route::get('/admin', 'AdminController@index');

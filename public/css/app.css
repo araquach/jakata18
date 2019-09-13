@@ -4157,6 +4157,7 @@ ul.stylist-filter li.review-lucy {
 	background-color: #424259;
 	margin-bottom: 2em;
 	padding: .3em 1em 1em 1em;
+	border-radius: 10px;
 }
 
 .base-book {
@@ -4165,6 +4166,24 @@ ul.stylist-filter li.review-lucy {
 
 #follow-us h2 {
 	color: #FFF;
+}
+
+#base-offer {
+	margin: 20px 0 30px 0;
+	background-color: #424259;
+	padding: 20px;
+	color: #FFF;
+	width: 50%;
+	border-radius: 10px;
+}
+
+#base-offer p {
+	color: #FFF;
+}
+
+#base-offer p:first-of-type {
+	font-size: 3em;
+	margin: 0;
 }
 
 /**
