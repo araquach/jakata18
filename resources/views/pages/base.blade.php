@@ -23,7 +23,7 @@
 		<img src="/images/base/logo.png" alt="Base Hairdressing">
 		<h1>Our Amazing New Training Academy</h1>
 
-		<p><strong>Training and developing our team to the highest possible standard has always been a major priority for us here at Jakata. Along with our sister salon Paul Kemp Hairdressing we've produced some incredible talent from scratch and helped existing stylists polish their skills to the next level.</strong></p>
+		<p><strong>Training and developing our team to the highest possible standard has always been a major priority for us here at Jakata. Along with our sister salon Paul Kemp Hairdressing we've produced some incredible talent from scratch and helped existing stylists push their skills to the next level.</strong></p>
 		<p>We decided to centralise our training and put all of our apprentices and graduate stylists under one roof in our brand new <strong>Base Hair Academy!</strong></p>
 		<p>We gave our old Jakata premises a major facelift and created an amazing training environment and working space that both our staff and clients can appreciate</p>
 		<div class="base-pics">
@@ -125,11 +125,19 @@
 			</tr>
 			<tr>
 				<th>Blow Dry</th>
-				<td>&pound;15</td>
+				<td>&pound;20</td>
 				<td>&pound;15</td>
 				<td>&pound;10</td>
 				<td>&pound;5</td>
 			</tr>
+			<tr>
+				<th>Men's Cut &amp Style</th>
+				<td>&pound;20</td>
+				<td>&pound;15</td>
+				<td>&pound;10</td>
+				<td>&pound;5</td>
+			</tr>
+
 		</table>
 		<p>All prices are a guide. A specific price will be quoted on consultation. A skin test is required 48 hours before any colour service for new clients</p>
 
