@@ -25,7 +25,7 @@
 
 		<div id="base-offer">
 			<p><strong>30% off</strong></p>
-			<p>Your first visit to Base Hairdresing</p>
+			<p>Your first visit to Base Hairdressing</p>
 			<small>with the stylists featured below</small>
 		</div>
 
@@ -148,7 +148,9 @@
 
 		<h2>Models required!</h2>
 
-		<p>We have model training days where we require volunteers to have hair done for training purposes, usually on Tuesday/Wednesday day time. These session are practically free (a nominal charge to cover colour product costs sometimes applies). Please add your name to our model database here if you are usually available on these days << link >> and we'll contact you when we have a session that fits your needs.</p>
+		<p>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</p>
+		<p>If you'd like to volunteer simply add your name to our model database and we'll contact you when we have a session that fits your needs</p>
+		<a href="#">Register here</a>
 
 		<p class="base-book">To book an appointment with one of our talented stylists at Base Hairdressing call <strong>01925 444449</strong></p>
 
