@@ -80,8 +80,8 @@
 			<div class="base-team-ind-copy">
 				<h2>Lauren W</h2>
 				<h3>Junior Stylist</h3>
-				<p><strong>Lauren is working her way to become a graduate stylist after completing 1 year of her apprenticeship with us. Her skills are building fast and she's not afraid to try out something new.</strong></p>
-				<p>She loves all aspects of hairdressing and is eager to take on clients.</p>
+				<p><strong>Lauren's skills are progressing fast and is eager to make the move up to Graduate level. She's producing some great colours and cuts and is eager to try her skills out on more clients.</strong></p>
+				<p>She loves all aspects of hairdressing so get booked in with her before her prices go up!</p>
 				<small>Average Colur &amp; Cut: &pound;35</small>
 			</div>
 		</div>
@@ -94,7 +94,7 @@
 				<h3>Junior Stylist</h3>
 				<p><strong>Lucy is in the second year of her apprenticeship and is already producing some amazing work.</strong></p>
 				<p>She has recently opened her column up and is looking to gain experience in all aspects of hairdressing.</p>
-				<p>Get booked in with Lucy to see what she can do for you!</p>
+				<p>Get booked in with her to see what she can do for you!</p>
 				<small>Average Colur &amp; Cut: &pound;35</small>
 			</div>
 		</div>
