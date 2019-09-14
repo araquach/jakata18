@@ -178,11 +178,6 @@ class PagesController extends Controller {
 		return view('pages.base');
 	}
 
-	public function baseOffer()
-	{
-		return view('pages.base_offer');
-	}
-
 	public function test()
 	{
 		return view('pages.test');
