@@ -51,7 +51,7 @@
 				<h3>Advanced Graduate</h3>
 				<p><strong>Abi is an extremely progressive hairdresser. She recently won a place on the GHD Style Squad - a team of just 8 stylists from all over the UK, hand picked by GHD.</strong></p>
 				<p>She produces some beautiful cuts, colours and styles. Her friendly, approachable personality ensures she always gets 5 star feedback from her clients.</p>
-				<p>Abi temporarily joins us from PK to help get Base up and running.</p>
+				<small>Abi has temporarily joined us from Paul Kemp Hairdressing to help get Base up and running.</small>
 				<small>Average Colour &amp; Cut: &pound;80</small>
 			</div>
 		</div>
@@ -145,6 +145,13 @@
 			</tr>
 		</table>
 		<p>All prices are a guide. A specific price will be quoted on consultation. A skin test is required 48 hours before any colour service for new clients</p>
+
+		<div id="base-offer">
+			<h2>Introductory Offer</h2>
+			<p><strong>30% off</strong></p>
+			<p>Your first visit to Base Hairdressing</p>
+			<small>with the stylists featured above<br>Just mention the offer when booking<br>skin test required 48 hrs before any colour service</small>
+		</div>
 
 		<h2>Models required!</h2>
 

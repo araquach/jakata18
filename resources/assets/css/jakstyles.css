@@ -3661,7 +3661,7 @@ ul.stylist-filter li.review-lucy {
 	border-radius: 10px;
 }
 
-#base-offer p {
+#base-offer p, #base-offer h2 {
 	color: #FFF;
 }
 
