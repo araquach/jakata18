@@ -43,7 +43,6 @@ class HairModelController extends Controller
 
 	/**
 	 * Store a newly created resource in storage.
-	 *
 	 * @return Response
 	 */
 	public function store(HairModelFormRequest $request)
