@@ -14,6 +14,12 @@
 
     <div id="hairmodel-copy">
 
+			@if(Session::has('message'))
+        <div class="success">
+          {{{ Session::get('message') }}}
+        </div>
+      @endif
+
       <h1>We need models!</h1>
 
       <p>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</p>
@@ -27,18 +33,14 @@
       </ul>
       <small>A skin test is required 48 hours before we can colour your hair if you haven't been to us before. We will not be able to carry out any colour treatments if we don't have a record of this.</small>
 
-
-
-      @if(Session::has('message'))
-        <div class="">
-          {{{ Session::get('message') }}}
-        </div>
-      @endif
-
       <div class="form">
-        {!! Form::model(array(
+        {!! Form::open(array(
         	'action' => 'HairModelController@store', 'id' => 'form'
         )) !!}
+
+				{!! Form::open(array(
+					'action' => 'ProspectController@store', 'id' => 'prospect-form'
+				)) !!}
 
         <p class="note">Fields with <span class="required">*</span> are required.</p>
 

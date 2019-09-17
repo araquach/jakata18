@@ -4195,13 +4195,32 @@ ul.stylist-filter li.review-lucy {
 	padding-top: 270px;
 	padding-bottom: 200px;
 	float: left;
-	height: 1500px;
 }
 
 #hairmodel-copy {
 	width: 600px;
 	margin-left: 50px;
 	float: left;
+}
+
+#hairmodel-copy li {
+	font-size: 1.1em;
+	line-height: 1.7em;
+	color: #4f516a;
+}
+
+.success {
+	width: 420px;
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	background-color: rgba(253, 253, 253, 0.4);
+	-moz-box-shadow: 0 0 2px rgba(5, 5, 5, 0.61);
+	-webkit-box-shadow: 0 0 2px rgba(5, 5, 5, 0.61);
+	box-shadow: 0 0 2px rgba(5, 5, 5, 0.61);
+	border-radius: 10px;
+	font-size: 1.5em;
+	line-height: 1.3em;
 }
 
 /**

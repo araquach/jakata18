@@ -3040,3 +3040,41 @@ ul.stylist-filter {
 #base-offer {
 	width: 80%;
 }
+
+/* hair models */
+
+#hairmodel {
+	width: auto;
+	padding: 0;
+	padding-top: 40px;
+	padding-bottom: 0;
+	float: left;
+	margin: 0;
+}
+
+#hairmodel-copy {
+	width: auto;
+	padding: 20px;
+	margin-left: 0;
+	float: left;
+}
+
+#hairmodel-copy li {
+	font-size: 1.1em;
+	line-height: 1.7em;
+	color: #4f516a;
+}
+
+.success {
+	width: auto;
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	background-color: rgba(253, 253, 253, 0.4);
+	-moz-box-shadow: 0 0 2px rgba(5, 5, 5, 0.61);
+	-webkit-box-shadow: 0 0 2px rgba(5, 5, 5, 0.61);
+	box-shadow: 0 0 2px rgba(5, 5, 5, 0.61);
+	border-radius: 10px;
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
