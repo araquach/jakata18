@@ -10,9 +10,9 @@
 
 @section('content')
 
-<div id="model">
+<div id="hairmodel">
 
-    <div id="model_copy">
+    <div id="hairmodel-copy">
 
       <h1>We need models!</h1>
 
@@ -25,7 +25,7 @@
         <li>Existing colour (Foils/Balayage/Full Head etc)</li>
         <li>Any style ideas you would like</li>
       </ul>
-      <p>A skin test is required 48 hours before we can colour your hair if you haven't been to us before. We will not be able to carry out any colour treatments if we don't have a record of this.</p>
+      <small>A skin test is required 48 hours before we can colour your hair if you haven't been to us before. We will not be able to carry out any colour treatments if we don't have a record of this.</small>
 
 
 
@@ -37,13 +37,13 @@
 
       <div class="form">
         {!! Form::model(array(
-        	'action' => 'ModelController@store', 'id' => 'form'
+        	'action' => 'HairModelController@store', 'id' => 'form'
         )) !!}
 
         <p class="note">Fields with <span class="required">*</span> are required.</p>
 
         @if (count($errors) > 0)
-          <div id="feedback-form_es_" class="errorSummary">
+          <div id="hairmodel-form_es_" class="errorSummary">
           		<p>Please fix the following input errors:</p>
           		<ul>
           	   		 @foreach($errors->all() as $error)
@@ -66,9 +66,9 @@
         </div>
 
         <div class="row">
-          {!! Form::label('info', 'Additional Information') !!}
-          {!! Form::textArea('info') !!}
-          {!! $errors->first('info', '<div class="errorMessage">:message</div>') !!}
+          {!! Form::label('hairinfo', 'Additional Information') !!}
+          {!! Form::textarea('hairinfo') !!}
+          {!! $errors->first('hairinfo', '<div class="errorMessage">:message</div>') !!}
         </div>
 
         <div class="row buttons">

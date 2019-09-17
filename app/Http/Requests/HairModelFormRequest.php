@@ -25,6 +25,8 @@ class HairModelFormRequest extends Request
     {
         return [
             'name' => 'required',
+            'mobile' => 'required',
+            'hairinfo' => 'required',
         ];
     }
 
@@ -32,6 +34,8 @@ class HairModelFormRequest extends Request
     {
         return [
             'name.required' => 'Your full name is required',
+            'mobile.required' => 'Your mobile number is required',
+            'hairinfo.required' => 'Additional information is required',
         ];
     }
 }

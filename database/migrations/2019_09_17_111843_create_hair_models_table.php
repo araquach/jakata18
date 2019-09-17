@@ -17,11 +17,11 @@ class CreateHairModelsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('mobile');
-            $table->text('info');
+            $table->text('hairinfo');
             $table->timestamps();
         });
     }
-    
+
     /**
      * Reverse the migrations.
      *
