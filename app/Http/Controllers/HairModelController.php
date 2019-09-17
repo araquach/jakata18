@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Model;
-use App\Http\Requests\ModelFormRequest;
+use App\HairModel;
+use App\Http\Requests\HairModelFormRequest;
 use Carbon\Carbon;
 use Auth;
 use Mail;
@@ -12,13 +12,13 @@ use Mail;
 /**
  *
  */
-class ModelController extends Controller
+class HairModelController extends Controller
 {
-  public function __construct(Model $model)
+  public function __construct(HairModel $hairmodel)
 	{
 		$this->middleware('guest');
 
-		$this->model = $model;
+		$this->hairmodel = $hairmodel;
 	}
 
   /**
@@ -28,19 +28,17 @@ class ModelController extends Controller
 	 */
 	public function index()
 	{
-		$models = $this->model->orderBy('id', 'desc')->get();
+		$hairmodels = $this->hairmodel->orderBy('id', 'desc')->get();
 
-		return view('model.index', compact('models'));
+		return view('hairmodel.index', compact('hairmodels'));
 	}
 
   /**
 	 * Show the form for creating a new model application.
-	 *
-	 * @return Response
 	 */
 	public function create()
 	{
-		return view('model.create');
+		return view('hairmodel.create');
 	}
 
 	/**
@@ -48,11 +46,11 @@ class ModelController extends Controller
 	 *
 	 * @return Response
 	 */
-	public function store(ModelFormRequest $request)
+	public function store(HairModelFormRequest $request)
 	{
 		$input = $request->all();
 
-		Model::create($input);
+		HairModel::create($input);
 
 		return redirect()->back()->with('message', 'Thanks for sending your details. We\'ll be in touch when a suitable session comes up');
 	}

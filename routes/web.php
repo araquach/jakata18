@@ -130,5 +130,5 @@ Route::get('/superstylist/test', 'CustomerServiceAdminController@test');
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{blog}', 'BlogController@show');
 
-Route::get('/model', 'ProspectController@tasterCreate');
-Route::post('/model/store', 'ProspectController@tasterStore');
+Route::get('/model', 'ModelController@create');
+Route::post('/model/store', 'ModelController@store');
