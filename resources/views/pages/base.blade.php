@@ -93,7 +93,7 @@
 		</div>
 		<div class="base-team-ind">
 			<div class="base-team-ind-pic">
-				<img src="http://via.placeholder.com/200x220" alt="Lucy">
+				<img src="/images/base/lucy.jpg" alt="Lucy">
 			</div>
 			<div class="base-team-ind-copy">
 				<h2>Lucy</h2>
