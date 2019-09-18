@@ -11,9 +11,7 @@
 @section('content')
 
 <div id="hairmodel">
-
     <div id="hairmodel-copy">
-
 			@if(Session::has('message'))
         <div class="success">
           {{{ Session::get('message') }}}
@@ -21,6 +19,8 @@
       @endif
 
       <h1>We need models!</h1>
+
+			<div id="hairmodel-pic"></div>
 
       <p>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</p>
   		<p>If you'd like to volunteer simply add your name to our model database and we'll contact you when we have a session that fits your needs</p>

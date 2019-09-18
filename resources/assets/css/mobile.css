@@ -3044,12 +3044,22 @@ ul.stylist-filter {
 /* hair models */
 
 #hairmodel {
+background: none;
 	width: auto;
 	padding: 0;
 	padding-top: 40px;
 	padding-bottom: 0;
 	float: left;
 	margin: 0;
+}
+
+#hairmodel-pic {
+	display: block;
+	background-image: url('/images/hairmodel/schwarz2_mob.jpg');
+	background-position: top center;
+	background-size: cover;
+	width: auto;
+	height: 500px;
 }
 
 #hairmodel-copy {

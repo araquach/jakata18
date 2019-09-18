@@ -3580,6 +3580,7 @@ ul.stylist-filter li.review-lucy {
 /* base */
 
 #base {
+	background: rgb(141,191,211) url('/images/base/schwarz.jpg') no-repeat right 300px;
 	width: 950px;
 	background-color: #f5f5f5;
 	padding-top: 270px;
@@ -3588,7 +3589,7 @@ ul.stylist-filter li.review-lucy {
 }
 
 #base-copy {
-	width: 600px;
+	width: 550px;
 	margin-left: 50px;
 	float: left;
 }
@@ -3674,11 +3675,16 @@ ul.stylist-filter li.review-lucy {
 /* hair models */
 
 #hairmodel {
+	background: rgb(141,191,211) url('/images/hairmodel/schwarz2.jpg') no-repeat right 300px;
 	width: 950px;
 	background-color: #f5f5f5;
 	padding-top: 270px;
 	padding-bottom: 200px;
 	float: left;
+}
+
+#hairmodel-pic {
+	display: none;
 }
 
 #hairmodel-copy {
