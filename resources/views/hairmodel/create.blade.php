@@ -3,7 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'title' => 'Apply to be a model'
+		'description' => 'We\'re looking for models for our training days! Get your hair done for practically free!',
+		'ogtitle' => 'We Need Models!',
+		'ogdescription' => 'We\'re looking for models for our training days! Get your hair done for practically free!',
+		'ogimage' => url('/') . '/images/salon/.jpg',
+		'title' => 'Jakata Salon - Models Required - Hairdressers in Warrington'
 	])
 
 @stop
