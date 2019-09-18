@@ -130,5 +130,5 @@ Route::get('/superstylist/test', 'CustomerServiceAdminController@test');
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{blog}', 'BlogController@show');
 
-Route::get('/hairmodels', 'HairModelController@create');
+Route::get('/models', 'HairModelController@create');
 Route::post('/hairmodel/store', 'HairModelController@store');

@@ -23,14 +23,16 @@
 			<div id="hairmodel-pic"></div>
 
       <p>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</p>
+			<p>All training is carried out at our <strong>Base Hair Academy</strong>.</p>
   		<p>If you'd like to volunteer simply add your name to our model database and we'll contact you when we have a session that fits your needs</p>
       <p>Please provide some info about your hair to allow us to determine which sessions best suit your needs</p>
       <ul>
         <li>Hair Length</li>
         <li>Hair Texture</li>
         <li>Existing colour (Foils/Balayage/Full Head etc)</li>
-        <li>Any style ideas you would like</li>
+        <li>Any Colour, Cut &amp; Style ideas you would like</li>
       </ul>
+			<p><strong>Call Base Hair Academy on 01925 444449 if you would like more information.</strong></p>
       <small>A skin test is required 48 hours before we can colour your hair if you haven't been to us before. We will not be able to carry out any colour treatments if we don't have a record of this.</small>
 
       <div class="form">
