@@ -4104,6 +4104,10 @@ ul.stylist-filter li.review-lucy {
 	float: left;
 }
 
+#base-pic {
+	display: none;
+}
+
 #base-copy {
 	width: 550px;
 	margin-left: 50px;
