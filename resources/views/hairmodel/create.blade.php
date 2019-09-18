@@ -24,6 +24,7 @@
 
       <p>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</p>
 			<p>All training is carried out at our <strong>Base Hair Academy</strong>.</p>
+			<a href="{{ URL::to('base') }}" target="_blank">Find out more about Base Hair Academy here &gt;</a>
   		<p>If you'd like to volunteer simply add your name to our model database and we'll contact you when we have a session that fits your needs</p>
       <p>Please provide some info about your hair to allow us to determine which sessions best suit your needs</p>
       <ul>

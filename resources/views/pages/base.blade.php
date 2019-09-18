@@ -158,7 +158,7 @@
 		<p>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</p>
 		<p>If you'd like to volunteer simply add your name to our model database and we'll contact you when we have a session that fits your needs</p>
 
-		{!! link_to('/models', 'Register Here >') !!}
+		<a href="{{ URL::to('models') }}" target="_blank">Register Here &gt;</a>
 
 		<p class="base-book">To book an appointment with one of our talented stylists at Base Hairdressing call <strong>01925 444449</strong></p>
 
