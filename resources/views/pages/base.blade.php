@@ -169,7 +169,7 @@
 		</div>
 
 		<div id="fb-like">
-			<div class="fb-like" data-href="http://www.jakatasalon.co.uk/salon" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+			<div class="fb-like" data-href="https://jakatasalon.co.uk/base" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
 			</div>
 		</div>
 	</div>
