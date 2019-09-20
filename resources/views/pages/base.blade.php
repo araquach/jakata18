@@ -5,7 +5,7 @@
 @include('layouts.partials.head', [
 	'description' => 'Training and developing our team to the highest possible standard has always been a major priority for us here at Jakata. Along with our sister salon Paul Kemp Hairdressing we\'ve produced some incredible talent from scratch and helped existing stylists polish their skills to the next level.',
 	'keywords' => 'Hair Academy, trainee hairdressers, apprentices, hair school',
-	'ogtitle' => 'Introducing Base - Our New Training Academy',
+	'ogtitle' => 'Introducing Base - Our New Hair Academy',
 	'ogdescription' => 'Training and developing our team to the highest possible standard has always been a major priority for us here at Jakata. Along with our sister salon Paul Kemp Hairdressing we\'ve produced some incredible talent from scratch and helped existing stylists polish their skills to the next level.',
 	'ogimage' => url('/') . '/images/base/base_header_fb.jpg',
 	'title' => 'Jakata Salon - Base Hairdressing - Hairdressers in Warrington'
@@ -21,7 +21,7 @@
 	<div id="base-copy">
 		<h1>Introducing</h1>
 		<img src="/images/base/logo.png" alt="Base Hairdressing">
-		<h1>Our Amazing New Training Academy</h1>
+		<h1>Our Amazing New Hair Academy</h1>
 
 		<div id="base-offer">
 			<p><strong>30% off</strong></p>
