@@ -35,7 +35,7 @@
 		<p><strong>Come in for a FREE consultation and if you like the ideas Lucy comes up with get booked in with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 		<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>
-		<p class="small">(Offer ends 27/09/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+		<p class="small">(Offer ends 31/10/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 		<p class="link"><a href="{{ URL::to('team/lucy') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
 
