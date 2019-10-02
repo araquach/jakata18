@@ -6,7 +6,7 @@
 		'description' => 'We\'re looking for models for our training days! Get your hair done for practically free!',
 		'ogtitle' => 'We Need Models!',
 		'ogdescription' => 'We\'re looking for models for our training days! Get your hair done for practically free!',
-		'ogimage' => url('/') . '/images/salon/.jpg',
+		'ogimage' => url('/') . '/images/hairmodel/base_header_4_fb.jpg',
 		'title' => 'Jakata Salon - Models Required - Hairdressers in Warrington'
 	])
 
