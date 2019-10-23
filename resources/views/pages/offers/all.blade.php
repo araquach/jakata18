@@ -5,8 +5,8 @@
 @include('layouts.partials.head', [
 	'description' => 'We\'re running these special offers with selected team members!',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
-	'ogtitle' => 'We\'re running these special offers with selected team members!',
-	'ogdescription' => 'We\'ve launched some great offers with some of our stylists who are eager to build their client bases. Both Layla and Abbi have been working their way up the ranks with recent promotions and Lauren only joined us at the start of the year and is creating some amazing styles!',
+	'ogtitle' => 'Special offers with selected team members for a limited time!',
+	'ogdescription' => 'We\'ve launched some great offers with some of our stylists for a limited time only',
 	'ogimage' => url('/') . '/images/offers/individual/offers_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -25,7 +25,7 @@
 		<h1>Special offers</h1>
 		<h2>with selected team members</h2>
 
-		<p>Takse advantage of these great offers for a limited time only!</p>
+		<p>Take advantage of these great offers for a limited time only!</p>
 		<p><strong>Click on each offer to find out more!</strong></p>
 	</div>
 
