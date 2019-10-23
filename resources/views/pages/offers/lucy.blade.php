@@ -5,7 +5,7 @@
 @include('layouts.partials.head', [
 	'description' => 'Lucy is producing some incredible work! Take advantage of this special price with her for a limited time',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
-	'ogtitle' => 'Lucy is Taking on More clients',
+	'ogtitle' => 'Special Offer with Lucy',
 	'ogdescription' => 'Lucy is producing some incredible work! Take advantage of this special price with her for a limited time',
 	'ogimage' => url('/') . '/images/offers/individual/lucy_montage_fb.jpg',
 	'ogimagewidth' => '1200',
@@ -35,7 +35,7 @@
 		<p><strong>Come in for a FREE consultation and if you like the ideas Lucy comes up with get booked in with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 		<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>
-		<p class="small">(Offer ends 31/10/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+		<p class="small">(Offer ends 15/11/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 		<p class="link"><a href="{{ URL::to('team/lucy') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
 
