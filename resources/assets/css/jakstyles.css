@@ -1577,6 +1577,14 @@ div.row textarea {
 	margin: 50px;
 }
 
+#offer-ny-lapsed {
+	width: 50rem;
+	height: 50rem;
+	background: url(/images/offers/ny_offer_lapsed.jpg) no-repeat #fefefe;
+	background-size: contain;
+	margin: 50px;
+}
+
 #offer1 {
 	background: url(/images/offers/individual/abbi.jpg) no-repeat #fefefe;
 	margin-bottom: 30px;

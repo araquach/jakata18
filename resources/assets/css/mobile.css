@@ -395,6 +395,17 @@ li.active a {
 	border-radius: 0;
 }
 
+#offer-ny-lapsed {
+	width: auto;
+	height: 600px;
+	background: url(/images/offers/ny_offer_lapsed.jpg) no-repeat;
+	background-size: contain;
+	margin: 0;
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+}
+
 #offer1 {
 	background-size: contain;
 }

@@ -19,11 +19,7 @@ class CreateOffersTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('mobile');
-            $table->string('email');
-            $table->string('gender');
-            $table->string('stylist_level');
             $table->boolean('opt_out');
-            $table->boolean('redeemed')->default(0);
             $table->timestamps();
         });
     }
