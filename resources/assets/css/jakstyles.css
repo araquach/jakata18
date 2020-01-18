@@ -1638,6 +1638,11 @@ span.big {
 	display: block;
 }
 
+.offer-form {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
 
 .book_button {
 	margin-left: 60px;
