@@ -29,11 +29,8 @@ Route::get('/team/{team?}', 'PagesController@teamInd');
 Route::get('/salon', 'PagesController@salon');
 
 Route::get('/offers', 'PagesController@offerAll');
-Route::get('/offer/georgia', 'PagesController@offerGeorgia');
 Route::get('/offer/abbi', 'PagesController@offerAbbi');
-Route::get('/offer/layla', 'PagesController@offerLayla');
 Route::get('/offer/lauren', 'PagesController@offerLauren');
-Route::get('/offer/lucy', 'PagesController@offerLucy');
 
 Route::get('/trainee', 'PagesController@trainee');
 Route::get('/kebelo', 'PagesController@kebelo');

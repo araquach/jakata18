@@ -128,29 +128,9 @@ class PagesController extends Controller {
 		return view('pages.reviews', compact('reviews', 'team_members'));
 	}
 
-	public function kebelo()
-	{
-		return view('pages.kebelo');
-	}
-
-	public function relocation()
-	{
-		return view('pages.relocation');
-	}
-
-	public function mattsback()
-	{
-		return view('pages.mattsback');
-	}
-
 	public function offerAll()
 	{
-		return view('pages.offers');
-	}
-
-	public function offerGeorgia()
-	{
-		return view('pages.offers.georgia');
+		return view('pages.offers.all');
 	}
 
 	public function offerAbbi()
@@ -168,19 +148,9 @@ class PagesController extends Controller {
 		return view('pages.offers.lauren');
 	}
 
-	public function offerLucy()
-	{
-		return view('pages.offers.lucy');
-	}
-
 	public function base()
 	{
 		return view('pages.base');
-	}
-
-	public function test()
-	{
-		return view('pages.test');
 	}
 
 }
