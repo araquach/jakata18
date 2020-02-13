@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Special offer with our Graduate Stylist Lauren',
+	'description' => 'Special offer with talented Stylist Lauren',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => 'Special offer with our talented Stylist Lauren',
-	'ogdescription' => 'Lauren is producing some outstanding, fashion forward styles!',
+	'ogdescription' => 'Lauren  produces outstanding, fashion forward styles and is a big hit with her clients',
 	'ogimage' => url('/') . '/images/offers/individual/lauren_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -23,18 +23,18 @@
 
 	<div class="ind-offer-copy">
 		<h1>Special offer with Lauren</h1>
-		<p>Lauren is producing some outstanding, fashion forward styles!</p>
-		<p><strong>She's eager to build her client base further so has this amazing offer for a limited time&hellip;</strong></p>
+		<p>Lauren  produces outstanding, fashion forward styles and is a big hit with her clients</p>
+		<p><strong>She's eager to further build her client base so has this amazing offer for a limited time&hellip;</strong></p>
 	</div>
 
 	<div id="ind-offer-img-lauren"></div>
 
 	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Lauren comes up with then book in to get 20% off your first visit with her!</strong></p>
+		<p><strong>Come in for a FREE consultation and if you like the ideas Lauren comes up with then book in to get 25% off your first visit with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 
 		<p>Just mention the offer at the time of your visit</p>
-		<p class="small">(Offer ends 15/11/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+		<p class="small">(Offer ends 31/03/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
 
 		<p class="link"><a href="{{ URL::to('team/lauren') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>

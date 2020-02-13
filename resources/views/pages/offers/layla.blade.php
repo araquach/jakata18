@@ -24,17 +24,17 @@
 	<div class="ind-offer-copy">
 		<h1>Special offer with our ultra talented stylist Layla</h1>
 		<p>If you're looking for a change of style then book in with Layla who will come up with some great new hair ideas for you!</p>
-		<p><strong>She's a long standing team member and recently had a promotion. Take advantage of this great offer with her&hellip;</strong></p>
+		<p><strong>She's a long standing team member who produces some stand out colours &amp; styles. Take advantage of this great offer with her&hellip;</strong></p>
 	</div>
 
 	<div id="ind-offer-img-layla"></div>
 
 	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Layla comes up with then book in to get 20% off your first visit with her!</strong></p>
+		<p><strong>Come in for a FREE consultation and if you like the ideas Layla comes up with then book in to get 25% off your first visit with her!</strong></p>
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 
 		<p>Just mention the offer at the time of your visit</p>
-		<p class="small">(Offer ends 15/11/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+		<p class="small">(Offer ends 31/04/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
 
 		<p class="link"><a href="{{ URL::to('team/layla') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
