@@ -7,7 +7,7 @@
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => 'Special introductory offer with Abbi',
 	'ogdescription' => 'The quality of Abbi\'s work is second to none! Check out some of her recent looks in the pics below!',
-	'ogimage' => url('/') . '/images/offers/individual/abbi_montage_fb.jpg',
+	'ogimage' => url('/') . '/images/offers/individual/abbi_montage2_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Abbi Offer - Hairdressers in Warrington'
