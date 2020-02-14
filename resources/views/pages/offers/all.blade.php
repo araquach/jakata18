@@ -32,8 +32,8 @@
 	<a href="{{ URL::to('offer/lauren')}}">
 		<section id="offer1">
 		  	<h2>25% off first visit to Lauren</h2>
-		  	<p>Lauren is firmly established in the team</p>
-		  	<p>A typical Colour and Cut from &pound50 (inc discount)<br></p>
+		  	<p>Lauren is a big hit with her clients - she produces some amazing fashion forward looks</p>
+		  	<p>A typical Colour and Cut from &pound50<br>(inc discount)<br></p>
 			<p>Click for more info</p>
 			<small>For New Clients - not with any other offer - Price is guide only and includes discount<br>Skin test required 48hrs before any colour service</small>
 		</section>
@@ -42,7 +42,7 @@
 		<section id="offer2">
 		  	<h2>25% off first visit to Abbi</h2>
 		  	<p>Abbi is a seriously sought after stylist! </p>
-		  	<p>A typical colour and Cut from around &pound75 (inc discount)</p>
+		  	<p>A typical Colour and Cut from &pound70 <br>(inc discount)</p>
 			<p>Click for more info</p>
 		    <small>For New Clients - not with any other offer- Price is guide only and includes discount<br>Skin test required 48hrs before any colour service</small>
 		</section>
