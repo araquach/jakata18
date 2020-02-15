@@ -23,7 +23,7 @@
 
 	<div class="ind-offer-copy">
 		<h1>Special offer with Lauren</h1>
-		<p>Lauren  produces outstanding, fashion forward styles and is a big hit with her clients</p>
+		<p>Lauren  produces outstanding, fashion forward colours &amp; styles and is a big hit with her clients</p>
 		<p><strong>She's eager to further build her client base so has this amazing offer for a limited time&hellip;</strong></p>
 	</div>
 
