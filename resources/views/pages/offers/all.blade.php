@@ -7,7 +7,7 @@
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
 	'ogtitle' => 'Special offers with selected team members for a limited time!',
 	'ogdescription' => 'We\'ve launched some great offers with some of our stylists for a limited time only',
-	'ogimage' => url('/') . '/images/offers/individual/offers_montage_fb.jpg',
+	'ogimage' => url('/') . '/images/offers/individual/offer_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Special Offers - Hairdressers in Warrington'
