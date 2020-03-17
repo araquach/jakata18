@@ -40,6 +40,15 @@
 	</section>
 
 	<div id="home_news">
+		<a href="{{ URL::to('corona') }}">
+				<aside class="home_news">
+					<div class="home_news_pic" style="background: url('/images/corona/corona_home.jpg') no-repeat top left rgba(249, 249, 250, 0.8); background-size: cover;"></div>
+					<div class="home_news_copy">
+						<h3 class="newsheader">Open as usual for your hair needs</h3>
+						<p class="newspara">We thought we'd let you know we're open for business as usual! We’re operating the salon as normal - other than implementing some extra measures...&hellip;</p>
+					</div>
+				</aside>
+			</a>
 		@foreach($blogs as $blog)
 			<a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
 				<aside class="home_news">
