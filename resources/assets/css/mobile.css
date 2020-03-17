@@ -3115,3 +3115,20 @@ background: none;
 	font-size: 1.5em;
 	line-height: 1.3em;
 }
+
+#corona {
+	width: auto;
+	background: #f5f5f5 url('/images/corona/') no-repeat center top;
+	background-size: contain;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 0;
+	float: left;
+}
+
+#corona-copy {
+	width: auto;
+	padding: 2rem;
+	margin: 0;
+	float: left;
+}

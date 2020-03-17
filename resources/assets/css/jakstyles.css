@@ -3737,15 +3737,15 @@ ul.stylist-filter li.review-lucy {
 
 #corona {
 	width: 950px;
-	background: #f5f5f5 url('/images/recruitment/vlada.jpg') no-repeat right top;
-	background-size: cover;
+	background: #f5f5f5 url('/images/corona/corona.jpg') no-repeat right 17rem;
+	background-size: 20rem;
 	min-height: 900px;
 	padding-top: 250px;
 	padding-bottom: 200px;
 }
 
 #corona-copy {
-	width: 600px;
+	width: 500px;
 	margin-left: 50px;
 	float: left;
 }
