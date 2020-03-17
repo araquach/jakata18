@@ -129,3 +129,5 @@ Route::get('/blog/{blog}', 'BlogController@show');
 
 Route::get('/models', 'HairModelController@create');
 Route::post('/hairmodel/store', 'HairModelController@store');
+
+Route::get('/corona', 'PagesController@corona');

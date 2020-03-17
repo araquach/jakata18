@@ -153,4 +153,9 @@ class PagesController extends Controller {
 		return view('pages.base');
 	}
 
+	public function corona()
+	{
+		return view('pages.corona');
+	}
+
 }
