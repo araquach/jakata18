@@ -30,7 +30,7 @@
         </ul>
         <p><strong>We request Apple/GooglePay/contactless transactions where possible and limit cash payments</strong></p>
         <p>Please try and attend your appointment on your own where possible.</p>
-        <p>We're checking in with staff daily to ensure they are health and well, and have not been in contact with anyone who has travelled from the worst affected Covid-19 areas.</p>
+        <p>We're checking in with staff daily to ensure they are healthy and well, and have not been in contact with anyone who has travelled from the worst affected Covid-19 areas.</p>
         <p>If you have a cold, a sniffle, a cough, fever or are feeling unwell, firstly, we are sorry to hear it! And secondly, 
         we would ask that you kindly reschedule your appointment here so that we can see you when you’re back feeling fighting fit.</p>
         {!! link_to('booking', "Book & Reschedule Here", array('class'=>'toForm')) !!}
