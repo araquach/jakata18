@@ -7,6 +7,9 @@
 	'keywords' => 'hairdressing team, hairdressers, stylists, Jakata team, Jakata stylists, Jakata hairdressers',
 	'ogtitle' => 'Open as usual for your hair needs',
 	'ogdescription' => 'We thought we\'d let you know we\'re open for business as usual! We are monitoring the situation closely day by day. We\’re operating the salon as normal - other than implementing some extra measures...',
+    ogimage' => url('/') . '/images/corona/corona_meta.jpg',
+	'ogimagewidth' => '1200',
+	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Corona - Hairdressers in Warrington'
 	])
 	
