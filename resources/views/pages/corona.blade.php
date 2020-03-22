@@ -9,7 +9,7 @@
 	'ogtitle' => 'Temporary Closure for Jakata',
 	'ogdescription' => 'We\'ve made the decision to temporarily close Jakata as of Tuesday 24th March for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations. 
         The team are sad to have to stop doing what we love but we know we\'ll be back up and running in the not too distant future.',
-    'ogimage' => url('/') . '/images/corona/corona_meta.jpg',
+    'ogimage' => url('/') . '/images/corona/corona2_meta.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - Corona - Hairdressers in Warrington'
