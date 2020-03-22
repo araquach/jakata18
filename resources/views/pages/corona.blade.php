@@ -3,10 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Open as usual for your hair needs',
+	'description' => 'We\'ve made the decision to temporarily close Jakata as of Tuesday 24th March for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations. 
+        The team are sad to have to stop doing what we love but we know we\'ll be back up and running in the not too distant future.',
 	'keywords' => 'hairdressing team, hairdressers, stylists, Jakata team, Jakata stylists, Jakata hairdressers',
-	'ogtitle' => 'Open as usual for your hair needs',
-	'ogdescription' => 'We thought we\'d let you know we\'re open for business as usual! We are monitoring the situation closely day by day. We\’re operating the salon as normal - other than implementing some extra measures...',
+	'ogtitle' => 'Temporary Closure for Jakata',
+	'ogdescription' => 'We\'ve made the decision to temporarily close Jakata as of Tuesday 24th March for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations. 
+        The team are sad to have to stop doing what we love but we know we\'ll be back up and running in the not too distant future.',
     'ogimage' => url('/') . '/images/corona/corona_meta.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -19,25 +21,14 @@
 
 <div id="corona">
     <div id="corona-copy">
-        <h1>Open as usual for your hair needs</h1>
-        <p>We thought we'd let you know we're open for business as usual! 
-        We have appointments available with your preferred stylist.</p>
-        <p>We are monitoring the situation closely day by day. We’re operating the salon as normal - other than implementing some extra measures...</p>
-        <ul>
-            <li>We disinfect our stations after every treatment using an antibacterial solution</li>
-            <li>Our staff are washing their hands after every single client, using handwashing technique as set out by the WHO</li>
-            <li>We disinfect our reception area and all door handles at regular intervals throughout the day</li>
-        </ul>
-        <p><strong>We request Apple/GooglePay/contactless transactions where possible and limit cash payments</strong></p>
-        <p>Please try and attend your appointment on your own where possible.</p>
-        <p>We're checking in with staff daily to ensure they are healthy and well, and have not been in contact with anyone who has travelled from the worst affected Covid-19 areas.</p>
-        <p>If you have a cold, a sniffle, a cough, fever or are feeling unwell, firstly, we are sorry to hear it! And secondly, 
-        we would ask that you kindly reschedule your appointment here so that we can see you when you’re back feeling fighting fit.</p>
-        {!! link_to('booking', "Book & Reschedule Here", array('class'=>'toForm')) !!}
-        <p>If and when the time comes that we need to take extra measures, 
-        we will do so in the most responsible way as advised by the right authorities. We will ensure we keep you updated.</p>
-        <p>In the meantime, we’re here for you and your hair needs and we look forward to seeing you for your next appointment 😀</p>
-        <p><strong>Call 01925 242960 for more info or to reschedule</strong></p>
+        <h1>Temporary Closure for Jakata</h1>
+        <p>We've made the decision to temporarily close Jakata as of Tuesday 24th March for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations. 
+        The team are sad to have to stop doing what we love but we know we'll be back up and running in the not too distant future.</p>
+        <p>We'll be following Government advice with regards to reopening when the time is right.</p>
+        <p>We're open Sunday 22nd & Monday 23rd - not many appointment left so please call to check availability</p>
+        <p>Thanks for all the support over this crazy time - we're in a good position to get through this and we can't wait to sort out your grown out styles and get rid of those 3 inch roots for you!</p>
+        <p><strong>Take care - The Jakata Team x</strong></p>
+        <p>P.S Please don't be tempted to reach for those box dyes or attempt home hair colouring! Having to correct hundreds of colours when we return will send us over the edge 😂</p>
     </div>
 </div>
 
