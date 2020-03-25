@@ -25,7 +25,7 @@
         <p>We've made the decision to temporarily close Jakata as of Tuesday 24th March for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations. 
         The team are sad to have to stop doing what we love but we know we'll be back up and running in the not too distant future.</p>
         <p>We'll be following Government advice with regards to reopening when the time is right.</p>
-        <p>We're open Sunday 22nd & Monday 23rd - not many appointment left so please call 01925 242960 to check availability.</p>
+        <br>
         <p>Thanks for all the support over this crazy time - we're in a good position to get through this and we can't wait to sort out your grown out styles and get rid of those 3 inch roots for you!</p>
         <p><strong>Take care - The Jakata Team x</strong></p>
         <p>P.S Please don't be tempted to reach for those box dyes or attempt home hair colouring! Having to correct hundreds of colours when we return will send us over the edge 😂</p>
