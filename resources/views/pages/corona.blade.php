@@ -20,11 +20,12 @@
 <div id="corona">
     <div id="corona-copy">
         <h1>COVID-19 Closure Update</h1>
+        <h2>Updated 16th April 2020</h2>
         <p><strong>Following the government guidelines we are still currently closed and will remain so until further notice.</strong></p>
         <p>Please check back to our page for updates on our potential opening date. Our booking systems are currently closed too as we can’t guarantee any appointments at the minute.</p>
         <p>If you have appointments already booked in they remain unaffected, if we open before your appointment you will keep this appointment. We will be contacting everyone who has missed an appointment due to the salon being closed to arrange this for your earliest convenience - again once we have a better idea of when we'll be reopening.</p>
         <p>We hope you are all staying safe and well. For all the key workers out there, keep up the amazing work you’re doing 🙌 We can’t wait to be back at it making you all look and feel fresh again 😊</p>
-        <p><strong>Take care - The Jakata Team x</strong></p>
+        <h3>Take care - The Jakata Team x</h3>
     </div>
 </div>
 
