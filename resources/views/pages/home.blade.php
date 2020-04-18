@@ -44,8 +44,8 @@
 				<aside class="home_news">
 					<div class="home_news_pic" style="background: url('/images/corona/corona_home.jpg') no-repeat top left rgba(249, 249, 250, 0.8); background-size: cover;"></div>
 					<div class="home_news_copy">
-						<h3 class="newsheader">Temporary Closure for Jakata</h3>
-						<p class="newspara">We've made the decision to temporarily close Jakata as of Tuesday for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations...&hellip;</p>
+						<h3 class="newsheader">Covid-19 Closure Update</h3>
+						<p class="newspara">Following the government guidelines we are still currently closed and will remain so until further notice&hellip;</p>
 					</div>
 				</aside>
 			</a>
