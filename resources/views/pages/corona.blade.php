@@ -5,7 +5,7 @@
 @include('layouts.partials.head', [
 	'description' => 'Following the government guidelines we are still currently closed and will remain so until further notice. Our booking systems are currently closed too as we can\’t guarantee any appointments at the minute',
 	'keywords' => 'hairdressing team, hairdressers, stylists, Jakata team, Jakata stylists, Jakata hairdressers',
-	'ogtitle' => > 'COVID-19 Update',
+	'ogtitle' => > 'COVID19 Update',
 	'ogdescription' => 'Following the government guidelines we are still currently closed and will remain so until further notice. Our booking systems are currently closed too as we can\’t guarantee any appointments at the minute',
     'ogimage' => url('/') . '/images/corona/corona2_meta.jpg',
 	'ogimagewidth' => '1200',
