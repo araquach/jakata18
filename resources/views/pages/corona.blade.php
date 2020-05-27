@@ -3,7 +3,7 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Following the government guidelines we are still currently closed and will remain so until further notice. Our booking systems are currently closed too as we can\’t guarantee any appointments at the minute',
+	'description' => 'Can you believe it has been 9 whole weeks since we closed our doors?! As it stands we have a potential reopening date of the 4th July. This could change as it isn\’t set in stone. We are not currently taking any bookings until we have our confirmed dates and our staff rota\’s in place. We are unsure yet what our guidelines will be on working within the salon so we may have to re-jig things.',
 	'keywords' => 'hairdressing team, hairdressers, stylists, Jakata team, Jakata stylists, Jakata hairdressers',
 	'ogtitle' => 'COVID-19 Update',
 	'ogdescription' => 'Following the government guidelines we are still currently closed and will remain so until further notice. Our booking systems are currently closed too as we can\’t guarantee any appointments at the minute',
