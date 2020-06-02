@@ -55,6 +55,8 @@ Route::post('/respondant/store', 'CampaignRespondantController@store');
 Route::get('/bighairdo', 'CampaignRespondantController@hairdo');
 Route::get('/base', 'PagesController@base');
 
+Route::get('/bookings', 'BookingController@create');
+Route::post('/bookings', 'BookingController@store');
 
 Route::get('/admin', 'AdminController@index');
 
