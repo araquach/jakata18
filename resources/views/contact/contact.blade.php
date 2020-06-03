@@ -14,7 +14,7 @@
 
 @section('content')
 
-<section id= "contact">
+<section id="contact">
 
 @if(Session::has('message'))
     <div class="alert alert-info">
