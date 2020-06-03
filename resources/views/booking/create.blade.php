@@ -15,7 +15,7 @@
 @section('content')
 
 <section id="corona">
-	<div id="formWrap">
+	<div id="corona-copy">
 		@if(Session::has('message'))
 			<div class="success">
 			{{{ Session::get('message') }}}
