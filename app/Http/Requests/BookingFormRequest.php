@@ -35,7 +35,7 @@ class BookingFormRequest extends FormRequest
 	{
 		return [
     	    'first_name.required' => 'Please enter your first name',
-    	    'second_name.required' => 'Please enter your second name',
+    	    'last_name.required' => 'Please enter your second name',
             'mobile.required' => 'Please enter your mobile number',
             'mobile.unique' => 'We already have your contact information',
             'body.required' => 'Your message cannot be blank',
