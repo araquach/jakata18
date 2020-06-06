@@ -76,6 +76,7 @@
 				<div class="row buttons">
 				{!! Form::submit('Submit') !!}
 				</div>
+				<br><br>
 			
 			{!! Form::close() !!}
 
