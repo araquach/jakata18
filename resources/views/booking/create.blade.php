@@ -31,7 +31,7 @@
 			<p><strong>If you are wanting to book an appointment, please fill in the form below to ensure we've got your correct information</strong></p>
 			<ul>
 				@foreach($errors->all() as $error)
-					<li class="has-text-danger">{{{ $error }}}</li>
+					<li class="errorMessage">{{{ $error }}}</li>
 				@endforeach
 			</ul>
 
