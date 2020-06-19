@@ -142,6 +142,7 @@
 					<li>Cheshire Hairdressers</li>
 					<li>plus lots more!</li>
 					<li>All in our Warrington Hairdressing Salon</li>
+					<p>Find us in the directory of <a href='http://www.warrington.co.uk/hairdressers/'>Warrington Hairdressers</a></p>
 				</ul>
 			</section>
 
