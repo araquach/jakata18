@@ -3283,6 +3283,24 @@ ul.tinytext {
 	opacity: 1;
 }
 
+#directory {
+	background-color: #424259;
+	padding: 20px 70px;
+}
+
+#directory p {
+	margin: 0;
+	color: #FFF;
+	font-size: .7em;
+	opacity: .8;
+}
+
+.directory-link {
+	color: #FFF;
+	text-decoration: underline;
+	opacity: .8;
+}
+
 /* @end */
 
 #reviews {

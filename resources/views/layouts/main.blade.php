@@ -142,7 +142,6 @@
 					<li>Cheshire Hairdressers</li>
 					<li>plus lots more!</li>
 					<li>All in our Warrington Hairdressing Salon</li>
-					<p>Find us in the directory of <a href='http://www.warrington.co.uk/hairdressers/'>Warrington Hairdressers</a></p>
 				</ul>
 			</section>
 
@@ -152,6 +151,9 @@
 				<a href="https://plus.google.com/+JakataWarrington" target="_blank"><div class="social_logo google"></div></a>
 				<a href="https://www.instagram.com/jakatasalon1/" target="_blank"><div class="social_logo instagram"></div></a>
 				<a href="https://www.pinterest.co.uk/jakatasalon/" target="_blank"><div class="social_logo pinterest"></div></a>
+			</div>
+			<div id="directory">
+				<p>Find us in the directory of <a href='http://www.warrington.co.uk/hairdressers/' class="directory-link">Warrington Hairdressers</a></p>
 			</div>
 		</footer>
 			
