@@ -44,8 +44,8 @@
 				<aside class="home_news">
 					<div class="home_news_pic" style="background: url('/images/corona/corona_home2.jpg') no-repeat top left rgba(249, 249, 250, 0.8); background-size: cover;"></div>
 					<div class="home_news_copy">
-						<h3 class="newsheader">Covid-19 Update</h3>
-						<p class="newspara">Can you believe it has been 9 whole weeks since we closed our doors?! As it stands we have a potential reopening date of the 4th July&hellip;</p>
+						<h3 class="newsheader">COVID-19 Guidelines for your appointment</h3>
+						<p class="newspara">Find out the new guidelines for your next visit to the salon here&hellip;</p>
 					</div>
 				</aside>
 			</a>
