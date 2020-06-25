@@ -56,8 +56,8 @@
         <p>We are providing masks for everyone. Please feel free to bring your own but we have them readily available.</p>
         <h3>Refreshments & Magazines</h3>
         <p>We won’t be serving any drinks or offering magazines for a while. This is a way for us to minimise any extra contact. We again realise this is all part of the experience of being in the salon and are hoping that this will only be a very short term measure as we see how things progress over the coming weeks. 
-        Please bring your own bottled refreshments though by all means. <strong>However government guidelines say you cannot bring food.</strong></p>
-        <p>It's also perfectly fine for you to bring your own book/magazines.</p>
+        Please bring your own bottled refreshments though by all means. <strong>However government guidelines say you cannot bring food.</strong>
+        <br>It's also perfectly fine for you to bring your own book/magazines.</p>
         <h3>Hand Sanitiser</h3>
         <p>We will provide hand sanitiser.
         We will have this on the front desk and will ask you to wash your hands upon your arrival.</p>
