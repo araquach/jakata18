@@ -3,9 +3,9 @@
 @section('head')
 
 @include('layouts.partials.head', [
-		'description' => 'We\'re getting closer and closer to our reopening date and we can\'t wait!! We are not taking booking until we have a confirmed date as it\'s still a bit up in the air at the moment.',
+		'description' => 'We\'re back up and running and we\'re close to getting on top of our backlog of clients.',
 		'ogtitle' => 'Register for your appointment',
-		'ogdescription' => 'We\'re getting closer and closer to our reopening date and we can\'t wait!! We are not taking booking until we have a confirmed date as it\'s still a bit up in the air at the moment.',
+		'ogdescription' => 'We\'re back up and running and we\'re close to getting on top of our backlog of clients.',
 		'ogimage' => url('/') . '/images/corona/register.jpg',
 		'title' => 'Jakata Salon - Register Your Details - Hairdressers in Warrington'
 	])
@@ -25,9 +25,9 @@
 		<div id="form" class="form">
 			<h1>Register for your appointment</h1>	
 
-			<p><strong>It's confirmed - we'll definitely be re-opening on Saturday 4th July!</strong></p>
-			<p>Each team member will be contacting their own clients to arrange bookings about a week or two before our opening date. Anybody who was already booked in will be contacted first. We will be working really hard to make sure everyone gets an appointment that suits them in the quickest possible time.</p>
-			<p>We will not be opening our online bookings or taking telephone bookings until we re-open.</p>
+			<p><strong>We're back up and running and we're close to getting on top of our backlog of clients.</strong></p>
+			<p>Our normal booking systems are still closed until next week. If you are wanting an appointment please register here and we'll be in touch within a day or two</p>
+			<p>Thanks for your patience</p>
 			<p><strong>If you are wanting to book an appointment, please fill in the form below to ensure we've got your correct information</strong></p>
 			<ul>
 				@foreach($errors->all() as $error)
