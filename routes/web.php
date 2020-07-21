@@ -22,7 +22,7 @@ Route::get('/oldnews', 'PagesController@oldnews');
 Route::get('/recruitment', 'PagesController@recruitment');
 // Route::get('/offers', 'PagesController@offers');
 // Route::get('/prices', 'PagesController@prices');
-Route::get('/booking', 'PagesController@booking');
+Route::get('/bookings', 'PagesController@booking');
 Route::get('/reviews', 'PagesController@reviews');
 Route::get('/team', 'PagesController@team');
 Route::get('/team/{team?}', 'PagesController@teamInd');
@@ -55,8 +55,8 @@ Route::post('/respondant/store', 'CampaignRespondantController@store');
 Route::get('/bighairdo', 'CampaignRespondantController@hairdo');
 Route::get('/base', 'PagesController@base');
 
-Route::get('/bookings', 'BookingController@create');
-Route::post('/bookings', 'BookingController@store');
+// Route::get('/bookings', 'BookingController@create');
+// Route::post('/bookings', 'BookingController@store');
 
 Route::get('/admin', 'AdminController@index');
 

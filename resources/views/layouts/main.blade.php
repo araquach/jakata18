@@ -79,7 +79,7 @@
 			@endif
 			
 			@if(!Request::is('bookings'))
-				{!! link_to('bookings', 'Bookings', ['class' => 'book-now']) !!}
+				{!! link_to('bookings', 'Book Now', ['class' => 'book-now']) !!}
 			@endif
 			
 			
