@@ -34,7 +34,7 @@
 		<p><strong>Call 01925 242960 to book</strong><br>or use our online booking (link at top of page)</p>
 
 		<p>Just mention the offer at the time of your visit</p>
-		<p class="small">(Offer ends 31/03/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
+		<p class="small">(Offer ends 30/08/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
 
 		<p class="link"><a href="{{ URL::to('team/abbi') }}" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
