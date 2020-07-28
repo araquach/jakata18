@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'We\'re running these special offers with selected team members!',
+	'description' => 'We\'re running these special offers with selected team members for new clients!',
 	'keywords' => 'Jakata Offers, Jakata offers, hairdressing Offers, salon Offers, New Year offers',
-	'ogtitle' => 'Special offers with selected team members for a limited time!',
-	'ogdescription' => 'We\'ve launched some great offers with some of our stylists for a limited time only',
+	'ogtitle' => 'Post lock-down offers with selected team members',
+	'ogdescription' => 'We\'ve launched some great offers for new clients with some of our stylists for a limited time only',
 	'ogimage' => url('/') . '/images/offers/individual/offer_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -22,7 +22,7 @@
 <section id="offers">
 
 	<div id="offer-copy">
-		<h1>Special offers</h1>
+		<h1>Post-lockdown Offers</h1>
 		<h2>with selected team members</h2>
 
 		<p>Take advantage of these great offers for a limited time only!</p>
