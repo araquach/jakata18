@@ -67,12 +67,6 @@
         <h3>Cancellation Policy</h3>
         <p>As we have extremely long lists of people to get through we are having to introduce a cancellation policy. This will mean we require <strong>48 hours notice</strong> prior to cancelling an appointment, <span class="has-text-danger">if less than 48 hours or not giving any notice we will have to charge 50% of the appointment time. </span>
         So please if you can let us know as soon as possible for any cancellations we will greatly appreciate it at this crazy time.</p>
-        <h3>Please bear with us</h3>
-        <p>We are so grateful for all of our clients wanting to get appointments when we reopen but please do bear with us whilst we try and accommodate everyone. 
-        We are having to shift some of our stylists to keep the environment safe for you all but we also want to get everyone in as quickly as we can.</p> 
-        <p>You may have to wait a couple of weeks to get in with some of our busier stylists as they are having to initially accommodate all of those who have missed their appointments due to lockdown. 
-        <em>We hope you all understand how busy this time is for all of us.</em></p>
-        <p><strong>We can’t wait to see you all and transform your locks!</strong></p>
     </div>
 </div>
 
