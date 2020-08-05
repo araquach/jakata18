@@ -23,9 +23,10 @@
     <div id="corona-copy">
         <h1>COVID-19</h1>
         <h2>Guidelines for your appointment</h2>
-        <h5>Updated 24th June 2020</h2>
-        <p>As you can all imagine we have had to make some changes to our procedures during your next visit to the salon. 
+        <h5>Updated 5th August 2020</h2>
+        <p>We have had to make some changes to our procedures during your next visit to the salon. 
         We are trying to make it as safe as possible for our clients and staff so we have implemented some ‘covid friendly’ measures, following the government guidelines</p>
+        <p><strong>Update: As of Saturday 8th August a facemask is required to be worn throughout your visit unless there is a legitimate reason for you not to wear one - in line with the new legislation</strong></p>
         <p><strong><em>Please ensure you read the following guidelines before you come in for your appointment</em></strong></p>
         <h3>If you are unwell</h3>
         <p>If you have a high temperature, a persistent cough, any loss of smell or taste please let us know and cancel your appointment.</p>
