@@ -23,12 +23,11 @@
 		@endif
 
 		<div id="form" class="form">
-			<h1>Register for your appointment</h1>	
+			<h1>Register for your December appointment</h1>	
 
-			<p><strong>We're back up and running and we're close to getting on top of our backlog of clients.</strong></p>
-			<p>Our normal booking systems are still closed until next week. If you are wanting an appointment please register here and we'll be in touch within a day or two</p>
-			<p>Thanks for your patience</p>
-			<p><strong>If you are wanting to book an appointment, please fill in the form below to ensure we've got your correct information</strong></p>
+			<p><strong>Our phone lines and online bookings are closed throughout the lockdown. Our usual systems will be switched back on when we re-open.</strong></p>
+			<p>If you want to book an appointment for December, please register here and your stylist will contact you shortly before we re-open to get you booked in.</p>
+			<p><strong>See you in December!</strong></p>
 			<ul>
 				@foreach($errors->all() as $error)
 					<li class="errorMessage">{{{ $error }}}</li>
@@ -71,7 +70,19 @@
 						'Not Sure'=> 'Not Sure'
 						), old('stylist'), ['placeholder' => 'Select']) !!}
 					{!! $errors->first('stylist', '<div class="errorMessage">:message</div>') !!}
-					</div>
+				</div>
+
+				<div class="row">
+					{!! Form::label('time_slot', 'Preferred time slot') !!}
+					{!! Form::select('time_slot', array(
+						'Any Time' => 'Any Time',
+						'Only Weekends' => 'Only Weekends',
+						'Only Evenings' => 'Only Evenings',
+						'Georgia' => 'Georgia',
+						'Weekends or Evenings'=> 'Weekends or Evenings',
+						), old('time_slot'), ['placeholder' => 'Select']) !!}
+					{!! $errors->first('time_slot', '<div class="errorMessage">:message</div>') !!}
+				</div>
 				
 				<div class="row buttons">
 				{!! Form::submit('Submit') !!}

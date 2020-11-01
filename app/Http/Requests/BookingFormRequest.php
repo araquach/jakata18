@@ -27,7 +27,8 @@ class BookingFormRequest extends FormRequest
             'first_name' => 'required',
             'last_name' => 'required',
             'mobile' => 'required | unique:bookings',
-            'stylist' => 'required'
+            'stylist' => 'required',
+            'time_slot' => 'required'
         ];
     }
 
@@ -39,6 +40,7 @@ class BookingFormRequest extends FormRequest
             'mobile.required' => 'Please enter your mobile number',
             'mobile.unique' => 'We already have your contact information',
             'body.required' => 'Your message cannot be blank',
+            'time_slot.required' => 'Please choose a suitable time slot'
 		];
 	}
 }
