@@ -3,9 +3,9 @@
 @section('head')
 
 @include('layouts.partials.head', [
-		'description' => 'We\'re back up and running and we\'re close to getting on top of our backlog of clients.',
-		'ogtitle' => 'Register for your appointment',
-		'ogdescription' => 'We\'re back up and running and we\'re close to getting on top of our backlog of clients.',
+		'description' => 'Our phone lines and online bookings are closed throughout the lockdown. Our usual systems will be switched back on when we re-open. If you want to book an appointment for December, please register here and your stylist will contact you shortly before we re-open to get you booked in.',
+		'ogtitle' => 'Register for your December appointment',
+		'ogdescription' => 'Our phone lines and online bookings are closed throughout the lockdown. Our usual systems will be switched back on when we re-open. If you want to book an appointment for December, please register here and your stylist will contact you shortly before we re-open to get you booked in.',
 		'ogimage' => url('/') . '/images/corona/corona_meta_6.jpg',
 		'title' => 'Jakata Salon - Register Your Details - Hairdressers in Warrington'
 	])
