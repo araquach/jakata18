@@ -27,6 +27,6 @@ class BookingController extends Controller
 
         Booking::create($input);
 
-        return redirect()->back()->with('message', 'Thanks for registering. Your stylist will be in touch soon to get you booked in. We look forward to seeing you!');
+        return redirect()->back()->with('message', 'Thanks for registering! Your stylist will be in touch before we reopen. Please only register once. See you in December!');
     }
 }
