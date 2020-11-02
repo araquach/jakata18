@@ -78,7 +78,6 @@
 						'Any Time' => 'Any Time',
 						'Only Weekends' => 'Only Weekends',
 						'Only Evenings' => 'Only Evenings',
-						'Georgia' => 'Georgia',
 						'Weekends or Evenings'=> 'Weekends or Evenings',
 						), old('time_slot'), ['placeholder' => 'Select']) !!}
 					{!! $errors->first('time_slot', '<div class="errorMessage">:message</div>') !!}
