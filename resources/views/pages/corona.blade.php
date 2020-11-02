@@ -9,7 +9,7 @@
 	'ogtitle' => 'COVID-19 - Guidelines for your Appointment',
 	'ogdescription' => 'As you can all imagine we have had to make some changes to our procedures during your next visit to the salon. 
         We are trying to make it as safe as possible for our clients and staff and come up with \‘covid friendly\’ measures, following the government guidelines',
-    'ogimage' => url('/') . '/images/corona/corona_meta_6.jpg',
+    'ogimage' => url('/') . '/images/corona/corona_meta_5.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Jakata Salon - COVID-19 - Hairdressers in Warrington'
