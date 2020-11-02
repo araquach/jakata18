@@ -6,7 +6,7 @@
 		'description' => 'We\'re back up and running and we\'re close to getting on top of our backlog of clients.',
 		'ogtitle' => 'Register for your appointment',
 		'ogdescription' => 'We\'re back up and running and we\'re close to getting on top of our backlog of clients.',
-		'ogimage' => url('/') . '/images/corona/register.jpg',
+		'ogimage' => url('/') . '/images/corona/corona_meta_6.jpg',
 		'title' => 'Jakata Salon - Register Your Details - Hairdressers in Warrington'
 	])
 
